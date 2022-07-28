@@ -1,0 +1,6 @@
+Diffuse=T_DS_Light_INF_1P_Dif
+Normal=T_DS_Light_1P_Norm
+Specular=T_DS_Light_INF_1P_Spec
+SpecPower=T_Diamondsword_Light_Spec
+Other[0]=T_DiamondSword_Light_Nrm
+Other[1]=T_Diamondsword_Light_Dif

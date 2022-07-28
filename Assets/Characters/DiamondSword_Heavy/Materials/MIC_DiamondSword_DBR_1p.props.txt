@@ -1,0 +1,44 @@
+Parent = Material3'PC_DiamondSword_Light.Materials.Mat_DiamondSword_Light'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = Emissive_Brightness
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_DiamondSword_Heavy.Textures.T_DS_DBR_1P_Dif'
+        ParameterName = Diffuse
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_DiamondSword_Heavy.Textures.T_DS_DBR_1P_Spec'
+        ParameterName = Specular
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_DiamondSword_Heavy.Textures.T_DS_Heavy_1P_Norm'
+        ParameterName = Normal
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

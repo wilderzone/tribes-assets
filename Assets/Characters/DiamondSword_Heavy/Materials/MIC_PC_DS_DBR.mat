@@ -1,0 +1,5 @@
+Diffuse=T_DS_Heavy_DBR_Dif
+Normal=T_PC_DS_Heavy_Norm
+Specular=T_DS_Heavy_DBR_Spec
+SpecPower=T_PC_DS_Heavy_Spec
+Other[0]=T_PC_DS_Heavy_Dif

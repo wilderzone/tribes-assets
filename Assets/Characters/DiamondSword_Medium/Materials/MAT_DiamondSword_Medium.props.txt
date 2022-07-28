@@ -1,0 +1,104 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Norm'
+    ReferencedTextures[1] = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Dif'
+    ReferencedTextures[2] = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Spec'
+}
+Expressions[59] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[22] = MaterialExpressionVectorParameter'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionVectorParameter_1'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[31] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[37] = MaterialExpressionScalarParameter'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionScalarParameter_0'
+    Expressions[38] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[41] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[50] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[54] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[55] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_11'
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D'PC_DiamondSword_Medium.Materials.MAT_DiamondSword_Medium.MaterialExpressionTextureSampleParameter2D_13'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Medium.Textures.T_DS_Medium_Norm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Emissive_Brightness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=20, B=100, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

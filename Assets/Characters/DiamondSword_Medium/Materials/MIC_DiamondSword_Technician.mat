@@ -1,0 +1,5 @@
+Diffuse=T_DS_Medium_Technician_Dif
+Normal=T_DS_Medium_Norm
+Specular=T_DS_Medium_Technician_Spec
+SpecPower=T_DS_Medium_Spec
+Other[0]=T_DS_Medium_Dif

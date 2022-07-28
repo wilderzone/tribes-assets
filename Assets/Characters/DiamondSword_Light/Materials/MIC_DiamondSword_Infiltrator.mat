@@ -1,0 +1,5 @@
+Diffuse=T_Diamondsword_Infiltrator_Dif
+Normal=T_DiamondSword_Light_Nrm
+Specular=T_Diamondsword_Infiltrator_Spec
+SpecPower=T_Diamondsword_Light_Spec
+Other[0]=T_Diamondsword_Light_Dif
