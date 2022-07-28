@@ -1,0 +1,16 @@
+Diffuse=T_PC_Merc_Base_Dif
+Normal=T_PC_Merc_Base_Norm
+Specular=T_PC_Merc_Base_Spec
+SpecPower=T_PC_Merc_Light_Spec
+Emissive=T_PC_Merc_Base_Spec
+Other[0]=T_PC_Merc_SNT_Dif
+Other[1]=T_PC_Merc_SNT_Norm
+Other[2]=T_PC_Merc_SNT_Spec
+Other[3]=T_PC_Merc_Light_Norm
+Other[4]=T_QuarterMask
+Other[5]=T_FX_Hex
+Other[6]=T_PFX_Gradient_SmoothEnds
+Other[7]=T_PFX_Clouds_Difference01
+Other[8]=T_PC_Merc_Base_Mask
+Other[9]=T_PFX_CloudsFractal_01
+Other[10]=T_PC_Merc_Light_Dif

@@ -1,0 +1,7 @@
+Diffuse=T_1p_Brute_Dif
+Normal=T_1p_Brute_Norm
+Specular=T_1p_Brute_Spec
+SpecPower=T_PC_Brute_Spec
+Emissive=T_1p_Brute_Spec
+Other[0]=T_PC_Brute_Norm
+Other[1]=T_PC_Brute_Dif

@@ -1,0 +1,6 @@
+Diffuse=T_Pathfinder_Dif
+Normal=T_Pathfinder_Norm
+SpecPower=T_Pathfinder_Spec
+Other[0]=T_tempAR_cube
+Other[1]=Fresnel
+Other[2]=T_PC_Brute_Spec

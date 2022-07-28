@@ -1,0 +1,5 @@
+Diffuse=robot_dDo_d
+Normal=robot_dDo_n
+Specular=robot_dDo_s
+Other[0]=T_Common_GroundMask_01_MSK
+Other[1]=robot_dDo_g

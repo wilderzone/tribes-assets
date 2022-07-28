@@ -1,0 +1,5 @@
+Diffuse=1p_robot_soldier_arms_nrm_dDo_d
+Normal=1p_robot_soldier_arms_nrm_dDo_n
+Specular=1p_robot_soldier_arms_nrm_dDo_s
+Other[0]=T_tempAR_cube
+Other[1]=1p_robot_soldier_arms_nrm_dDo_g

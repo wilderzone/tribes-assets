@@ -1,0 +1,112 @@
+Parent = Material3'PC_Merc_Sentinel.Materials.MAT_Sentinel'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.3
+        ParameterName = DiffuseBrightness
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.2
+        ParameterName = SpecularBrightness
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 8
+        ParameterName = SpecularPower
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.5
+        ParameterName = ActiveCamo_Contrast
+    }
+}
+TextureParameterValues[10] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_Base_Spec'
+        ParameterName = Specular
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_Base_Dif'
+        ParameterName = Diffuse
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_Base_Norm'
+        ParameterName = Normal
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Dif'
+        ParameterName = Diffuse_Class
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_Base_Spec'
+        ParameterName = Emissive
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Norm'
+        ParameterName = Normal_Class
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_Base_Spec'
+        ParameterName = RGB
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Spec'
+        ParameterName = RGB_Class
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = None
+        ParameterName = Specular_Class
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Spec'
+        ParameterName = Emissive_Class
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.08, G=5, B=0.5, A=1 }
+        ParameterName = EmissiveColor
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

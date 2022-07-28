@@ -1,0 +1,181 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[12] =
+{
+    ReferencedTextures[0] = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Norm'
+    ReferencedTextures[1] = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Norm'
+    ReferencedTextures[2] = Texture2D'PC_Master.T_QuarterMask'
+    ReferencedTextures[3] = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+    ReferencedTextures[4] = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Spec'
+    ReferencedTextures[5] = Texture2D'FX_GeneralUse.ScanLines.T_FX_Hex'
+    ReferencedTextures[6] = Texture2D'FX_GeneralUse.Gradients.T_PFX_Gradient_SmoothEnds'
+    ReferencedTextures[7] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[8] = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_Base_Mask'
+    ReferencedTextures[9] = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Dif'
+    ReferencedTextures[10] = Texture2D'FX_GeneralUse.Clouds.T_PFX_CloudsFractal_01'
+    ReferencedTextures[11] = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Dif'
+}
+Expressions[115] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[3] = MaterialExpressionVectorParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionVectorParameter_1'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionScalarParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionScalarParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionScalarParameter_2'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[10] = MaterialExpressionScalarParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionScalarParameter_4'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[12] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_0'
+    Expressions[16] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_3'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_20'
+    Expressions[18] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_5'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_31'
+    Expressions[24] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_10'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[26] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_33'
+    Expressions[27] = MaterialExpressionScalarParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionScalarParameter_11'
+    Expressions[28] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_35'
+    Expressions[29] = MaterialExpressionStaticSwitchParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[30] = MaterialExpressionStaticSwitchParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionStaticSwitchParameter_16'
+    Expressions[31] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_37'
+    Expressions[35] = MaterialExpressionScalarParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionScalarParameter_13'
+    Expressions[36] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[39] = MaterialExpressionStaticSwitchParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[41] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[42] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[45] = MaterialExpressionStaticSwitchParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[47] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[48] = MaterialExpressionStaticSwitchParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[54] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_1'
+    Expressions[55] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[58] = MaterialExpressionScalarParameter'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionScalarParameter_1'
+    Expressions[61] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_2'
+    Expressions[69] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_4'
+    Expressions[71] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_6'
+    Expressions[100] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_7'
+    Expressions[109] = MaterialExpressionTextureSample'PC_Merc_Sentinel.Materials.MAT_Sentinel.MaterialExpressionTextureSample_8'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[15] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Dif'
+        Name = Diffuse_Class
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Norm'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Norm'
+        Name = Normal_Class
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Spec'
+        Name = RGB_Class
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Spec'
+        Name = Specular_Class
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Spec'
+        Name = RGB_Class
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'PC_Master.T_QuarterMask'
+        Name = Emissive_Class
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'PC_Merc_Sentinel.Textures.T_PC_Merc_SNT_Spec'
+        Name = RGB_Class
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DiffuseBrightness, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=SpecularBrightness, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=EmissiveContrast, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=SpecularPower, Group=None }
+    CollectedScalarParameters[4] = { Value=50, Name=SpecularPowerHigh, Group=None }
+    CollectedScalarParameters[5] = { Value=2.3, Name=ActiveCamo_Contrast, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=10, B=20, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

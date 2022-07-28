@@ -1,0 +1,11 @@
+Diffuse=T_PC_Merc_Base_Dif
+Normal=T_PC_Merc_Base_Norm
+Specular=T_PC_Merc_Base_Spec
+SpecPower=T_PC_Merc_Light_Spec
+Emissive=T_PC_Merc_Base_Spec
+Other[0]=T_PC_Merc_INF_Dif
+Other[1]=T_PC_Merc_INF_Norm
+Other[2]=T_PC_Merc_INF_Spec
+Other[3]=T_PC_Merc_Light_Norm
+Other[4]=T_QuarterMask
+Other[5]=T_PC_Merc_Light_Dif

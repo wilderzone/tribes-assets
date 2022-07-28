@@ -1,0 +1,6 @@
+Diffuse=T_1p_Merc_INF_Dif
+Normal=T_1p_Merc_Norm
+Specular=T_1p_Merc_Spec
+SpecPower=T_PC_Merc_Light_Spec
+Other[0]=T_PC_Merc_Light_Norm
+Other[1]=T_PC_Merc_Light_Dif

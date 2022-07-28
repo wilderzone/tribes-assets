@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'PC_Merc_Doombringer.PC_Merc_Doombringer_NRM'
+    ReferencedTextures[1] = Texture2D'PC_Merc_Doombringer.PC_Merc_Doombringer_DIFF'
+    ReferencedTextures[2] = Texture2D'PC_Merc_Doombringer.PC_Merc_Doombringer_SPEC'
+}
+Expressions[14] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'PC_Merc_Doombringer.PC_Merc_Doombringer_MAT.MaterialExpressionTextureSample_2'
+    Expressions[9] = MaterialExpressionTextureSample'PC_Merc_Doombringer.PC_Merc_Doombringer_MAT.MaterialExpressionTextureSample_1'
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Doombringer.PC_Merc_Doombringer_MAT.MaterialExpressionTextureSampleParameter2D_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_Merc_Doombringer.PC_Merc_Doombringer_NRM'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

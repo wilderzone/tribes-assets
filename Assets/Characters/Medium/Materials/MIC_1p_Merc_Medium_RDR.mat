@@ -1,0 +1,6 @@
+Diffuse=T_1p_Merc_Medium_RDR_Dif
+Normal=T_1p_Merc_Medium_Norm
+Specular=T_1p_Merc_Medium_Spec
+SpecPower=T_PC_Merc_Medium_Spec
+Other[0]=T_PC_Merc_Medium_Norm
+Other[1]=T_PC_Merc_Medium_Dif

@@ -1,0 +1,74 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'PC_Robot_Soldier.robot_dDo_n'
+    ReferencedTextures[1] = Texture2D'Common_Ground.Tex.T_Common_GroundMask_01_MSK'
+    ReferencedTextures[2] = Texture2D'PC_Robot_Soldier.robot_dDo_d'
+    ReferencedTextures[3] = Texture2D'PC_Robot_Soldier.robot_dDo_s'
+    ReferencedTextures[4] = Texture2D'PC_Robot_Soldier.robot_dDo_g'
+}
+Expressions[18] =
+{
+    Expressions[7] = MaterialExpressionVectorParameter'PC_Robot_Soldier.MAT_Robot_Soldier_3p.MaterialExpressionVectorParameter_0'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'PC_Robot_Soldier.MAT_Robot_Soldier_3p.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'PC_Robot_Soldier.MAT_Robot_Soldier_3p.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[15] = MaterialExpressionTextureSampleParameter2D'PC_Robot_Soldier.MAT_Robot_Soldier_3p.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[16] = MaterialExpressionTextureSampleParameter2D'PC_Robot_Soldier.MAT_Robot_Soldier_3p.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'PC_Robot_Soldier.MAT_Robot_Soldier_3p.MaterialExpressionTextureSampleParameter2D_8'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Common_Ground.Tex.T_Common_GroundMask_01_MSK'
+        Name = Smoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_Robot_Soldier.robot_dDo_d'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_Robot_Soldier.robot_dDo_s'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'PC_Robot_Soldier.robot_dDo_g'
+        Name = Gloss
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'PC_Robot_Soldier.robot_dDo_n'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=3, G=10, B=20, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

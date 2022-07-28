@@ -1,0 +1,48 @@
+Parent = Material3'PC_Merc_Raider.Materials.MAT_1p_Merc_RDR'
+ScalarParameterValues[0] = {}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = None
+        ParameterName = Cube
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Raider.Textures.T_1p_Merc_RDR_Norm'
+        ParameterName = Normal
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Raider.Textures.T_1p_Merc_RDR_Spec'
+        ParameterName = Specular
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'PC_Merc_Raider.Textures.T_1p_Merc_RDR_Dif_2'
+        ParameterName = Diffuse
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = None
+        ParameterName = Emissive
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

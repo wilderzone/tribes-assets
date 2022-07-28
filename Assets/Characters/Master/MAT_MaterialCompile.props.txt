@@ -1,0 +1,151 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Norm'
+    ReferencedTextures[1] = Texture2D'PC_Master.T_QuarterMask'
+    ReferencedTextures[2] = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+    ReferencedTextures[3] = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Dif'
+}
+Expressions[50] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[3] = MaterialExpressionVectorParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionVectorParameter_1'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionScalarParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionScalarParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionScalarParameter_2'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[10] = MaterialExpressionScalarParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionScalarParameter_4'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[12] = MaterialExpressionTextureSample'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSample_0'
+    Expressions[16] = MaterialExpressionTextureSample'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSample_3'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_20'
+    Expressions[18] = MaterialExpressionTextureSample'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSample_5'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_31'
+    Expressions[24] = MaterialExpressionTextureSample'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSample_10'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[26] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_33'
+    Expressions[27] = MaterialExpressionScalarParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionScalarParameter_11'
+    Expressions[28] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_35'
+    Expressions[29] = MaterialExpressionStaticSwitchParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[30] = MaterialExpressionStaticSwitchParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionStaticSwitchParameter_16'
+    Expressions[31] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_37'
+    Expressions[35] = MaterialExpressionScalarParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionScalarParameter_13'
+    Expressions[36] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[39] = MaterialExpressionStaticSwitchParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[41] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[42] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[45] = MaterialExpressionStaticSwitchParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[47] = MaterialExpressionTextureSampleParameter2D'PC_Master.MAT_MaterialCompile.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[48] = MaterialExpressionStaticSwitchParameter'PC_Master.MAT_MaterialCompile.MaterialExpressionStaticSwitchParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[13] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Dif'
+        Name = Diffuse_Class
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Norm'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Norm'
+        Name = Normal_Class
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB_Class
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_1p_Merc_Spec'
+        Name = Specular_Class
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'PC_Merc_Light.Textures.T_PC_Merc_Light_Spec'
+        Name = RGB_Class
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'PC_Master.T_QuarterMask'
+        Name = Emissive_Class
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DiffuseBrightness, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=SpecularBrightness, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=EmissiveContrast, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=SpecularPower, Group=None }
+    CollectedScalarParameters[4] = { Value=50, Name=SpecularPowerHigh, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=10, B=20, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

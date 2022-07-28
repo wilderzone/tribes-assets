@@ -1,0 +1,5 @@
+Diffuse=T_PC_Merc_Technician_Dif
+Normal=T_PC_Merc_Technician_Norm
+SpecPower=T_PC_Merc_Technician_Spec
+Emissive=T_PC_Merc_Technician_Emis
+Other[0]=T_PC_Brute_Spec

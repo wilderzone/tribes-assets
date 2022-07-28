@@ -1,0 +1,72 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'PC_Merc_Technician.Textures.T_1p_Tech_Norm'
+    ReferencedTextures[1] = TextureCube3'WEP_AssaultRifle_1p.Textures.T_tempAR_cube'
+    ReferencedTextures[2] = Texture2D'PC_Merc_Technician.Textures.T_PC_Merc_Technician_Norm'
+    ReferencedTextures[3] = Texture2D'PC_Merc_Technician.Textures.T_1p_Tech_Spec'
+    ReferencedTextures[4] = Texture2D'PC_Merc_Technician.Textures.T_1p_Tech_Dif'
+}
+Expressions[28] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Technician.Materials.MAT_1p_Merc_TCN.MaterialExpressionTextureSampleParameter2D_17'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Technician.Materials.MAT_1p_Merc_TCN.MaterialExpressionTextureSampleParameter2D_16'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Technician.Materials.MAT_1p_Merc_TCN.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Technician.Materials.MAT_1p_Merc_TCN.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Technician.Materials.MAT_1p_Merc_TCN.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[25] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Technician.Materials.MAT_1p_Merc_TCN.MaterialExpressionTextureSampleParameter2D_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_Merc_Technician.Textures.T_1p_Tech_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_Merc_Technician.Textures.T_1p_Tech_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_Merc_Technician.Textures.T_1p_Tech_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'PC_Merc_Technician.Textures.T_1p_Tech_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'PC_Merc_Technician.Textures.T_PC_Merc_Technician_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'PC_Merc_Technician.Textures.T_1p_Tech_Spec'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

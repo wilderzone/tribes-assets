@@ -1,0 +1,29 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'PC_Merc_Juggernaut.PC_Merc_Juggernaut_NRM'
+    ReferencedTextures[1] = Texture2D'PC_Merc_Juggernaut.PC_Merc_Juggernaut_DIFF'
+    ReferencedTextures[2] = Texture2D'PC_Merc_Juggernaut.PC_Merc_Juggernaut_SPC'
+}
+Expressions[15] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'PC_Merc_Juggernaut.PC_Merc_Juggernaut_MAT.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionTextureSample'PC_Merc_Juggernaut.PC_Merc_Juggernaut_MAT.MaterialExpressionTextureSample_2'
+    Expressions[10] = MaterialExpressionTextureSample'PC_Merc_Juggernaut.PC_Merc_Juggernaut_MAT.MaterialExpressionTextureSample_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

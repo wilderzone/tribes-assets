@@ -1,0 +1,5 @@
+Diffuse=T_1p_Merc_PTH_Dif
+Normal=T_1p_Merc_PTH_Norm
+SpecPower=T_1p_Merc_PTH_Spec
+Other[0]=T_tempAR_cube
+Other[1]=Fresnel

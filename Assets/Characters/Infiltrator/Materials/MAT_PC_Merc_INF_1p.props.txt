@@ -1,0 +1,111 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Norm'
+    ReferencedTextures[1] = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Spec'
+    ReferencedTextures[2] = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Dif'
+}
+Expressions[62] =
+{
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[21] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_11'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_12'
+    Expressions[33] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[36] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[45] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_15'
+    Expressions[48] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_16'
+    Expressions[52] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_17'
+    Expressions[56] = MaterialExpressionVectorParameter'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionVectorParameter_1'
+    Expressions[58] = MaterialExpressionScalarParameter'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionScalarParameter_1'
+    Expressions[59] = MaterialExpressionTextureSampleParameter2D'PC_Merc_Infiltrator.Materials.MAT_PC_Merc_INF_1p.MaterialExpressionTextureSampleParameter2D_19'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'PC_Merc_Infiltrator.Textures.T_1p_Merc_INF_Spec'
+        Name = Emissive
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Emissive_Brightness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=10, B=80, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
