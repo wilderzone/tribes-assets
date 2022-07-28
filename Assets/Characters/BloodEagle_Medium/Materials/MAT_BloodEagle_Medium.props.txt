@@ -1,0 +1,64 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'PC_BloodEagle_Medium.Textures.T_BloodEagle_Medium_Norm'
+    ReferencedTextures[1] = Texture2D'PC_BloodEagle_Medium.Textures.T_BloodEagle_Medium_Dif'
+    ReferencedTextures[2] = Texture2D'PC_BloodEagle_Medium.Textures.T_BloodEagle_Medium_Spec'
+}
+Expressions[16] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Medium.Materials.MAT_BloodEagle_Medium.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Medium.Materials.MAT_BloodEagle_Medium.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Medium.Materials.MAT_BloodEagle_Medium.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[10] = MaterialExpressionVectorParameter'PC_BloodEagle_Medium.Materials.MAT_BloodEagle_Medium.MaterialExpressionVectorParameter_1'
+    Expressions[12] = MaterialExpressionScalarParameter'PC_BloodEagle_Medium.Materials.MAT_BloodEagle_Medium.MaterialExpressionScalarParameter_2'
+    Expressions[15] = MaterialExpressionScalarParameter'PC_BloodEagle_Medium.Materials.MAT_BloodEagle_Medium.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Medium.Textures.T_BloodEagle_Medium_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Medium.Textures.T_BloodEagle_Medium_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Medium.Textures.T_BloodEagle_Medium_Norm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Desat_Spec, Group=None }
+    CollectedScalarParameters[1] = { Value=0.8, Name=diffuse_brightness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=2.8, B=3, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

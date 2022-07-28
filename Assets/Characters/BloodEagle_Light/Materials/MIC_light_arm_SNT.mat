@@ -1,0 +1,5 @@
+Diffuse=light_arm_sent_dif
+Normal=T_light_arm_nrm
+SpecPower=T_light_arm_spc
+Other[0]=T_light_arm_dif
+Other[1]=T_tempAR_cube

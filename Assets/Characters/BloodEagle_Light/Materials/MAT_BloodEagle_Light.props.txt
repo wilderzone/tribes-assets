@@ -1,0 +1,72 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'PC_BloodEagle_Light.Textures.T_BloodEagle_Light_NRM'
+    ReferencedTextures[1] = Texture2D'PC_BloodEagle_Light.Textures.T_BloodEagle_Light_DIF'
+    ReferencedTextures[2] = Texture2D'PC_BloodEagle_Light.Textures.T_BloodEagle_Light_SPC'
+}
+Expressions[29] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Light.Materials.MAT_BloodEagle_Light.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Light.Materials.MAT_BloodEagle_Light.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Light.Materials.MAT_BloodEagle_Light.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[19] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Light.Materials.MAT_BloodEagle_Light.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[20] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Light.Materials.MAT_BloodEagle_Light.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[25] = MaterialExpressionVectorParameter'PC_BloodEagle_Light.Materials.MAT_BloodEagle_Light.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Light.Textures.T_BloodEagle_Light_DIF'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Light.Textures.T_BloodEagle_Light_SPC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Light.Textures.T_BloodEagle_Light_NRM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Light.Textures.T_BloodEagle_Light_SPC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Light.Textures.T_BloodEagle_Light_SPC'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=2.8, B=3, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

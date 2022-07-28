@@ -1,0 +1,50 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'PC_BloodEagle_Medium.Textures.T_be_med_arms_nrm'
+    ReferencedTextures[1] = Texture2D'PC_BloodEagle_Medium.Textures.T_be_med_arms_dif'
+    ReferencedTextures[2] = TextureCube3'WEP_AssaultRifle_1p.Textures.T_tempAR_cube'
+    ReferencedTextures[3] = Texture2D'PC_BloodEagle_Medium.Textures.T_be_med_arms_spec'
+}
+Expressions[17] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Medium.Materials.MAT_med_arms.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Medium.Materials.MAT_med_arms.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Medium.Materials.MAT_med_arms.MaterialExpressionTextureSampleParameter2D_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Medium.Textures.T_be_med_arms_nrm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Medium.Textures.T_be_med_arms_dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Medium.Textures.T_be_med_arms_spec'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

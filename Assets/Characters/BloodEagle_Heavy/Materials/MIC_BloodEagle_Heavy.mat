@@ -1,0 +1,6 @@
+Diffuse=T_BE_Heavy_Dif
+Normal=T_BE_Heavy_Nrm
+Specular=T_BE_Heavy_Spc
+SpecPower=T_BloodEagle_Medium_Spec
+Other[0]=T_BloodEagle_Medium_Norm
+Other[1]=T_BloodEagle_Medium_Dif

@@ -1,0 +1,50 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'PC_BloodEagle_Light.Textures.T_light_arm_nrm'
+    ReferencedTextures[1] = Texture2D'PC_BloodEagle_Light.Textures.T_light_arm_dif'
+    ReferencedTextures[2] = TextureCube3'WEP_AssaultRifle_1p.Textures.T_tempAR_cube'
+    ReferencedTextures[3] = Texture2D'PC_BloodEagle_Light.Textures.T_light_arm_spc'
+}
+Expressions[17] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Light.Materials.MAT_light_arm.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Light.Materials.MAT_light_arm.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'PC_BloodEagle_Light.Materials.MAT_light_arm.MaterialExpressionTextureSampleParameter2D_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Light.Textures.T_light_arm_dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Light.Textures.T_light_arm_nrm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_BloodEagle_Light.Textures.T_light_arm_spc'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
