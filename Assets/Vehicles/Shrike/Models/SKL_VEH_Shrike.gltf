@@ -1,0 +1,296 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_VEH_Shrike",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2, 3, 5, 7, 9, 11, 18 ],
+      "translation" : [ 0, 0.510463, -0.056188 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "Driver",
+      "translation" : [ -0.0486592, -0.102127, -3.44733e-08 ],
+      "rotation" : [ 2.56267e-13, -1.01328e-06, 2.46334e-07, -1 ]
+    },
+    {
+      "name" : "L_wing_pt",
+      "children" : [ 4 ],
+      "translation" : [ -1.11861, -0.297143, -0.818033 ],
+      "rotation" : [ 0.183013, -0.683013, 0.183013, -0.683013 ]
+    },
+    {
+      "name" : "L_wing",
+      "translation" : [ -7.62939e-08, 0, -0 ],
+      "rotation" : [ -1.77636e-15, 3.55271e-15, 2.98023e-08, -1 ]
+    },
+    {
+      "name" : "R_wing_pt",
+      "children" : [ 6 ],
+      "translation" : [ -1.11861, -0.297143, 0.81803 ],
+      "rotation" : [ -0.683013, -0.183013, 0.683013, 0.183013 ]
+    },
+    {
+      "name" : "R_wing",
+      "translation" : [ -7.62939e-08, -3.8147e-08, -0 ],
+      "rotation" : [ -4.37114e-08, -1.00717e-15, 1.49012e-08, -1 ]
+    },
+    {
+      "name" : "L_rearEngine_pt",
+      "children" : [ 8 ],
+      "translation" : [ -1.17193, 0.185225, -0.303062 ],
+      "rotation" : [ -0, -0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "L_rearEngine",
+      "translation" : [ -7.62939e-08, 0, -0 ],
+      "rotation" : [ -0, -0, 2.98023e-08, -1 ]
+    },
+    {
+      "name" : "R_rearEngine_pt",
+      "children" : [ 10 ],
+      "translation" : [ -1.17193, 0.185225, 0.30306 ],
+      "rotation" : [ -0.707107, -0, 0.707107, -0 ]
+    },
+    {
+      "name" : "R_rearEngine",
+      "translation" : [ -7.62939e-08, 0, -0 ],
+      "rotation" : [ -0, -0, 2.98023e-08, -1 ]
+    },
+    {
+      "name" : "R_frontEngineBase_pt",
+      "children" : [ 12 ],
+      "translation" : [ 0.499416, 0.317068, 0.0919001 ],
+      "rotation" : [ -0.72362, -0.142748, -0.656851, -0.156664 ]
+    },
+    {
+      "name" : "R_frontEngineBase",
+      "children" : [ 13 ],
+      "translation" : [ -3.8147e-08, 7.62939e-08, -0 ],
+      "rotation" : [ -3.72529e-09, -4.65661e-10, -3.72529e-08, -1 ]
+    },
+    {
+      "name" : "R_frontEngineTranslate_pt",
+      "children" : [ 14 ],
+      "translation" : [ 0, -3.05176e-07, -0 ],
+      "rotation" : [ 3.72529e-09, 4.65661e-10, -2.23517e-08, -1 ]
+    },
+    {
+      "name" : "R_frontEngineTranslate",
+      "children" : [ 15 ],
+      "translation" : [ 1.14441e-07, 1.52588e-07, -0 ],
+      "rotation" : [ 1.38778e-17, 1.39698e-09, 7.45058e-09, -1 ]
+    },
+    {
+      "name" : "R_frontEngineRotate_pt",
+      "children" : [ 16 ],
+      "translation" : [ 0.0121444, 0.26975, -1.44958e-06 ],
+      "rotation" : [ 0.143493, -0.989651, 1.89348e-09, 3.40608e-08 ]
+    },
+    {
+      "name" : "R_frontEngineRotate",
+      "children" : [ 17 ],
+      "translation" : [ -1.14441e-07, -1.14441e-07, -0 ],
+      "rotation" : [ -1.86265e-09, 7.33417e-09, -1.11759e-08, -1 ]
+    },
+    {
+      "name" : "R_frontEnginePitch",
+      "translation" : [ 1.14441e-07, -7.62939e-08, -3.8147e-08 ],
+      "rotation" : [ 2.79397e-09, -1.73459e-08, 9.31323e-08, -1 ]
+    },
+    {
+      "name" : "L_frontEngineBase_pt",
+      "children" : [ 19 ],
+      "translation" : [ 0.499416, 0.317068, -0.0918959 ],
+      "rotation" : [ -0.156664, -0.656851, -0.142748, -0.72362 ]
+    },
+    {
+      "name" : "L_frontEngineBase",
+      "children" : [ 20 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, 1.39698e-09, -7.45058e-09, -1 ]
+    },
+    {
+      "name" : "L_frontEngineTranslate_pt",
+      "children" : [ 21 ],
+      "translation" : [ -3.8147e-08, 0, -0 ],
+      "rotation" : [ -0, 1.39698e-09, -7.45058e-09, -1 ]
+    },
+    {
+      "name" : "L_frontEngineTranslate",
+      "children" : [ 22 ],
+      "translation" : [ -1.14441e-07, 0, -0 ],
+      "rotation" : [ -5.55112e-17, 5.12227e-09, -7.45058e-09, -1 ]
+    },
+    {
+      "name" : "L_frontEngineRotate_pt",
+      "children" : [ 23 ],
+      "translation" : [ 0.0121543, -0.269751, -3.8147e-08 ],
+      "rotation" : [ 7.04523e-10, 1.06178e-08, 0.143493, -0.989651 ]
+    },
+    {
+      "name" : "L_frontEngineRotate",
+      "children" : [ 24 ],
+      "translation" : [ -7.62939e-08, -3.8147e-08, 3.8147e-08 ],
+      "rotation" : [ 5.55112e-17, 6.98492e-10, 2.98023e-08, -1 ]
+    },
+    {
+      "name" : "L_frontEnginePitch",
+      "translation" : [ 1.52588e-07, 7.62939e-08, -1.52588e-07 ],
+      "rotation" : [ 1.86265e-09, 5.23869e-09, -2.23517e-08, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_Shrike",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_VEH_Shrike"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_VEH_Shrike.bin",
+      "byteLength" : 481248
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1536
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1536,
+      "byteLength" : 50772
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 52308,
+      "byteLength" : 85788
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 138096,
+      "byteLength" : 85788
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 223884,
+      "byteLength" : 114384
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 338268,
+      "byteLength" : 57192
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 395460,
+      "byteLength" : 28596
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 424056,
+      "byteLength" : 57192
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 24,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 25386,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -2.04667, -0.549481, -2.06633 ],
+      "max" : [ 2.04667, 1.31421, 1.27906 ],
+      "componentType" : 5126,
+      "count" : 7149,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 7149,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 7149,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 7149,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 7149,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 7149,
+      "type" : "VEC2"
+    }
+  ]
+}

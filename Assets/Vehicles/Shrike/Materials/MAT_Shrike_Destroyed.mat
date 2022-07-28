@@ -1,0 +1,7 @@
+Diffuse=T_Shrike_Dif
+Normal=T_Damage_Norm
+SpecPower=T_Shrike_Spc
+Other[0]=T_Shrike_Nrm
+Other[1]=T_Damage_Dif
+Other[2]=T_BaseGen_Damaged_BT
+Other[3]=T_BaseGen_Damaged_FLR

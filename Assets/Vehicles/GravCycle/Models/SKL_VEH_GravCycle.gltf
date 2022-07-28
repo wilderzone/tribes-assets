@@ -1,0 +1,233 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_VEH_GravCycle",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2, 3, 4, 6, 7, 8, 12, 13, 14 ],
+      "translation" : [ -0.00623547, 0.364219, 0.209666 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "Passenger",
+      "translation" : [ -0.314513, -0.198684, -0.0062355 ],
+      "rotation" : [ 5.17909e-07, -8.64268e-07, 2.57233e-07, -1 ]
+    },
+    {
+      "name" : "Driver",
+      "translation" : [ -0.314513, -0.198684, -0.0062355 ],
+      "rotation" : [ -2.34479e-13, -9.53674e-07, -2.38419e-07, -1 ]
+    },
+    {
+      "name" : "B_axel",
+      "children" : [ 5 ],
+      "translation" : [ -0.298392, -0.024706, -0.00623548 ],
+      "rotation" : [ -0, -0, -0.0525708, -0.998617 ]
+    },
+    {
+      "name" : "B_tireSteering",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -2.8465e-09, -8.94533e-08, 3.72529e-09, -1 ]
+    },
+    {
+      "name" : "B_tire",
+      "translation" : [ -0.728464, -0.219427, -0.00623547 ],
+      "rotation" : [ -5.26836e-09, -1.49012e-07, 6.66134e-16, -1 ]
+    },
+    {
+      "name" : "Hood",
+      "translation" : [ 0.229512, 0.221595, -0.00623565 ],
+      "rotation" : [ -5.26836e-09, -1.49012e-07, 6.66134e-16, -1 ]
+    },
+    {
+      "name" : "handleSteering",
+      "children" : [ 9, 11 ],
+      "translation" : [ 0.0544811, 0.241932, -0.00623566 ],
+      "rotation" : [ -0, -2.68221e-07, 1.49012e-08, -1 ]
+    },
+    {
+      "name" : "F_tireSteering",
+      "children" : [ 10 ],
+      "translation" : [ 0.172591, -0.165891, 2.75258e-07 ],
+      "rotation" : [ -1.36977e-07, -0.707107, 0.707107, -1.58051e-07 ]
+    },
+    {
+      "name" : "F_tire",
+      "translation" : [ -0.121771, 2.4718e-07, 0.398748 ],
+      "rotation" : [ 9.83518e-09, -0.707107, 0.707107, 5.19821e-08 ]
+    },
+    {
+      "name" : "F_impact",
+      "translation" : [ 0.172591, -0.165891, 2.75258e-07 ],
+      "rotation" : [ -9.48305e-08, -0.707107, 0.707107, -2.00198e-07 ]
+    },
+    {
+      "name" : "R_impact",
+      "translation" : [ -0.279431, 0.0998625, 0.151695 ],
+      "rotation" : [ 8.42937e-08, -0.707107, 0.707107, -0 ]
+    },
+    {
+      "name" : "L_impact",
+      "translation" : [ -0.279431, 0.0998625, -0.164167 ],
+      "rotation" : [ 8.42937e-08, -0.707107, 0.707107, -0 ]
+    },
+    {
+      "name" : "B_impact",
+      "translation" : [ -0.848878, 0.126065, -0.00623542 ],
+      "rotation" : [ 8.42937e-08, -0.707107, 0.707107, -0 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_VEH_GravCycle",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_VEH_GravCycle"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_VEH_GravCycle.bin",
+      "byteLength" : 461204
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 896
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 896,
+      "byteLength" : 49188
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 50084,
+      "byteLength" : 82224
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 132308,
+      "byteLength" : 82224
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 214532,
+      "byteLength" : 109632
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 324164,
+      "byteLength" : 54816
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 378980,
+      "byteLength" : 27408
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 406388,
+      "byteLength" : 54816
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 14,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 24594,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.26637, 0.0341233, -0.90011 ],
+      "max" : [ 0.266363, 0.810256, 0.773985 ],
+      "componentType" : 5126,
+      "count" : 6852,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 6852,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 6852,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 6852,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 6852,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 6852,
+      "type" : "VEC2"
+    }
+  ]
+}

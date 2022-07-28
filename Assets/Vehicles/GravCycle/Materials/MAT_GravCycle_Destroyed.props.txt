@@ -1,0 +1,50 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'VEH_GravCycle.Textures.T_GravCycle_Nrm'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.DamageTile.T_Damage_Norm'
+    ReferencedTextures[2] = Texture2D'VEH_GravCycle.Textures.VEH_GravCycle_Dif'
+    ReferencedTextures[3] = Texture2D'FX_GeneralUse.DamageTile.T_Damage_Dif'
+    ReferencedTextures[4] = Texture2D'VEH_GravCycle.Textures.VEH_GravCycle_Spc'
+    ReferencedTextures[5] = Texture2D'GEN_BaseGenerator.Textures.T_BaseGen_Damaged_BT'
+    ReferencedTextures[6] = Texture2D'GEN_BaseGenerator.Textures.T_BaseGen_Damaged_FLR'
+}
+Expressions[46] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionTextureSample_1'
+    Expressions[2] = MaterialExpressionTextureSample'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionTextureSample_2'
+    Expressions[7] = MaterialExpressionScalarParameter'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionScalarParameter_25'
+    Expressions[9] = MaterialExpressionTextureSample'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionTextureSample_14'
+    Expressions[12] = MaterialExpressionScalarParameter'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionScalarParameter_26'
+    Expressions[16] = MaterialExpressionScalarParameter'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionScalarParameter_27'
+    Expressions[18] = MaterialExpressionScalarParameter'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionScalarParameter_28'
+    Expressions[19] = MaterialExpressionTextureSample'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionTextureSample_15'
+    Expressions[23] = MaterialExpressionScalarParameter'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionScalarParameter_29'
+    Expressions[25] = MaterialExpressionTextureSample'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionTextureSample_16'
+    Expressions[30] = MaterialExpressionTextureSample'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionTextureSample_19'
+    Expressions[35] = MaterialExpressionTextureSample'VEH_GravCycle.Materials.MAT_GravCycle_Destroyed.MaterialExpressionTextureSample_25'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=SCL_Damage_Back, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=SCL_Damage_Top, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SCL_Damage_Front, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=SCL_Damage_Left, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=SCL_Damage_Right, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

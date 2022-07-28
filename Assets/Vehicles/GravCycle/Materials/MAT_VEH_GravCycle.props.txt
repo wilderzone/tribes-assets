@@ -1,0 +1,72 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'VEH_GravCycle.Textures.T_GravCycle_Nrm'
+    ReferencedTextures[1] = Texture2D'VEH_GravCycle.Textures.VEH_GravCycle_Dif'
+    ReferencedTextures[2] = Texture2D'VEH_GravCycle.Textures.VEH_GravCycle_Spc'
+}
+Expressions[14] =
+{
+    Expressions[3] = MaterialExpressionVectorParameter'VEH_GravCycle.Materials.MAT_VEH_GravCycle.MaterialExpressionVectorParameter_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'VEH_GravCycle.Materials.MAT_VEH_GravCycle.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'VEH_GravCycle.Materials.MAT_VEH_GravCycle.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'VEH_GravCycle.Materials.MAT_VEH_GravCycle.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'VEH_GravCycle.Materials.MAT_VEH_GravCycle.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'VEH_GravCycle.Materials.MAT_VEH_GravCycle.MaterialExpressionTextureSampleParameter2D_12'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'VEH_GravCycle.Textures.VEH_GravCycle_Spc'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'VEH_GravCycle.Textures.T_GravCycle_Nrm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'VEH_GravCycle.Textures.T_GravCycle_Nrm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'VEH_GravCycle.Textures.VEH_GravCycle_Dif'
+        Name = fresnel_mask
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'VEH_GravCycle.Textures.VEH_GravCycle_Dif'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=2, B=5, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
