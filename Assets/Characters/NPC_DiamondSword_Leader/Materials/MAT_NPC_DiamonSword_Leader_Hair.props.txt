@@ -1,0 +1,35 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Leader_Norm'
+    ReferencedTextures[1] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Leader_Dif'
+    ReferencedTextures[2] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Leader_Spec'
+    ReferencedTextures[3] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Leader_OSPT'
+}
+Expressions[43] =
+{
+    Expressions[6] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Hair.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Hair.MaterialExpressionTextureSample_2'
+    Expressions[21] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Hair.MaterialExpressionTextureSample_6'
+    Expressions[23] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Hair.MaterialExpressionTextureSample_8'
+    Expressions[24] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Hair.MaterialExpressionTextureSample_9'
+    Expressions[25] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Hair.MaterialExpressionTextureSample_10'
+    Expressions[28] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Hair.MaterialExpressionTextureSample_12'
+    Expressions[33] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Hair.MaterialExpressionTextureSample_14'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

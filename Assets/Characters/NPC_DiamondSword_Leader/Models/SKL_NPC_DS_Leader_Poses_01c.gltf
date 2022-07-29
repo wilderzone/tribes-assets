@@ -1,0 +1,400 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_NPC_DS_Leader_Poses_01c",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_NPC_DiamonSword_Leader",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    },
+    {
+      "name" : "MAT_NPC_DiamonSword_Leader_Hair",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.9, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    },
+    {
+      "name" : "MAT_NPC_DiamonSword_Leader_Cape",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.9, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7,
+            "TEXCOORD_1" : 8
+          },
+          "indices" : 1,
+          "material" : 0
+        },
+        {
+          "attributes" : {
+            "POSITION" : 10,
+            "NORMAL" : 11,
+            "TANGENT" : 12,
+            "JOINTS_0" : 13,
+            "WEIGHTS_0" : 14,
+            "TEXCOORD_0" : 15,
+            "TEXCOORD_1" : 16
+          },
+          "indices" : 9,
+          "material" : 1
+        },
+        {
+          "attributes" : {
+            "POSITION" : 18,
+            "NORMAL" : 19,
+            "TANGENT" : 20,
+            "JOINTS_0" : 21,
+            "WEIGHTS_0" : 22,
+            "TEXCOORD_0" : 23,
+            "TEXCOORD_1" : 24
+          },
+          "indices" : 17,
+          "material" : 2
+        }
+      ],
+      "name" : "SKL_NPC_DS_Leader_Poses_01c"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_NPC_DS_Leader_Poses_01c.bin",
+      "byteLength" : 951192
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 64
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 64,
+      "byteLength" : 75860
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 75924,
+      "byteLength" : 110256
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 186180,
+      "byteLength" : 110256
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 296436,
+      "byteLength" : 147008
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 443444,
+      "byteLength" : 73504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 516948,
+      "byteLength" : 36752
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 553700,
+      "byteLength" : 73504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 627204,
+      "byteLength" : 73504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 700708,
+      "byteLength" : 3288
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 703996,
+      "byteLength" : 5328
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 709324,
+      "byteLength" : 5328
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 714652,
+      "byteLength" : 7104
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 721756,
+      "byteLength" : 3552
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 725308,
+      "byteLength" : 1776
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 727084,
+      "byteLength" : 3552
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 730636,
+      "byteLength" : 3552
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 734188,
+      "byteLength" : 28440
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 762628,
+      "byteLength" : 33276
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 795904,
+      "byteLength" : 33276
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 829180,
+      "byteLength" : 44368
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 873548,
+      "byteLength" : 22184
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 895732,
+      "byteLength" : 11092
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 906824,
+      "byteLength" : 22184
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 929008,
+      "byteLength" : 22184
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 1,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 37929,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.169524, 0.00146328, -0.258829 ],
+      "max" : [ 0.112578, 1.02205, 0.275082 ],
+      "componentType" : 5126,
+      "count" : 9188,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 9188,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 9188,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 9188,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 9188,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 9188,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 9188,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 9,
+      "componentType" : 5123,
+      "count" : 1644,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 10,
+      "min" : [ -0.067432, 0.834651, 0.102955 ],
+      "max" : [ 0.0109176, 0.973057, 0.165671 ],
+      "componentType" : 5126,
+      "count" : 444,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 11,
+      "componentType" : 5126,
+      "count" : 444,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 12,
+      "componentType" : 5126,
+      "count" : 444,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 13,
+      "componentType" : 5123,
+      "count" : 444,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 14,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 444,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 15,
+      "componentType" : 5126,
+      "count" : 444,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 16,
+      "componentType" : 5126,
+      "count" : 444,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 17,
+      "componentType" : 5123,
+      "count" : 14220,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 18,
+      "min" : [ -0.280203, -0.0112769, -0.0942055 ],
+      "max" : [ 0.262856, 0.906861, 0.179245 ],
+      "componentType" : 5126,
+      "count" : 2773,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 19,
+      "componentType" : 5126,
+      "count" : 2773,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 20,
+      "componentType" : 5126,
+      "count" : 2773,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 21,
+      "componentType" : 5123,
+      "count" : 2773,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 22,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2773,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 23,
+      "componentType" : 5126,
+      "count" : 2773,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 24,
+      "componentType" : 5126,
+      "count" : 2773,
+      "type" : "VEC2"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Cape_Norm'
+    ReferencedTextures[1] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Cape_Dif'
+    ReferencedTextures[2] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Cape_Spec'
+    ReferencedTextures[3] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Cape_SpecPower'
+    ReferencedTextures[4] = Texture2D'NPC_DiamondSword_Leader.Textures.T_NPC_DiamondSword_Leader_OSPT'
+}
+Expressions[50] =
+{
+    Expressions[6] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Cape.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Cape.MaterialExpressionTextureSample_2'
+    Expressions[21] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Cape.MaterialExpressionTextureSample_6'
+    Expressions[23] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Cape.MaterialExpressionTextureSample_8'
+    Expressions[24] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Cape.MaterialExpressionTextureSample_9'
+    Expressions[25] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Cape.MaterialExpressionTextureSample_10'
+    Expressions[28] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Cape.MaterialExpressionTextureSample_12'
+    Expressions[32] = MaterialExpressionTextureSample'NPC_DiamondSword_Leader.Materials.MAT_NPC_DiamonSword_Leader_Cape.MaterialExpressionTextureSample_14'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
