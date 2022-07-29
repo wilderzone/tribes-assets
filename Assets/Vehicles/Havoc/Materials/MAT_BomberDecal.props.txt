@@ -1,0 +1,54 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'VEH_Havoc.Textures.T_Decal_DropLocation'
+}
+Expressions[11] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'VEH_Havoc.Materials.MAT_BomberDecal.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionScalarParameter'VEH_Havoc.Materials.MAT_BomberDecal.MaterialExpressionScalarParameter_2'
+    Expressions[3] = MaterialExpressionVectorParameter'VEH_Havoc.Materials.MAT_BomberDecal.MaterialExpressionVectorParameter_0'
+    Expressions[4] = MaterialExpressionVectorParameter'VEH_Havoc.Materials.MAT_BomberDecal.MaterialExpressionVectorParameter_1'
+    Expressions[5] = MaterialExpressionVectorParameter'VEH_Havoc.Materials.MAT_BomberDecal.MaterialExpressionVectorParameter_3'
+    Expressions[7] = MaterialExpressionScalarParameter'VEH_Havoc.Materials.MAT_BomberDecal.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=7, Name=Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DecalState, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=0.01, B=0, A=1 }
+        Name = BadLocation
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.1, G=2, B=0, A=1 }
+        Name = GoodLocation
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2, G=1, B=0.1, A=1 }
+        Name = Cooldown
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

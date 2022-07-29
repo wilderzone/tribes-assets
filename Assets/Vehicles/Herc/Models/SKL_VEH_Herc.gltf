@@ -1,0 +1,248 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_VEH_Herc",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
+      "translation" : [ -2.24651e-08, 1.70735, 1.32385 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "turretRotate",
+      "children" : [ 3, 5 ],
+      "translation" : [ -1.32388, 0.888836, 0.0139066 ],
+      "rotation" : [ -0, -0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "turretTopRotate",
+      "children" : [ 4 ],
+      "translation" : [ 0.0151134, 0.903149, -0.329638 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "turretTopPivot",
+      "translation" : [ 3.43323e-07, 0.697662, 0.0127413 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "turretAim",
+      "translation" : [ 0.0139064, 0.575751, 1.1637 ],
+      "rotation" : [ 6.32203e-08, -0.707107, 6.32203e-08, -0.707107 ]
+    },
+    {
+      "name" : "RM_tire",
+      "translation" : [ -0.829036, -0.695328, 1.51564 ],
+      "rotation" : [ -6.322e-08, -1.36234e-23, 3.7682e-15, -1 ]
+    },
+    {
+      "name" : "LM_tire",
+      "translation" : [ -0.829041, -0.695328, -1.51564 ],
+      "rotation" : [ -6.322e-08, -1.36234e-23, 3.7682e-15, -1 ]
+    },
+    {
+      "name" : "LB_tire",
+      "translation" : [ -1.32114, -0.695325, -1.51564 ],
+      "rotation" : [ -6.322e-08, -1.36234e-23, 3.7682e-15, -1 ]
+    },
+    {
+      "name" : "RB_tire",
+      "translation" : [ -1.32114, -0.695328, 1.51564 ],
+      "rotation" : [ -6.322e-08, -1.36234e-23, 3.7682e-15, -1 ]
+    },
+    {
+      "name" : "RF_tire",
+      "translation" : [ -0.328137, -0.695328, 1.51564 ],
+      "rotation" : [ -6.322e-08, -1.36234e-23, 3.7682e-15, -1 ]
+    },
+    {
+      "name" : "LF_tire",
+      "translation" : [ -0.32814, -0.695328, -1.51564 ],
+      "rotation" : [ -6.322e-08, -1.36234e-23, 3.7682e-15, -1 ]
+    },
+    {
+      "name" : "RF_axel",
+      "translation" : [ 2.27558, -0.394468, 1.51564 ],
+      "rotation" : [ 0.0771899, -0.997016, 4.68456e-09, -3.01447e-08 ]
+    },
+    {
+      "name" : "LF_axel",
+      "translation" : [ 2.27558, -0.394468, -1.51564 ],
+      "rotation" : [ 0.0771899, -0.997016, 4.68456e-09, -3.01447e-08 ]
+    },
+    {
+      "name" : "RB_axel",
+      "translation" : [ -4.52386, -0.394468, 1.51564 ],
+      "rotation" : [ 4.60088e-09, -5.94268e-08, 0.0771899, -0.997016 ]
+    },
+    {
+      "name" : "LB_axel",
+      "translation" : [ -4.52386, -0.394468, -1.51564 ],
+      "rotation" : [ 4.60088e-09, -5.94268e-08, 0.0771899, -0.997016 ]
+    },
+    {
+      "name" : "hatch_pt",
+      "children" : [ 17 ],
+      "translation" : [ -4.97781, -1.28118, 3.71191e-07 ],
+      "rotation" : [ -0, -0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "hatch",
+      "translation" : [ -7.27596e-14, 0, -0 ],
+      "rotation" : [ -0, -7.42908e-10, 0, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "dummy_material_0",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_VEH_Herc"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_VEH_Herc.bin",
+      "byteLength" : 239420
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1088
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1088,
+      "byteLength" : 10332
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 11420,
+      "byteLength" : 45600
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 57020,
+      "byteLength" : 45600
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 102620,
+      "byteLength" : 60800
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 163420,
+      "byteLength" : 30400
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 193820,
+      "byteLength" : 15200
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 209020,
+      "byteLength" : 30400
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 17,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 5166,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -3.29131, -0.0339551, -4.50426 ],
+      "max" : [ 3.29372, 4.80912, 6.29397 ],
+      "componentType" : 5126,
+      "count" : 3800,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 3800,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 3800,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 3800,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 3800,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 3800,
+      "type" : "VEC2"
+    }
+  ]
+}

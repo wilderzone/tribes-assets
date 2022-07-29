@@ -1,0 +1,5 @@
+Diffuse=T_Havok_Dif
+Normal=T_Havok_Nrm
+SpecPower=T_Havok_Spc
+Other[0]=T_tempAR_cube
+Other[1]=T_Havok_CM
