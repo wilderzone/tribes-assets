@@ -1,0 +1,77 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_LightSpinfusor_1p.Test.T_Wep_LightSpinfusor_Norm'
+    ReferencedTextures[1] = Texture2D'WEP_LightSpinfusor_1p.Alt_Inherit.T_WEP_LightSpinfusor_Alt_Inherit_DIF'
+    ReferencedTextures[2] = Texture2D'WEP_LightSpinfusor_1p.Alt_Inherit.T_Wep_LightSpinfusor_Inherit_Spec'
+    ReferencedTextures[3] = Texture2D'WEP_LightSpinfusor_1p.Test.T_Wep_LightSpinfusor_Spec'
+}
+Expressions[18] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_LightSpinfusor_1p.Alt_Inherit.MAT_LightSpinfusor_Alt_Inherit.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'WEP_LightSpinfusor_1p.Alt_Inherit.MAT_LightSpinfusor_Alt_Inherit.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[10] = MaterialExpressionVectorParameter'WEP_LightSpinfusor_1p.Alt_Inherit.MAT_LightSpinfusor_Alt_Inherit.MaterialExpressionVectorParameter_0'
+    Expressions[12] = MaterialExpressionScalarParameter'WEP_LightSpinfusor_1p.Alt_Inherit.MAT_LightSpinfusor_Alt_Inherit.MaterialExpressionScalarParameter_0'
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'WEP_LightSpinfusor_1p.Alt_Inherit.MAT_LightSpinfusor_Alt_Inherit.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[16] = MaterialExpressionTextureSampleParameter2D'WEP_LightSpinfusor_1p.Alt_Inherit.MAT_LightSpinfusor_Alt_Inherit.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'WEP_LightSpinfusor_1p.Alt_Inherit.MAT_LightSpinfusor_Alt_Inherit.MaterialExpressionTextureSampleParameter2D_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_LightSpinfusor_1p.Test.T_Wep_LightSpinfusor_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_LightSpinfusor_1p.Test.T_Wep_LightSpinfusor_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_LightSpinfusor_1p.Test.T_Wep_LightSpinfusor_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_LightSpinfusor_1p.Alt_Inherit.T_WEP_LightSpinfusor_Alt_Inherit_DIF'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'WEP_LightSpinfusor_1p.Alt_Inherit.T_Wep_LightSpinfusor_Inherit_Spec'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1.5, Name=Emi_Contrast, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=3, G=8, B=12, A=1 }
+        Name = EMI_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,164 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_WEP_GrenadeLauncher_3p",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "R_WEP_root",
+      "translation" : [ 0, 9.53674e-09, -0 ],
+      "rotation" : [ -3.05474e-07, 3.72537e-09, 2.38418e-07, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "Mat_GrenadeLauncher_3P",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_WEP_GrenadeLauncher_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_WEP_GrenadeLauncher_3p.bin",
+      "byteLength" : 229660
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 64
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 64,
+      "byteLength" : 17856
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 17920,
+      "byteLength" : 42348
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 60268,
+      "byteLength" : 42348
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 102616,
+      "byteLength" : 56464
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 159080,
+      "byteLength" : 28232
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 187312,
+      "byteLength" : 14116
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 201428,
+      "byteLength" : 28232
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 1,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 8928,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0288968, -0.0541578, -0.0534697 ],
+      "max" : [ 0.376738, 0.131946, 0.0534698 ],
+      "componentType" : 5126,
+      "count" : 3529,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 3529,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 3529,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 3529,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 3529,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 3529,
+      "type" : "VEC2"
+    }
+  ]
+}

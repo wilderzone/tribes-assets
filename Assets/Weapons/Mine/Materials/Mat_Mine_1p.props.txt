@@ -1,0 +1,46 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Mine_1p.Textures.vehicle_mine_Nrm'
+    ReferencedTextures[1] = Texture2D'WEP_Mine_1p.Textures.vehicle_mine_Dif'
+    ReferencedTextures[2] = Texture2D'WEP_Mine_1p.Textures.vehicle_mine_Spc'
+}
+Expressions[14] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'WEP_Mine_1p.Materials.Mat_Mine_1p.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'WEP_Mine_1p.Materials.Mat_Mine_1p.MaterialExpressionTextureSample_1'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'WEP_Mine_1p.Materials.Mat_Mine_1p.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[12] = MaterialExpressionVectorParameter'WEP_Mine_1p.Materials.Mat_Mine_1p.MaterialExpressionVectorParameter_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Mine_1p.Textures.vehicle_mine_Nrm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=150, G=50, B=0, A=1 }
+        Name = Glow
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

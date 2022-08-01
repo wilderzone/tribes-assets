@@ -1,0 +1,10 @@
+Diffuse=T_PFX_Clouds_Difference01
+SpecPower=T_WEP_Shotgun_Screen_Spec
+Other[0]=hvy_spinfusor_display
+Other[1]=hvy_spinfusor_display_warning
+Other[2]=T_FX_ScanLines01
+Other[3]=T_WEP_Shotgun_Screen
+Other[4]=T_WEP_Shotgun_Screen_Warning
+Other[5]=T_OneDigit_Sample
+Other[6]=T_TwoDigit_Sample
+Other[7]=T_RemoteArx_ScreenWarning
