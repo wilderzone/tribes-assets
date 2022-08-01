@@ -1,0 +1,52 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Smoke.T_FX_Smoke_Norm'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Beam_02_DIFF'
+}
+Expressions[39] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'WEP_BoltLauncher_1p.Effects.MAT_LauncherBeam.MaterialExpressionTextureSample_4'
+    Expressions[10] = MaterialExpressionTextureSampleParameter2D'WEP_BoltLauncher_1p.Effects.MAT_LauncherBeam.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[12] = MaterialExpressionTextureSample'WEP_BoltLauncher_1p.Effects.MAT_LauncherBeam.MaterialExpressionTextureSample_5'
+    Expressions[25] = MaterialExpressionVectorParameter'WEP_BoltLauncher_1p.Effects.MAT_LauncherBeam.MaterialExpressionVectorParameter_0'
+    Expressions[38] = MaterialExpressionVectorParameter'WEP_BoltLauncher_1p.Effects.MAT_LauncherBeam.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'FX_GeneralUse.Electric.T_Lightning_Beam_02_DIFF'
+        Name = lightning
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=5, G=25, B=100, A=1 }
+        Name = BeamColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=5000, A=1 }
+        Name = BeamColor2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

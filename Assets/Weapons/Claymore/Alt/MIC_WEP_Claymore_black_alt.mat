@@ -1,0 +1,5 @@
+Diffuse=claymore_black_dif_1p
+Normal=WEP_Claymore_nrm_1p
+Specular=claymore_spc_1p
+SpecPower=claymore_spc_1p
+Other[0]=claymore_dif_1p

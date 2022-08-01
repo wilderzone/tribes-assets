@@ -1,0 +1,112 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "ASE_Wep_AP_Mine_3p",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_AP_Mine_3p",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "ASE_Wep_AP_Mine_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "ASE_Wep_AP_Mine_3p.bin",
+      "byteLength" : 18624
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 2016
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 2016,
+      "byteLength" : 4152
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 6168,
+      "byteLength" : 4152
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 10320,
+      "byteLength" : 5536
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 15856,
+      "byteLength" : 2768
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 1008,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.109566, -0.001196, -0.109687 ],
+      "max" : [ 0.109566, 0.062384, 0.109687 ],
+      "componentType" : 5126,
+      "count" : 346,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 346,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 346,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 346,
+      "type" : "VEC2"
+    }
+  ]
+}

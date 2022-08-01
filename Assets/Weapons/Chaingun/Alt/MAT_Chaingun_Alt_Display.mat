@@ -1,0 +1,10 @@
+Diffuse=T_PFX_Clouds_Difference01
+Specular=chaingun_display_spc
+SpecPower=T_WEP_Shotgun_Screen_Spec
+Other[0]=T_WEP_Chaingun_Alt_Display
+Other[1]=T_FX_ScanLines01
+Other[2]=T_WEP_Shotgun_Screen
+Other[3]=T_WEP_Shotgun_Screen_Warning
+Other[4]=T_OneDigit_Sample
+Other[5]=T_TwoDigit_Sample
+Other[6]=T_RemoteArx_ScreenWarning

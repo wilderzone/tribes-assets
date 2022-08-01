@@ -1,0 +1,96 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_AssaultRifle_1p.Textures.T_Wep_AssaultRifle_NRM'
+    ReferencedTextures[1] = Texture2D'WEP_AssaultRifle_1p.Alt.T_Wep_AssaultRifle_Dif_Desert'
+    ReferencedTextures[2] = Texture2D'WEP_AssaultRifle_1p.Textures.T_Wep_AssaultRifle_SPC_Desert'
+    ReferencedTextures[3] = Texture2D'WEP_AssaultRifle_1p.Textures.T_Wep_AssaultRifle_cubemask'
+}
+Expressions[39] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[3] = MaterialExpressionScalarParameter'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionScalarParameter_3'
+    Expressions[4] = MaterialExpressionScalarParameter'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionScalarParameter_1'
+    Expressions[13] = MaterialExpressionVectorParameter'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionVectorParameter_0'
+    Expressions[15] = MaterialExpressionVectorParameter'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionVectorParameter_1'
+    Expressions[16] = MaterialExpressionTextureSampleParameter2D'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[21] = MaterialExpressionTextureSample'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionTextureSample_0'
+    Expressions[28] = MaterialExpressionVectorParameter'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionVectorParameter_2'
+    Expressions[32] = MaterialExpressionScalarParameter'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionScalarParameter_0'
+    Expressions[36] = MaterialExpressionVectorParameter'WEP_AssaultRifle_1p.Alt.MAT_WEP_AssaultRifle_Desert_1P.MaterialExpressionVectorParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_AssaultRifle_1p.Textures.T_Wep_AssaultRifle_NRM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_AssaultRifle_1p.Textures.T_Wep_AssaultRifle_SPC_Desert'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_AssaultRifle_1p.Textures.T_Wep_AssaultRifle_NRM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_AssaultRifle_1p.Alt.T_Wep_AssaultRifle_Dif_Desert'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=24, Name=Polymer_Gloss, Group=None }
+    CollectedScalarParameters[1] = { Value=12, Name=Metal_gloss, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Warning_Mode, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=6, G=5, B=5, A=1 }
+        Name = specular_color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.5, G=0.4, B=0.1, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.5, G=0.4, B=0.1, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Emissive_Color_Warning
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

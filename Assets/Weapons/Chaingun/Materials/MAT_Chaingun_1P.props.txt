@@ -1,0 +1,48 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Chaingun_1p.Textures.T_Wep_ChainGun_Norm'
+    ReferencedTextures[1] = Texture2D'WEP_Chaingun_1p.Textures.T_Wep_ChainGun_Dif'
+    ReferencedTextures[2] = Texture2D'WEP_Chaingun_1p.Textures.T_Wep_ChainGun_Spec'
+}
+Expressions[13] =
+{
+    Expressions[1] = MaterialExpressionVectorParameter'WEP_Chaingun_1p.Materials.MAT_Chaingun_1P.MaterialExpressionVectorParameter_5'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'WEP_Chaingun_1p.Materials.MAT_Chaingun_1P.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[6] = MaterialExpressionTextureSample'WEP_Chaingun_1p.Materials.MAT_Chaingun_1P.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionTextureSample'WEP_Chaingun_1p.Materials.MAT_Chaingun_1P.MaterialExpressionTextureSample_2'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'WEP_Chaingun_1p.Materials.MAT_Chaingun_1P.MaterialExpressionTextureSampleParameter2D_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=Diffuse, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_Chaingun_1p.Textures.T_Wep_ChainGun_Norm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.3, G=0.3, B=0.5, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

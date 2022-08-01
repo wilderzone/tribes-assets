@@ -1,0 +1,38 @@
+Parent = Material3'WEP_Claymore_1p.Materials.MAT_WEP_Claymore_1p'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = Diffuse_Intensity
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Claymore_1p.Alt.claymore_black_dif_1p'
+        ParameterName = Diffuse
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Claymore_1p.Textures.claymore_spc_1p'
+        ParameterName = Specular
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,57 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Claymore_1p.Textures.WEP_Claymore_nrm_1p'
+    ReferencedTextures[1] = Texture2D'WEP_Claymore_1p.Textures.claymore_dif_1p'
+    ReferencedTextures[2] = Texture2D'WEP_Claymore_1p.Textures.claymore_spc_1p'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_Claymore_1p.Materials.MAT_WEP_Claymore_1p.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_Claymore_1p.Materials.MAT_WEP_Claymore_1p.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'WEP_Claymore_1p.Materials.MAT_WEP_Claymore_1p.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[5] = MaterialExpressionScalarParameter'WEP_Claymore_1p.Materials.MAT_WEP_Claymore_1p.MaterialExpressionScalarParameter_0'
+    Expressions[6] = MaterialExpressionScalarParameter'WEP_Claymore_1p.Materials.MAT_WEP_Claymore_1p.MaterialExpressionScalarParameter_1'
+    Expressions[7] = MaterialExpressionScalarParameter'WEP_Claymore_1p.Materials.MAT_WEP_Claymore_1p.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Claymore_1p.Textures.WEP_Claymore_nrm_1p'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_Claymore_1p.Textures.claymore_dif_1p'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_Claymore_1p.Textures.claymore_spc_1p'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=SPC_pwer, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Spc_intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=Diffuse_Intensity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
