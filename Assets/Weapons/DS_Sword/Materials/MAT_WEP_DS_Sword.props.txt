@@ -1,0 +1,57 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_DS_Sword_1p.Textures.Wep_ds_sword_nrm'
+    ReferencedTextures[1] = Texture2D'WEP_DS_Sword_1p.Textures.Wep_DS_Sword_Dif'
+    ReferencedTextures[2] = Texture2D'WEP_DS_Sword_1p.Textures.Wep_DS_Sword_Spc'
+    ReferencedTextures[3] = Texture2D'WEP_DS_Sword_1p.Wep_DS_Sword_SpcPwr'
+}
+Expressions[9] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_DS_Sword_1p.Textures.MAT_WEP_DS_Sword.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_DS_Sword_1p.Textures.MAT_WEP_DS_Sword.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'WEP_DS_Sword_1p.Textures.MAT_WEP_DS_Sword.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'WEP_DS_Sword_1p.Textures.MAT_WEP_DS_Sword.MaterialExpressionTextureSampleParameter2D_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_DS_Sword_1p.Textures.Wep_DS_Sword_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_DS_Sword_1p.Textures.Wep_ds_sword_nrm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_DS_Sword_1p.Textures.Wep_DS_Sword_Spc'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_DS_Sword_1p.Wep_DS_Sword_SpcPwr'
+        Name = Specular_Power
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

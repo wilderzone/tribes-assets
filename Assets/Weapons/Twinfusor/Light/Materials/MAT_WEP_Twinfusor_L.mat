@@ -1,0 +1,6 @@
+Diffuse=T_WEP_Twinfusor_L_DIF
+Normal=T_WEP_Twinfusor_L_NORM
+SpecPower=T_WEP_Twinfusor_L_SPEC
+Other[0]=T_tempAR_cube
+Other[1]=T_WEP_Twinfusor_L_MASK
+Other[2]=T_PC_Brute_Spec

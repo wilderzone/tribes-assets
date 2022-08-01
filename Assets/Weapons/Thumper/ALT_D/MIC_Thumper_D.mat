@@ -1,0 +1,6 @@
+Diffuse=T_ThumperD_DIf
+Normal=T_ThumperD_Norm
+Specular=T_ThumperD_Spec
+SpecPower=thumper_spec
+Other[0]=thumper_bump
+Other[1]=thumper_diff

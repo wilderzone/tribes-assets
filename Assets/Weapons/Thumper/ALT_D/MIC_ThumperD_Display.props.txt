@@ -1,0 +1,118 @@
+Parent = Material3'WEP_AmmoDisplay_Master.MAT_Display_Master'
+ScalarParameterValues[8] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = SCAL_Screen_Brightness
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = SCAL_Depth_Ammo_Pool
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = Clouds_Highs_Brightness
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = Clouds_Lows_Brightness
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = ScanLine_Highs_Brightness
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.1
+        ParameterName = ScanLine_Lows_Brightness
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = Screen_BumpOffset_Numbers_Multiplyer
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = Screen_BumpOffset_Multiplyer
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Thumper_1p.Textures.WEP_display_generic_spec'
+        ParameterName = TEX_Specular
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Thumper_1p.ALT_D.WEP_ThumperD_Display'
+        ParameterName = Screen_Main
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Thumper_1p.ALT_D.WEP_ThumperD_Display_warning'
+        ParameterName = Screen_Warning
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0, G=-0.06, B=0, A=1 }
+        ParameterName = Ammo_Pool_Location
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0, G=-0.06, B=0, A=1 }
+        ParameterName = Warning_Ammo_Pool_Location
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1, G=1, B=0, A=1 }
+        ParameterName = Scale_ScanLine
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.7, G=1.7, B=0, A=1 }
+        ParameterName = Warning_Ammo_Pool_Scale
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.7, G=1.7, B=0, A=1 }
+        ParameterName = Ammo_Pool_Scale
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

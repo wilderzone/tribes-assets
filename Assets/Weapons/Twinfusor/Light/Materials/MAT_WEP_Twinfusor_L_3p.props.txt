@@ -1,0 +1,33 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Twinfusor_3p.Light.Textures.T_WEP_Twinfusor_L_3p_DIF'
+}
+Expressions[5] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_3p.Light.Materials.MAT_WEP_Twinfusor_L_3p.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_3p.Light.Textures.T_WEP_Twinfusor_L_3p_DIF'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

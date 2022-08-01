@@ -1,0 +1,5 @@
+Diffuse=NovaBlaster_Dif
+Normal=NovaColt_Norm
+SpecPower=NovaColt_Spec
+Other[0]=T_tempAR_cube
+Other[1]=T_NovaBlaster_Ao

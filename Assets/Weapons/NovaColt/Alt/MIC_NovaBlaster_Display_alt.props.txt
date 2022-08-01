@@ -1,0 +1,30 @@
+Parent = MaterialInstanceConstant'WEP_NovaColt_1p.Materials.MAT_NovaBlaster_Display'
+ScalarParameterValues[0] = {}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_NovaColt_1p.Alt.wep_blaster_display_alt'
+        ParameterName = Screen_Main
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_NovaColt_1p.Blaster.blaster_display_warning'
+        ParameterName = Screen_Warning
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

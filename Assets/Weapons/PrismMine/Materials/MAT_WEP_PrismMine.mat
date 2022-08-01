@@ -1,0 +1,5 @@
+Diffuse=T_PFX_Clouds_Difference01
+Normal=prismmine_nrm
+SpecPower=prismmine_spc
+Other[0]=prismmine_msk
+Other[1]=prismmine_dif

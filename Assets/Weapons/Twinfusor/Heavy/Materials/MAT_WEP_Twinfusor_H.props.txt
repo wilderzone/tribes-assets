@@ -1,0 +1,119 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_NORM'
+    ReferencedTextures[1] = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_SPEC'
+    ReferencedTextures[2] = TextureCube3'WEP_AssaultRifle_1p.Textures.T_tempAR_cube'
+    ReferencedTextures[3] = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_MASK'
+    ReferencedTextures[4] = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_DIF'
+}
+Expressions[56] =
+{
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[15] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_12'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[21] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_15'
+    Expressions[33] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_16'
+    Expressions[37] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_17'
+    Expressions[41] = MaterialExpressionVectorParameter'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionVectorParameter_1'
+    Expressions[43] = MaterialExpressionScalarParameter'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionScalarParameter_1'
+    Expressions[44] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_19'
+    Expressions[46] = MaterialExpressionScalarParameter'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionScalarParameter_0'
+    Expressions[47] = MaterialExpressionTextureSample'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSample_0'
+    Expressions[48] = MaterialExpressionTextureSampleParameter2D'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[49] = MaterialExpressionTextureSample'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSample_1'
+    Expressions[50] = MaterialExpressionVectorParameter'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionVectorParameter_2'
+    Expressions[54] = MaterialExpressionTextureSample'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSample_3'
+    Expressions[55] = MaterialExpressionTextureSample'WEP_Twinfusor_1p.Heavy.Materials.MAT_WEP_Twinfusor_H.MaterialExpressionTextureSample_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_NORM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_SPEC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_NORM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_SPEC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_SPEC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_SPEC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_NORM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_SPEC'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'WEP_Twinfusor_1p.Heavy.Textures.T_WEP_Twinfusor_H_DIF'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1.3, Name=Emissive_Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=FresnelBrightness, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=1, B=0.1, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=10, G=1, B=0.1, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

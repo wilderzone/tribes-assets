@@ -1,0 +1,57 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_SpikeLauncher_1p.Textures.wep_gladiator_nrm'
+    ReferencedTextures[1] = Texture2D'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif'
+    ReferencedTextures[2] = Texture2D'WEP_SpikeLauncher_1p.Textures.wep_gladiator_spc'
+}
+Expressions[20] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif_Mat.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif_Mat.MaterialExpressionTextureSample_2'
+    Expressions[6] = MaterialExpressionTextureSample'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif_Mat.MaterialExpressionTextureSample_6'
+    Expressions[8] = MaterialExpressionVectorParameter'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[10] = MaterialExpressionTextureSample'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif_Mat.MaterialExpressionTextureSample_1'
+    Expressions[14] = MaterialExpressionScalarParameter'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[18] = MaterialExpressionVectorParameter'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[19] = MaterialExpressionVectorParameter'WEP_SpikeLauncher_1p.Textures.wep_gladiator_dif_Mat.MaterialExpressionVectorParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Warning_Mode, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=4, B=3, A=1 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.1, G=3, B=3, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Emissive_Color_Warning
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

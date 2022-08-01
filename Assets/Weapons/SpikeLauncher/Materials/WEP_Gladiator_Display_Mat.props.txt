@@ -1,0 +1,82 @@
+Parent = Material3'WEP_AmmoDisplay_Master.MAT_Display_Master'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = SCAL_Depth_Ammo_Clip
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = SCAL_Warning_DepthOffset
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = SCAL_Depth_Ammo_Pool
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = Screen_BumpOffset_Multiplyer
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_AmmoDisplay_Master.Textures.WEP_display_generic_spec'
+        ParameterName = TEX_Specular
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_SpikeLauncher_1p.Textures.wep_gladiator_ammo_display'
+        ParameterName = Screen_Main
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_SpikeLauncher_1p.Textures.wep_gladiator_ammo_display_warning'
+        ParameterName = Screen_Warning
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=2, G=2, B=0, A=1 }
+        ParameterName = Scale_ScanLine
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.8, G=1.7, B=0, A=1 }
+        ParameterName = Warning_Ammo_Pool_Scale
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.8, G=1.7, B=0, A=1 }
+        ParameterName = Ammo_Pool_Scale
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

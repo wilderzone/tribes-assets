@@ -1,0 +1,176 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_WEP_TwinFusor_3p",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "R_WEP_root",
+      "translation" : [ -4.76837e-08, -3.8147e-08, -0 ],
+      "rotation" : [ 2.38419e-07, -2.38302e-07, -2.79395e-09, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_WEP_Twinfusor_H_3p",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7,
+            "TEXCOORD_1" : 8
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_WEP_TwinFusor_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_WEP_TwinFusor_3p.bin",
+      "byteLength" : 171304
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 64
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 64,
+      "byteLength" : 11984
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 12048,
+      "byteLength" : 28104
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 40152,
+      "byteLength" : 28104
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 68256,
+      "byteLength" : 37472
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 105728,
+      "byteLength" : 18736
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 124464,
+      "byteLength" : 9368
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 133832,
+      "byteLength" : 18736
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 152568,
+      "byteLength" : 18736
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 1,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 5991,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0973382, -0.0416339, -0.0414976 ],
+      "max" : [ 0.341607, 0.12795, 0.0323831 ],
+      "componentType" : 5126,
+      "count" : 2342,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2342,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2342,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 2342,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2342,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 2342,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 2342,
+      "type" : "VEC2"
+    }
+  ]
+}

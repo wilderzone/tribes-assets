@@ -1,0 +1,36 @@
+Parent = Material3'WEP_Thumper_1p.Materials.MAT_Thumper'
+ScalarParameterValues[0] = {}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Thumper_1p.ALT_D.T_ThumperD_DIf'
+        ParameterName = Diffuse
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Thumper_1p.ALT_D.T_ThumperD_Spec'
+        ParameterName = Specular
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Thumper_1p.ALT_D.T_ThumperD_Norm'
+        ParameterName = Normal
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

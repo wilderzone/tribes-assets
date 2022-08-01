@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Thumper_1p.ALT_D.T_ThumperD_Norm'
+    ReferencedTextures[1] = Texture2D'WEP_Thumper_1p.Alt.WEP_ThumperD_dif_alt'
+    ReferencedTextures[2] = Texture2D'WEP_Thumper_1p.Alt.WEP_ThumperD_spc_alt'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_Thumper_1p.Alt.WEP_ThumperD_dif_alt_Mat.MaterialExpressionTextureSample_17'
+    Expressions[5] = MaterialExpressionTextureSample'WEP_Thumper_1p.Alt.WEP_ThumperD_dif_alt_Mat.MaterialExpressionTextureSample_19'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'WEP_Thumper_1p.Alt.WEP_ThumperD_dif_alt_Mat.MaterialExpressionTextureSampleParameter2D_17'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Thumper_1p.ALT_D.T_ThumperD_Norm'
+        Name = MaterialExpressionTextureSampleParameter2D_17
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

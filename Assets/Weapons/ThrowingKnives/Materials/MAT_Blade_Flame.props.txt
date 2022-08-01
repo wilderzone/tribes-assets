@@ -1,0 +1,30 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Gradients.T_PFX_Gradient_SmoothEnds'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Fire.T_PFX_Fire_Horz'
+}
+Expressions[43] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'WEP_ThrowingKnives_3p.Materials.MAT_Blade_Flame.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'WEP_ThrowingKnives_3p.Materials.MAT_Blade_Flame.MaterialExpressionTextureSample_2'
+    Expressions[11] = MaterialExpressionTextureSample'WEP_ThrowingKnives_3p.Materials.MAT_Blade_Flame.MaterialExpressionTextureSample_4'
+    Expressions[23] = MaterialExpressionTextureSample'WEP_ThrowingKnives_3p.Materials.MAT_Blade_Flame.MaterialExpressionTextureSample_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

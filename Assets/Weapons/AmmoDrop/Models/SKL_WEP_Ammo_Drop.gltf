@@ -1,0 +1,164 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_WEP_Ammo_Drop",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "translation" : [ 0, 0, -1.46791e-11 ],
+      "rotation" : [ -0.502342, -0.497647, -0.497647, -0.502342 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_Ammo_Drop",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_WEP_Ammo_Drop"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_WEP_Ammo_Drop.bin",
+      "byteLength" : 110248
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 64
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 64,
+      "byteLength" : 10824
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 10888,
+      "byteLength" : 19872
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 30760,
+      "byteLength" : 19872
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 50632,
+      "byteLength" : 26496
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 77128,
+      "byteLength" : 13248
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 90376,
+      "byteLength" : 6624
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 97000,
+      "byteLength" : 13248
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 1,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 5412,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0862189, -0.102173, -0.044249 ],
+      "max" : [ 0.0864174, 0.11366, 0.044249 ],
+      "componentType" : 5126,
+      "count" : 1656,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1656,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1656,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 1656,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1656,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 1656,
+      "type" : "VEC2"
+    }
+  ]
+}

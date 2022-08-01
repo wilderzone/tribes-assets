@@ -1,0 +1,5 @@
+Diffuse=T_NovaBlaster_Dif
+Normal=T_NovaBlaster_Norm
+SpecPower=T_NovaBlaster_Spinner
+Other[0]=WEP_Nova_blaster_addons_alt_dif
+Other[1]=WEP_Nova_blaster_addons_alt_spc

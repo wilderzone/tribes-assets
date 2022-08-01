@@ -1,0 +1,13 @@
+Diffuse=T_PFX_Clouds_Difference01
+Specular=wep_nova_colt_ammo_display_SPC
+SpecPower=T_WEP_Shotgun_Screen_Spec
+Other[0]=wep_blaster_display_alt
+Other[1]=blaster_display_warning
+Other[2]=wep_nova_colt_ammo_display
+Other[3]=wep_nova_colt_ammo_display_warning
+Other[4]=T_FX_ScanLines01
+Other[5]=T_WEP_Shotgun_Screen
+Other[6]=T_WEP_Shotgun_Screen_Warning
+Other[7]=T_OneDigit_Sample
+Other[8]=T_TwoDigit_Sample
+Other[9]=T_RemoteArx_ScreenWarning

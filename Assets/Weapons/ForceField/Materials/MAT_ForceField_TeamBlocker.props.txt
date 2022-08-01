@@ -1,0 +1,80 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Clouds.T_PFX_CloudsFractal_01'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Smoke.T_SmokeTrail_02_NRM'
+}
+Expressions[89] =
+{
+    Expressions[4] = MaterialExpressionVectorParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionVectorParameter_0'
+    Expressions[5] = MaterialExpressionVectorParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionVectorParameter_2'
+    Expressions[6] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionTextureSample'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionTextureSample_0'
+    Expressions[14] = MaterialExpressionVectorParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionVectorParameter_6'
+    Expressions[31] = MaterialExpressionTextureSample'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionTextureSample_2'
+    Expressions[39] = MaterialExpressionTextureSample'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionTextureSample_5'
+    Expressions[56] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_1'
+    Expressions[58] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_3'
+    Expressions[61] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_5'
+    Expressions[65] = MaterialExpressionVectorParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionVectorParameter_1'
+    Expressions[67] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_7'
+    Expressions[69] = MaterialExpressionTextureSample'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionTextureSample_6'
+    Expressions[73] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_9'
+    Expressions[75] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_11'
+    Expressions[81] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_13'
+    Expressions[84] = MaterialExpressionScalarParameter'DEP_ForceField_3p.Materials.MAT_ForceField_TeamBlocker.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Health, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Hit, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Hit, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=bBlocker, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=HitPlayer, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=bBlocker, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=HitPlayer, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=bBlocker, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1.2, B=1.8, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.025, B=0.1, A=1 }
+        Name = AddColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=1, B=3, A=1 }
+        Name = EdgeColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=2, G=0.025, B=0, A=1 }
+        Name = HitPlayerColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
