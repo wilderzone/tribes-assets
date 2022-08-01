@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Orb_Shell_01'
+}
+Expressions[28] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ExplosiveWad.MaterialExpressionVectorParameter_2'
+    Expressions[8] = MaterialExpressionTextureSample'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ExplosiveWad.MaterialExpressionTextureSample_6'
+    Expressions[14] = MaterialExpressionTextureSample'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ExplosiveWad.MaterialExpressionTextureSample_7'
+    Expressions[21] = MaterialExpressionTextureSample'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ExplosiveWad.MaterialExpressionTextureSample_8'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=3, G=0.1, B=0, A=1 }
+        Name = Emissive
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

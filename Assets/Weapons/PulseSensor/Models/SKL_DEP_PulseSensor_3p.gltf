@@ -1,0 +1,187 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_DEP_PulseSensor_3p",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "DEP_Root",
+      "children" : [ 2, 4 ],
+      "translation" : [ 0, 0, -4.64335e-11 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "DEP_topSpin_pt",
+      "children" : [ 3 ],
+      "translation" : [ 4.64323e-11, 0.232753, -1.29627e-09 ],
+      "rotation" : [ 2.95028e-07, -0.707107, 0.707107, 2.95028e-07 ]
+    },
+    {
+      "name" : "DEP_topSpin",
+      "translation" : [ 1.86517e-16, 0, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "DEP_centerSpin_pt",
+      "children" : [ 5 ],
+      "translation" : [ 2.51399e-08, 0.180212, -1.89801e-15 ],
+      "rotation" : [ 3.58248e-07, -0.707107, 0.707107, -1.05367e-08 ]
+    },
+    {
+      "name" : "DEP_centerSpin",
+      "translation" : [ -2.72848e-14, 1.90735e-08, -0 ],
+      "rotation" : [ -0, -0, -4.44114e-16, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_DEP_PulseSensor_3p",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_DEP_PulseSensor_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_DEP_PulseSensor_3p.bin",
+      "byteLength" : 69512
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 320
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 320,
+      "byteLength" : 6672
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 6992,
+      "byteLength" : 12504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 19496,
+      "byteLength" : 12504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 32000,
+      "byteLength" : 16672
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 48672,
+      "byteLength" : 8336
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 57008,
+      "byteLength" : 4168
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 61176,
+      "byteLength" : 8336
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 5,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 3336,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.235442, -0.000933361, -0.235442 ],
+      "max" : [ 0.235442, 0.266817, 0.235442 ],
+      "componentType" : 5126,
+      "count" : 1042,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1042,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1042,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 1042,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1042,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 1042,
+      "type" : "VEC2"
+    }
+  ]
+}

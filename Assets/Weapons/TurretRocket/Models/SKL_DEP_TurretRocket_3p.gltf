@@ -1,0 +1,255 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_DEP_TurretRocket_3p",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "R_WEP_root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, -4.64335e-11 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "R_WEP_CoM",
+      "children" : [ 3 ],
+      "translation" : [ 2.11819e-09, 0, -3.02027e-16 ],
+      "rotation" : [ -1.05367e-08, -0.707107, 3.16101e-08, -0.707107 ]
+    },
+    {
+      "name" : "R_WEP_base",
+      "children" : [ 4, 17 ],
+      "translation" : [ 4.73451e-17, -2.52507e-16, -2.11819e-09 ],
+      "rotation" : [ -2.42344e-07, 0.707107, -2.31808e-07, -0.707107 ]
+    },
+    {
+      "name" : "DEP_base",
+      "children" : [ 5, 7, 9, 11 ],
+      "translation" : [ -1.06466e-08, 0.17697, -1.12124e-07 ],
+      "rotation" : [ 2.38419e-07, 8.88179e-15, -1.42109e-14, -1 ]
+    },
+    {
+      "name" : "DEP_legRight_pt",
+      "children" : [ 6 ],
+      "translation" : [ 0.159391, 0.0105466, -0.276282 ],
+      "rotation" : [ 0.179505, 0.179505, -0.683943, -0.683943 ]
+    },
+    {
+      "name" : "DEP_legRight",
+      "translation" : [ 0, -9.53674e-09, -0 ],
+      "rotation" : [ -7.45058e-08, 1.67723e-08, 7.34127e-08, -1 ]
+    },
+    {
+      "name" : "DEP_legFront_pt",
+      "children" : [ 8 ],
+      "translation" : [ -0.318963, 0.0105466, 0.00010442 ],
+      "rotation" : [ -0.5, -0.5, -0.5, -0.5 ]
+    },
+    {
+      "name" : "DEP_legFront",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -6.07587e-22, -0, 0, -1 ]
+    },
+    {
+      "name" : "DEP_legLeft_pt",
+      "children" : [ 10 ],
+      "translation" : [ 0.159572, 0.0105466, 0.276178 ],
+      "rotation" : [ -0.683004, -0.683004, 0.183045, 0.183044 ]
+    },
+    {
+      "name" : "DEP_legLeft",
+      "translation" : [ 0, 9.53674e-09, -1.90735e-08 ],
+      "rotation" : [ 1.49012e-08, 2.5807e-08, -7.25111e-08, -1 ]
+    },
+    {
+      "name" : "DEP_gunRotate_pt",
+      "children" : [ 12 ],
+      "translation" : [ -2.64573e-09, 0.178563, -3.48147e-09 ],
+      "rotation" : [ 1.94929e-07, -0.707107, 0.707107, 2.05466e-07 ]
+    },
+    {
+      "name" : "DEP_gunRotate",
+      "children" : [ 13 ],
+      "translation" : [ -3.13639e-11, -3.13571e-11, -0 ],
+      "rotation" : [ -0, -0, -8.88179e-16, -1 ]
+    },
+    {
+      "name" : "DEP_gunPivot_pt",
+      "children" : [ 14 ],
+      "translation" : [ 0.00174433, -6.44254e-10, -0.38245 ],
+      "rotation" : [ -2.23517e-08, -2.23518e-08, 2.23517e-08, -1 ]
+    },
+    {
+      "name" : "DEP_gunPivot",
+      "children" : [ 15, 16 ],
+      "translation" : [ 0, -1.41481e-10, -0 ],
+      "rotation" : [ -0, -0, 1.11022e-15, -1 ]
+    },
+    {
+      "name" : "DEP_gunPivotRight",
+      "translation" : [ 8.76188e-08, -0.14, -0 ],
+      "rotation" : [ -0, -0, 1.11022e-15, -1 ]
+    },
+    {
+      "name" : "DEP_gunPivotLeft",
+      "translation" : [ -8.76188e-08, 0.14, -0 ],
+      "rotation" : [ -0, -0, 1.11022e-15, -1 ]
+    },
+    {
+      "name" : "DEP_aimTarget",
+      "translation" : [ 4.64335e-11, -6.91916e-19, 4.60616e-20 ],
+      "rotation" : [ 2.38419e-07, -8.9407e-08, 2.30926e-14, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_DEP_RocketTurret_3p",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_DEP_TurretRocket_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_DEP_TurretRocket_3p.bin",
+      "byteLength" : 370384
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1088
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1088,
+      "byteLength" : 31196
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 32284,
+      "byteLength" : 67620
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 99904,
+      "byteLength" : 67620
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 167524,
+      "byteLength" : 90160
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 257684,
+      "byteLength" : 45080
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 302764,
+      "byteLength" : 22540
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 325304,
+      "byteLength" : 45080
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 17,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 15597,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.613195, 0.0012908, -0.678022 ],
+      "max" : [ 0.612899, 0.806488, 0.393476 ],
+      "componentType" : 5126,
+      "count" : 5635,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 5635,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 5635,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 5635,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 5635,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 5635,
+      "type" : "VEC2"
+    }
+  ]
+}

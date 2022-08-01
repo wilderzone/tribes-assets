@@ -1,0 +1,105 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[12] =
+{
+    ReferencedTextures[0] = Texture2D'DEP_MotionSensor_3p.Textures.T_DEP_MotionSensor_3p_Norm'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.DamageTile.T_Damage_Norm'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Orb_Shell_01'
+    ReferencedTextures[3] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[4] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Beam_02_DIFF'
+    ReferencedTextures[5] = Texture2D'DEP_MotionSensor_3p.Textures.T_DEP_MotionSensor_3p_Emis'
+    ReferencedTextures[6] = Texture2D'DEP_MotionSensor_3p.Textures.T_DEP_MotionSensor_3p_Dif'
+    ReferencedTextures[7] = Texture2D'FX_GeneralUse.DamageTile.T_Damage_Dif'
+    ReferencedTextures[8] = Texture2D'DEP_MotionSensor_3p.Textures.T_DEP_MotionSensor_3p_Spec'
+    ReferencedTextures[9] = Texture2D'DEP_TurretHeavy_3p.Textures.T_HeavyTurret_Dif'
+    ReferencedTextures[10] = Texture2D'DEP_TurretHeavy_3p.Textures.T_HeavyTurret_Emi'
+    ReferencedTextures[11] = Texture2D'DEP_TurretHeavy_3p.Textures.T_HeavyTurret_Spec'
+}
+Expressions[79] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSampleParameter2D_11'
+    Expressions[2] = MaterialExpressionVectorParameter'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionVectorParameter_2'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSampleParameter2D_12'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[6] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_18'
+    Expressions[11] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_19'
+    Expressions[13] = MaterialExpressionScalarParameter'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionScalarParameter_6'
+    Expressions[19] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_20'
+    Expressions[26] = MaterialExpressionVectorParameter'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionVectorParameter_3'
+    Expressions[31] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_21'
+    Expressions[40] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_23'
+    Expressions[44] = MaterialExpressionScalarParameter'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionScalarParameter_7'
+    Expressions[48] = MaterialExpressionVectorParameter'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionVectorParameter_8'
+    Expressions[49] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_33'
+    Expressions[60] = MaterialExpressionScalarParameter'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionScalarParameter_8'
+    Expressions[65] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_34'
+    Expressions[72] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_35'
+    Expressions[77] = MaterialExpressionTextureSample'DEP_MotionSensor_3p.Materials.MAT_DEP_MotionSensor_3p.MaterialExpressionTextureSample_36'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'DEP_MotionSensor_3p.Textures.T_DEP_MotionSensor_3p_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'DEP_MotionSensor_3p.Textures.T_DEP_MotionSensor_3p_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'DEP_MotionSensor_3p.Textures.T_DEP_MotionSensor_3p_Emis'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'DEP_MotionSensor_3p.Textures.T_DEP_MotionSensor_3p_Norm'
+        Name = Normals
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Health, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Health, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SCL_ShieldOpacity, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.3, G=2.4, B=1, A=1 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=20, G=0, B=0, A=1 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1.5, G=7.5, B=16, A=1 }
+        Name = Flash
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

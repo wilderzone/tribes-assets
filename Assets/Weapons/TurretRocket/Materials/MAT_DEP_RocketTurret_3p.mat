@@ -1,0 +1,4 @@
+Diffuse=DEP_RocketTurret_DIF
+Normal=DEP_RocketTurret_NRM
+SpecPower=DEP_RocketTurret_SPC
+Other[0]=T_tempAR_cube

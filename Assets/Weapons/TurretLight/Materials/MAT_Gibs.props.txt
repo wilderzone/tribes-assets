@@ -1,0 +1,71 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_NRM'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.DamageTile.T_Damage_Norm'
+    ReferencedTextures[2] = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_Dif'
+    ReferencedTextures[3] = Texture2D'FX_GeneralUse.DamageTile.T_Damage_Dif'
+    ReferencedTextures[4] = Texture2D'GEN_BaseGenerator.Textures.T_BaseGen_Damaged_BT'
+    ReferencedTextures[5] = Texture2D'GEN_BaseGenerator.Textures.T_BaseGen_Damaged_FLR'
+}
+Expressions[60] =
+{
+    Expressions[4] = MaterialExpressionScalarParameter'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionScalarParameter_25'
+    Expressions[6] = MaterialExpressionTextureSample'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionTextureSample_14'
+    Expressions[9] = MaterialExpressionScalarParameter'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionScalarParameter_26'
+    Expressions[13] = MaterialExpressionScalarParameter'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionScalarParameter_27'
+    Expressions[15] = MaterialExpressionScalarParameter'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionScalarParameter_28'
+    Expressions[16] = MaterialExpressionTextureSample'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionTextureSample_15'
+    Expressions[20] = MaterialExpressionScalarParameter'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionScalarParameter_29'
+    Expressions[22] = MaterialExpressionTextureSample'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionTextureSample_16'
+    Expressions[27] = MaterialExpressionTextureSample'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionTextureSample_19'
+    Expressions[32] = MaterialExpressionTextureSample'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionTextureSample_25'
+    Expressions[45] = MaterialExpressionScalarParameter'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionScalarParameter_0'
+    Expressions[57] = MaterialExpressionTextureSampleParameter2D'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[58] = MaterialExpressionTextureSampleParameter2D'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[59] = MaterialExpressionTextureSampleParameter2D'DEP_TurretLight_3p.Materials.MAT_Gibs.MaterialExpressionTextureSampleParameter2D_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_SPC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_NRM'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=SCL_Damage_Back, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=SCL_Damage_Top, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SCL_Damage_Front, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=SCL_Damage_Left, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=SCL_Damage_Right, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Visible, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

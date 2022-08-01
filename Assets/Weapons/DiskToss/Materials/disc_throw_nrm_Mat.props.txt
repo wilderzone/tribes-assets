@@ -1,0 +1,58 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_DiskToss_1p.Textures.disc_throw_nrm'
+    ReferencedTextures[1] = Texture2D'WEP_DiskToss_1p.Textures.disc_throw_dif'
+    ReferencedTextures[2] = Texture2D'WEP_DiskToss_1p.Textures.disc_throw_spc'
+}
+Expressions[10] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_DiskToss_1p.Textures.disc_throw_nrm_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_DiskToss_1p.Textures.disc_throw_nrm_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_DiskToss_1p.Textures.disc_throw_nrm_Mat.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[9] = MaterialExpressionVectorParameter'WEP_DiskToss_1p.Textures.disc_throw_nrm_Mat.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_DiskToss_1p.Textures.disc_throw_nrm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_DiskToss_1p.Textures.disc_throw_spc'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_DiskToss_1p.Textures.disc_throw_dif'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.05, G=0.3, B=2, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

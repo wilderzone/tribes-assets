@@ -1,0 +1,7 @@
+Diffuse=WEP_ArxBuster_Nickel_DIF
+Normal=WEP_ArxBuster_Clean_Nrm
+Specular=WEP_ArxBuster_Nickel_DIF
+SpecPower=WEP_ArxBuster_SPC
+Other[0]=WEP_ArxBuster_nrm
+Other[1]=T_ArxBuster_Emi
+Other[2]=WEP_ArxBuster_DIF

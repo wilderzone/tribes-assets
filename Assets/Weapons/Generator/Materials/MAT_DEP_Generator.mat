@@ -1,0 +1,4 @@
+Diffuse=T_Dep_Gen_Dif
+Normal=T_Dep_Gen_Norm
+SpecPower=T_Dep_Gen_Spec
+Other[0]=T_Dep_Gen_Emi

@@ -1,0 +1,34 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_ArxBuster_3p.Effects.T_Arx_Buster_Projectile'
+}
+Expressions[23] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_ArxBuster_3p.Effects.MAT_Projectile.MaterialExpressionTextureSample_0'
+    Expressions[22] = MaterialExpressionVectorParameter'WEP_ArxBuster_3p.Effects.MAT_Projectile.MaterialExpressionVectorParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=25, G=0.2, B=0, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

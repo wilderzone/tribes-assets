@@ -1,0 +1,188 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_DEV_MotionSensor_3p",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "R_WEP_root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, -4.64335e-11 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "R_WEP_CoM",
+      "children" : [ 3 ],
+      "translation" : [ 4.64335e-11, 0, -5.5353e-18 ],
+      "rotation" : [ -3.72529e-08, -1.32349e-23, 7.45059e-09, -1 ]
+    },
+    {
+      "name" : "R_WEP_base",
+      "children" : [ 4 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -2.75671e-07, -5.96046e-08, -7.45056e-09, -1 ]
+    },
+    {
+      "name" : "DEP_spin_pt",
+      "children" : [ 5 ],
+      "translation" : [ 0.0479317, 0.152374, -9.08617e-08 ],
+      "rotation" : [ 3.79322e-07, -0.707107, 0.707107, 4.2147e-08 ]
+    },
+    {
+      "name" : "DEP_spin",
+      "translation" : [ 0, 1.90735e-08, 9.53674e-09 ],
+      "rotation" : [ -4.81482e-34, -7.10543e-15, -3.55754e-20, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MIC_DEP_MotionSensor_3p",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_DEV_MotionSensor_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_DEV_MotionSensor_3p.bin",
+      "byteLength" : 296144
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 320
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 320,
+      "byteLength" : 27324
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 27644,
+      "byteLength" : 53700
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 81344,
+      "byteLength" : 53700
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 135044,
+      "byteLength" : 71600
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 206644,
+      "byteLength" : 35800
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 242444,
+      "byteLength" : 17900
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 260344,
+      "byteLength" : 35800
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 5,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 13662,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.335636, -0.00155848, -0.321337 ],
+      "max" : [ 0.335636, 0.698773, 0.303346 ],
+      "componentType" : 5126,
+      "count" : 4475,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 4475,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 4475,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 4475,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 4475,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 4475,
+      "type" : "VEC2"
+    }
+  ]
+}

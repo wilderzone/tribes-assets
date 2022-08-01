@@ -1,0 +1,55 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_ArxBuster_1p.WEP_ArxBuster_nrm'
+    ReferencedTextures[1] = Texture2D'WEP_ArxBuster_1p.ALT_REMOTE.T_ArxBuster_AltRemote_Dif'
+    ReferencedTextures[2] = Texture2D'WEP_ArxBuster_1p.ALT_REMOTE.T_ArxBuster_AltRemote_Spec'
+}
+Expressions[8] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ArxBuster_1p.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ArxBuster_1p.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ArxBuster_1p.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[5] = MaterialExpressionScalarParameter'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ArxBuster_1p.MaterialExpressionScalarParameter_4'
+    Expressions[6] = MaterialExpressionScalarParameter'WEP_ArxBuster_1p.ALT_REMOTE.MAT_ArxBuster_1p.MaterialExpressionScalarParameter_6'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_ArxBuster_1p.ALT_REMOTE.T_ArxBuster_AltRemote_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_ArxBuster_1p.WEP_ArxBuster_nrm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_ArxBuster_1p.ALT_REMOTE.T_ArxBuster_AltRemote_Spec'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=Diff_intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1.5, Name=SPEC_INTENSITY, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

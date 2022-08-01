@@ -1,0 +1,75 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'DEP_TurretHeavy_3p.Textures.T_HeavyTurret_Norm'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.DamageTile.T_Damage_Norm'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Orb_Shell_01'
+    ReferencedTextures[3] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[4] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Beam_02_DIFF'
+    ReferencedTextures[5] = Texture2D'DEP_TurretHeavy_3p.Textures.T_HeavyTurret_Emi'
+    ReferencedTextures[6] = Texture2D'DEP_TurretHeavy_3p.Textures.T_HeavyTurret_Dif'
+    ReferencedTextures[7] = Texture2D'FX_GeneralUse.DamageTile.T_Damage_Dif'
+    ReferencedTextures[8] = Texture2D'DEP_TurretHeavy_3p.Textures.T_HeavyTurret_Spec'
+}
+Expressions[77] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_1'
+    Expressions[2] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_2'
+    Expressions[3] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_3'
+    Expressions[12] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_6'
+    Expressions[20] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_7'
+    Expressions[26] = MaterialExpressionScalarParameter'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionScalarParameter_0'
+    Expressions[30] = MaterialExpressionVectorParameter'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionVectorParameter_0'
+    Expressions[39] = MaterialExpressionScalarParameter'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionScalarParameter_2'
+    Expressions[43] = MaterialExpressionVectorParameter'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionVectorParameter_5'
+    Expressions[45] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_15'
+    Expressions[59] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_16'
+    Expressions[67] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_17'
+    Expressions[72] = MaterialExpressionTextureSampleParameter2D'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[73] = MaterialExpressionScalarParameter'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionScalarParameter_4'
+    Expressions[76] = MaterialExpressionTextureSample'DEP_TurretHeavy_3p.Materials.MAT_HeavyTurret.MaterialExpressionTextureSample_19'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'GEN_BaseGenerator.Old.T_Common_Station_Generator_01_NRM'
+        Name = NormalMap
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Health, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Health, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SCL_ShieldOpacity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=20, G=0, B=0, A=1 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1.5, G=7.5, B=16, A=1 }
+        Name = Flash
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

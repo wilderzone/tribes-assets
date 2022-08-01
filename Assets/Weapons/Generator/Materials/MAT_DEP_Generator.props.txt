@@ -1,0 +1,31 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'DEP_Generator_3p.Textures.T_Dep_Gen_Norm'
+    ReferencedTextures[1] = Texture2D'DEP_Generator_3p.Textures.T_Dep_Gen_Emi'
+    ReferencedTextures[2] = Texture2D'DEP_Generator_3p.Textures.T_Dep_Gen_Dif'
+    ReferencedTextures[3] = Texture2D'DEP_Generator_3p.Textures.T_Dep_Gen_Spec'
+}
+Expressions[13] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'DEP_Generator_3p.Materials.MAT_DEP_Generator.MaterialExpressionTextureSample_1'
+    Expressions[2] = MaterialExpressionTextureSample'DEP_Generator_3p.Materials.MAT_DEP_Generator.MaterialExpressionTextureSample_2'
+    Expressions[3] = MaterialExpressionTextureSample'DEP_Generator_3p.Materials.MAT_DEP_Generator.MaterialExpressionTextureSample_3'
+    Expressions[4] = MaterialExpressionTextureSample'DEP_Generator_3p.Materials.MAT_DEP_Generator.MaterialExpressionTextureSample_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

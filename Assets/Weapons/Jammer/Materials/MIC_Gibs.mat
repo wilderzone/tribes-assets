@@ -1,0 +1,8 @@
+Diffuse=DEP_Jammer_DIF
+Normal=DEP_Jammer_NRM
+Other[0]=T_Wep_LightTurret_NRM
+Other[1]=T_Damage_Norm
+Other[2]=T_Wep_LightTurret_Dif
+Other[3]=T_Damage_Dif
+Other[4]=T_BaseGen_Damaged_BT
+Other[5]=T_BaseGen_Damaged_FLR

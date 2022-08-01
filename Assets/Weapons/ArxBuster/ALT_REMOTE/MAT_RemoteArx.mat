@@ -1,0 +1,5 @@
+Diffuse=T_PFX_Clouds_Difference01
+Normal=T_RemoteArx_Norm
+SpecPower=T_RemoteArx_Spec
+Other[0]=T_Lightning_Orb_Shell_01
+Other[1]=T_RemoteArx_Dif

@@ -1,0 +1,221 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_DEP_Jammer_3p",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "R_WEP_root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, -4.64335e-11 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "R_WEP_CoM",
+      "children" : [ 3 ],
+      "translation" : [ 0.03429, 0, -4.08769e-09 ],
+      "rotation" : [ -3.72529e-08, -1.32349e-23, 7.45059e-09, -1 ]
+    },
+    {
+      "name" : "R_WEP_base",
+      "children" : [ 4, 6, 8, 10 ],
+      "translation" : [ -0.03429, -5.10961e-10, 4.08769e-09 ],
+      "rotation" : [ -2.75671e-07, -5.96046e-08, -7.45056e-09, -1 ]
+    },
+    {
+      "name" : "DEP_leftSpin_pt",
+      "children" : [ 5 ],
+      "translation" : [ -0.0141028, 0.234153, -0.0599327 ],
+      "rotation" : [ 4.63615e-07, -0.707107, 0.707107, 4.42542e-07 ]
+    },
+    {
+      "name" : "DEP_leftSpin",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, -8.88181e-16, -1 ]
+    },
+    {
+      "name" : "DEP_antenna_pt",
+      "children" : [ 7 ],
+      "translation" : [ 0.0453905, 0.315155, -0.0411635 ],
+      "rotation" : [ 2.10734e-07, -0.707107, 0.707107, 1.89661e-07 ]
+    },
+    {
+      "name" : "DEP_antenna",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, -8.88179e-16, -1 ]
+    },
+    {
+      "name" : "DEP_rightSpin_pt",
+      "children" : [ 9 ],
+      "translation" : [ -0.0141028, 0.234153, 0.0645488 ],
+      "rotation" : [ 4.63615e-07, -0.707107, 0.707107, 4.42542e-07 ]
+    },
+    {
+      "name" : "DEP_rightSpin",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, -8.88181e-16, -1 ]
+    },
+    {
+      "name" : "DEP_centerSpin_pt",
+      "children" : [ 11 ],
+      "translation" : [ 0.080409, 0.0812721, 0.00230806 ],
+      "rotation" : [ 0.217707, -0.672758, 0.672758, -0.217706 ]
+    },
+    {
+      "name" : "DEP_centerSpin",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -8.88178e-16, 1.49012e-08, 8.88178e-16, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_DEP_Jammer",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_DEP_Jammer_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_DEP_Jammer_3p.bin",
+      "byteLength" : 139724
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 704
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 704,
+      "byteLength" : 14100
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 14804,
+      "byteLength" : 24984
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 39788,
+      "byteLength" : 24984
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 64772,
+      "byteLength" : 33312
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 98084,
+      "byteLength" : 16656
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 114740,
+      "byteLength" : 8328
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 123068,
+      "byteLength" : 16656
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 11,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 7050,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.155293, -3.75748e-06, -0.0964219 ],
+      "max" : [ 0.150676, 0.440294, 0.163194 ],
+      "componentType" : 5126,
+      "count" : 2082,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2082,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2082,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 2082,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2082,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 2082,
+      "type" : "VEC2"
+    }
+  ]
+}

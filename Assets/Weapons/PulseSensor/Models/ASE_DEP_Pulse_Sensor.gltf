@@ -1,0 +1,125 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "ASE_DEP_Pulse_Sensor",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_DEP_PulseSensor_3p",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "COLOR_0" : 4,
+            "TEXCOORD_0" : 5
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "ASE_DEP_Pulse_Sensor"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "ASE_DEP_Pulse_Sensor.bin",
+      "byteLength" : 60856
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 6672
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 6672,
+      "byteLength" : 12504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 19176,
+      "byteLength" : 12504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 31680,
+      "byteLength" : 16672
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 48352,
+      "byteLength" : 4168
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 52520,
+      "byteLength" : 8336
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 3336,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.235442, -0.000933, -0.235442 ],
+      "max" : [ 0.235442, 0.266817, 0.235442 ],
+      "componentType" : 5126,
+      "count" : 1042,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 1042,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1042,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1042,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 1042,
+      "type" : "VEC2"
+    }
+  ]
+}
