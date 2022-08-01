@@ -1,0 +1,8 @@
+Diffuse=DEP_RocketTurret_DIF
+Normal=DEP_RocketTurret_NRM
+Specular=DEP_RocketTurret_SPC
+SpecPower=T_Wep_LightTurret_SPC
+Other[0]=T_Wep_LightTurret_NRM
+Other[1]=T_PFX_Clouds_Difference01
+Other[2]=T_FX_ScanLines01
+Other[3]=T_Wep_LightTurret_Dif

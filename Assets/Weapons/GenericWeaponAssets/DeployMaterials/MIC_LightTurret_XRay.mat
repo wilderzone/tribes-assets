@@ -1,0 +1,5 @@
+Diffuse=T_PFX_Clouds_Difference01
+Normal=T_Wep_LightTurret_NRM
+SpecPower=T_Wep_LightTurret_SPC
+Other[0]=T_FX_ScanLines01
+Other[1]=T_Wep_LightTurret_Dif

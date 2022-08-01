@@ -1,0 +1,9 @@
+Diffuse=T_ForceField_Base_Dif
+Normal=T_ForceField_Base_Norm
+Specular=T_ForceField_Base_Spec
+SpecPower=T_Wep_LightTurret_SPC
+Emissive=T_ForceField_Base_Norm
+Other[0]=T_Wep_LightTurret_NRM
+Other[1]=T_PFX_Clouds_Difference01
+Other[2]=T_FX_ScanLines01
+Other[3]=T_Wep_LightTurret_Dif

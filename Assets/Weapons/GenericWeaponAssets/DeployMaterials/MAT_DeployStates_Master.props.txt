@@ -1,0 +1,99 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_NRM'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.ScanLines.T_FX_ScanLines01'
+    ReferencedTextures[3] = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_Dif'
+    ReferencedTextures[4] = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_SPC'
+}
+Expressions[62] =
+{
+    Expressions[8] = MaterialExpressionVectorParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionVectorParameter_0'
+    Expressions[9] = MaterialExpressionScalarParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionVectorParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionVectorParameter_2'
+    Expressions[17] = MaterialExpressionScalarParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionScalarParameter_1'
+    Expressions[18] = MaterialExpressionScalarParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionScalarParameter_3'
+    Expressions[20] = MaterialExpressionTextureSample'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionTextureSample_3'
+    Expressions[21] = MaterialExpressionTextureSample'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionTextureSample_4'
+    Expressions[38] = MaterialExpressionScalarParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionScalarParameter_5'
+    Expressions[50] = MaterialExpressionScalarParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionScalarParameter_2'
+    Expressions[53] = MaterialExpressionTextureSampleParameter2D'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[54] = MaterialExpressionTextureSampleParameter2D'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[55] = MaterialExpressionTextureSampleParameter2D'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[57] = MaterialExpressionStaticSwitchParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[59] = MaterialExpressionVectorParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionVectorParameter_1'
+    Expressions[60] = MaterialExpressionScalarParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionScalarParameter_4'
+    Expressions[61] = MaterialExpressionStaticSwitchParameter'DEP_DeployMaterials.MAT_DeployStates_Master.MaterialExpressionStaticSwitchParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_SPC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'DEP_TurretLight_3p.Textures.T_Wep_LightTurret_NRM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'DEP_TurretLight_3p.Textures.T_Dep_LightTurret_Wire'
+        Name = Emissive
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=IsValidLocation, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=FresnelBrightness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=InnerBrightness, Group=None }
+    CollectedScalarParameters[3] = { Value=1.5, Name=WireBrightness, Group=None }
+    CollectedScalarParameters[4] = { Value=0.33, Name=DestDarken, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=isNotify, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=10, B=0, A=1 }
+        Name = Location_Valid
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=10, G=0.5, B=0, A=1 }
+        Name = Location_Invalid
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=15, G=9, B=0, A=1 }
+        Name = Location_Notify
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

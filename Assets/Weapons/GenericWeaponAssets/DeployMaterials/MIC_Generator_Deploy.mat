@@ -1,0 +1,9 @@
+Diffuse=T_Dep_Gen_Dif
+Normal=T_Dep_Gen_Norm
+Specular=T_Dep_Gen_Spec
+SpecPower=T_Wep_LightTurret_SPC
+Emissive=T_Dep_Gen_Emi
+Other[0]=T_Wep_LightTurret_NRM
+Other[1]=T_PFX_Clouds_Difference01
+Other[2]=T_FX_ScanLines01
+Other[3]=T_Wep_LightTurret_Dif
