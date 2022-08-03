@@ -1,0 +1,36 @@
+Parent = Material3'WEP_Shotgun_1p.Alt.MAT_WEP_autoshotgun_base_1p_alt'
+ScalarParameterValues[0] = {}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Shotgun_1p.ALT_AUTO.auto_shotgun_nrm'
+        ParameterName = Normal
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Shotgun_1p.ALT_AUTO.auto_shotgun_spc'
+        ParameterName = Specular
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Shotgun_1p.Alt.auto_shotgun_dif_alt_red'
+        ParameterName = Diffuse
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

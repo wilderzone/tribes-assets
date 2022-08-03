@@ -1,0 +1,58 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Spinfusor_1p.Textures.T_Wep_spinfusor_NRM'
+    ReferencedTextures[1] = Texture2D'WEP_Spinfusor_1p.Alt.T_WEP_SpinFuser_Alt_Dif'
+    ReferencedTextures[2] = Texture2D'WEP_Spinfusor_1p.Alt.T_WEP_SpinFuser_Alt_Spec'
+}
+Expressions[15] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_Spinfusor_1p.Alt.MAT_SpinFusor_Alt_1P.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_Spinfusor_1p.Alt.MAT_SpinFusor_Alt_1P.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'WEP_Spinfusor_1p.Alt.MAT_SpinFusor_Alt_1P.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[9] = MaterialExpressionVectorParameter'WEP_Spinfusor_1p.Alt.MAT_SpinFusor_Alt_1P.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Spinfusor_1p.Textures.T_Wep_spinfusor_NRM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_Spinfusor_1p.Alt.T_WEP_SpinFuser_Alt_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_Spinfusor_1p.Alt.T_WEP_SpinFuser_Alt_Dif'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=3, G=8, B=12, A=1 }
+        Name = EMI_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

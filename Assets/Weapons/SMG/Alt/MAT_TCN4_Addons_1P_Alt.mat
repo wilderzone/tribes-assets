@@ -1,0 +1,6 @@
+Diffuse=T_WEP_TCN4_AddOn_1p_Alt_Dif
+Normal=technician_device_nrm
+Specular=T_WEP_TCN4_AddOn_1p_Alt_Spec
+SpecPower=T_WEP_TCN4_1p_Alt_Spec
+Other[0]=WEP_SMG_Nrm
+Other[1]=T_WEP_TCN4_1p_Alt_Dif

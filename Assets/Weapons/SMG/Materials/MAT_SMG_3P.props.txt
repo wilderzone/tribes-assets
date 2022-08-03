@@ -1,0 +1,30 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'WEP_SMG_3p.Textures.Wep_SMG_Dif' }
+Expressions[3] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_SMG_3p.Materials.MAT_SMG_3P.MaterialExpressionTextureSampleParameter2D_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_SMG_3p.Textures.Wep_SMG_Dif'
+        Name = MaterialExpressionTextureSampleParameter2D_2
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

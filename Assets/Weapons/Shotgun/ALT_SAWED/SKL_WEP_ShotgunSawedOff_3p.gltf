@@ -1,0 +1,164 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_WEP_ShotgunSawedOff_3p",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "R_WEP_root",
+      "translation" : [ 0, 9.53674e-09, -7.62939e-08 ],
+      "rotation" : [ -3.18512e-07, 4.65754e-10, 2.23517e-07, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_wep_sawedshotgun_3p",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_WEP_ShotgunSawedOff_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_WEP_ShotgunSawedOff_3p.bin",
+      "byteLength" : 118956
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 64
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 64,
+      "byteLength" : 10052
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 10116,
+      "byteLength" : 21768
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 31884,
+      "byteLength" : 21768
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 53652,
+      "byteLength" : 29024
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 82676,
+      "byteLength" : 14512
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 97188,
+      "byteLength" : 7256
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 104444,
+      "byteLength" : 14512
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 1,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 5025,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.175977, -0.0423026, -0.0368972 ],
+      "max" : [ 0.260838, 0.0918387, 0.0234836 ],
+      "componentType" : 5126,
+      "count" : 1814,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1814,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1814,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 1814,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1814,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 1814,
+      "type" : "VEC2"
+    }
+  ]
+}

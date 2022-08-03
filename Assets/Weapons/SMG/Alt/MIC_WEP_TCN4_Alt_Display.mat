@@ -1,0 +1,14 @@
+Diffuse=T_PFX_Clouds_Difference01
+Specular=WEP_display_generic_spec
+SpecPower=T_WEP_Shotgun_Screen_Spec
+Other[0]=T_WEP_TCN4_Display_1p_Alt
+Other[1]=tech_device_display_warning
+Other[2]=T_FX_ScanLines01
+Other[3]=Wep_Smg_display_spec
+Other[4]=Wep_Smg_display
+Other[5]=Wep_Smg_display_warning
+Other[6]=T_WEP_Shotgun_Screen
+Other[7]=T_WEP_Shotgun_Screen_Warning
+Other[8]=T_OneDigit_Sample
+Other[9]=T_TwoDigit_Sample
+Other[10]=T_RemoteArx_ScreenWarning

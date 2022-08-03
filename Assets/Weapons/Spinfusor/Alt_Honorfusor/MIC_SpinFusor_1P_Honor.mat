@@ -1,0 +1,6 @@
+Diffuse=T_WEP_SpinFusor_honor_diffuse
+Normal=T_Wep_spinfusor_NRM
+Specular=T_WEP_SpinFusor_honor_spec
+SpecPower=T_Wep_spinfusor_NRM
+Other[0]=T_Wep_spinfusor_Dif02
+Other[1]=T_Wep_spinfusor_SPC02

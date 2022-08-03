@@ -1,0 +1,94 @@
+Parent = Material3'WEP_AmmoDisplay_Master.MAT_Display_Master'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = SCAL_Depth_Ammo_Clip
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = SCAL_Specular
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = SCAL_Screen_Brightness
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = SCAL_Depth_Ammo_Pool
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = Screen_BumpOffset_Multiplyer
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Shotgun_1p.ALT_SAWED.WEP_display_generic_spec'
+        ParameterName = TEX_Specular
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Shotgun_1p.ALT_SAWED.WEP_sawed_Display'
+        ParameterName = Screen_Main
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Shotgun_1p.ALT_SAWED.WEP_sawed_Display_Warning'
+        ParameterName = Screen_Warning
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.35, G=-0.35, B=0, A=1 }
+        ParameterName = Ammo_Pool_Location
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.35, G=-0.35, B=0, A=1 }
+        ParameterName = Warning_Ammo_Pool_Location
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1.5, G=2.2, B=0, A=1 }
+        ParameterName = Warning_Ammo_Pool_Scale
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1.5, G=2.2, B=0, A=1 }
+        ParameterName = Ammo_Pool_Scale
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

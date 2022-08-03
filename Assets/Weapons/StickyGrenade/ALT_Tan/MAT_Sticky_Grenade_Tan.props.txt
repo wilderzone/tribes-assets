@@ -1,0 +1,64 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_NRM'
+    ReferencedTextures[1] = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_DIF_Tan'
+    ReferencedTextures[2] = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_SPC_Tan'
+    ReferencedTextures[3] = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_SPC'
+}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_Sticky_Grenade_1p.ALT_Tan.MAT_Sticky_Grenade_Tan.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_Sticky_Grenade_1p.ALT_Tan.MAT_Sticky_Grenade_Tan.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'WEP_Sticky_Grenade_1p.ALT_Tan.MAT_Sticky_Grenade_Tan.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'WEP_Sticky_Grenade_1p.ALT_Tan.MAT_Sticky_Grenade_Tan.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'WEP_Sticky_Grenade_1p.ALT_Tan.MAT_Sticky_Grenade_Tan.MaterialExpressionTextureSampleParameter2D_8'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_DIF_Tan'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_NRM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_NRM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_SPC_Tan'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'WEP_Sticky_Grenade_1p.Textures.T_Sticky_Grenade_SPC'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

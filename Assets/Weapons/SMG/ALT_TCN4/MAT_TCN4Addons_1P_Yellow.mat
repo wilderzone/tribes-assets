@@ -1,0 +1,6 @@
+Diffuse=technician_device_Yellow_DIF
+Normal=technician_device_nrm
+Specular=technician_device_Yellow_SPC
+SpecPower=WEP_SMG_1p_Black_SPC
+Other[0]=WEP_SMG_Nrm
+Other[1]=WEP_SMG_1p_Yellow_DIF

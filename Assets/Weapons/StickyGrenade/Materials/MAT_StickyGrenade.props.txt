@@ -1,0 +1,106 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_StickyGrenade.T_WEP_StickyGrenade_DIF00'
+    ReferencedTextures[1] = Texture2D'WEP_StickyGrenade.T_WEP_StickyGrenade_EMI00'
+    ReferencedTextures[2] = Texture2D'WEP_StickyGrenade.T_WEP_StickyGrenade_NRM00'
+}
+Expressions[52] =
+{
+    Expressions[3] = MaterialExpressionScalarParameter'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionScalarParameter_1'
+    Expressions[6] = MaterialExpressionVectorParameter'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionVectorParameter_23'
+    Expressions[8] = MaterialExpressionVectorParameter'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionVectorParameter_22'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[24] = MaterialExpressionTextureSampleParameter2D'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[28] = MaterialExpressionVectorParameter'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionVectorParameter_4'
+    Expressions[29] = MaterialExpressionVectorParameter'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionVectorParameter_10'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[36] = MaterialExpressionScalarParameter'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionScalarParameter_0'
+    Expressions[45] = MaterialExpressionVectorParameter'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionVectorParameter_11'
+    Expressions[46] = MaterialExpressionTextureSampleParameter2D'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[50] = MaterialExpressionTextureSampleParameter2D'WEP_StickyGrenade.MAT_StickyGrenade.MaterialExpressionTextureSampleParameter2D_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 2.5
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_StickyGrenade.T_WEP_StickyGrenade_NRM00'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_StickyGrenade.T_WEP_StickyGrenade_EMI00'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_StickyGrenade.T_WEP_StickyGrenade_EMI00'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_StickyGrenade.T_WEP_StickyGrenade_DIF00'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'WEP_StickyGrenade.T_WEP_StickyGrenade_DIF00'
+        Name = TeamColorMask
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=PulseRate, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = light color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = light angle
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=25, G=20, B=10, A=1 }
+        Name = Emissive_1
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.047776, G=0.056374, B=0.030257, A=1 }
+        Name = TeamColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

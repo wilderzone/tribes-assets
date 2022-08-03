@@ -1,0 +1,63 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Shotgun_1p.Textures.Wep_shotgun_1p_NRM'
+    ReferencedTextures[1] = Texture2D'WEP_Shotgun_1p.Textures.Wep_shotgun_1p_Dif'
+    ReferencedTextures[2] = Texture2D'WEP_Shotgun_1p.Textures.Wep_shotgun_1p_SPC'
+    ReferencedTextures[3] = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_SP'
+}
+Expressions[11] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_Shotgun_1p.Materials.MAT_Shotgun_1P.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_Shotgun_1p.Materials.MAT_Shotgun_1P.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_Shotgun_1p.Materials.MAT_Shotgun_1P.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'WEP_Shotgun_1p.Materials.MAT_Shotgun_1P.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[8] = MaterialExpressionScalarParameter'WEP_Shotgun_1p.Materials.MAT_Shotgun_1P.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionScalarParameter'WEP_Shotgun_1p.Materials.MAT_Shotgun_1P.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.Wep_shotgun_1p_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.Wep_shotgun_1p_NRM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.Wep_shotgun_1p_SPC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_SP'
+        Name = Spc_power
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=SPEC_INTENSITY, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=DIF_INTENSITY, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

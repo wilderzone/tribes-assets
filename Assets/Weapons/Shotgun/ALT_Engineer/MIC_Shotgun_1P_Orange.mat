@@ -1,0 +1,6 @@
+Diffuse=WEP_Shotgun_1p_Orange_Dif
+Normal=Wep_shotgun_1p_NRM
+Specular=WEP_Shotgun_1p_White_Spc
+SpecPower=T_WEP_Shotgun_SP
+Other[0]=Wep_shotgun_1p_Dif
+Other[1]=Wep_shotgun_1p_SPC

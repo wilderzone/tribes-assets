@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'wep_smg_1p.Textures.T_SMG_Nrm'
+    ReferencedTextures[1] = Texture2D'wep_smg_1p.Alt.WEP_SIL90_1p_alt_dif'
+    ReferencedTextures[2] = Texture2D'wep_smg_1p.Alt.WEP_SIL90_1p_alt_spc'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'wep_smg_1p.Alt.WEP_SIL90_1p_alt_dif_Mat.MaterialExpressionTextureSample_5'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'wep_smg_1p.Alt.WEP_SIL90_1p_alt_dif_Mat.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[5] = MaterialExpressionTextureSample'wep_smg_1p.Alt.WEP_SIL90_1p_alt_dif_Mat.MaterialExpressionTextureSample_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'wep_smg_1p.Textures.T_SMG_Nrm'
+        Name = MaterialExpressionTextureSampleParameter2D_13
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,58 @@
+Parent = MaterialInstanceConstant'WEP_Spinfusor_1p.Materials.MIC_Screen'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.2
+        ParameterName = SCAL_Specular
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 24
+        ParameterName = SCAL_SpecularPower
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.4
+        ParameterName = SCAL_Screen_Brightness
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Spinfusor_1p.Textures.WEP_SpinFuserD_Display_dif'
+        ParameterName = Screen_Main
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_Spinfusor_1p.Textures.WEP_SpinFuserD_Display_Warning_dif'
+        ParameterName = Screen_Warning
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.03, G=-0.1, B=0, A=1 }
+        ParameterName = Ammo_Pool_Location
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

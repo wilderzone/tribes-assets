@@ -1,0 +1,42 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Sticky_Grenade_3p.Textures.T_Sticky_Grenade_DIF_3p'
+}
+Expressions[6] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_Sticky_Grenade_3p.ALT_PROX.MAT_Sticky_Grenade_3P.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[3] = MaterialExpressionVectorParameter'WEP_Sticky_Grenade_3p.ALT_PROX.MAT_Sticky_Grenade_3P.MaterialExpressionVectorParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Sticky_Grenade_3p.Textures.T_Sticky_Grenade_DIF_3p'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=4, B=12, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

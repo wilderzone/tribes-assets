@@ -1,0 +1,6 @@
+Diffuse=infiltrator_addons_Dif
+Normal=infiltrator_addons_nrm
+Specular=infiltrator_addons_Spc
+SpecPower=WEP_SMG_1p_Black_SPC
+Other[0]=WEP_SMG_Nrm
+Other[1]=WEP_SMG_1p_Black_DIF

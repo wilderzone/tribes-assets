@@ -1,0 +1,27 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Electric.T_EnergySpiral'
+}
+Expressions[13] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_Spinfusor_3p.Effects.MAT_DiskSpiral_Spinning.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionTextureSample'WEP_Spinfusor_3p.Effects.MAT_DiskSpiral_Spinning.MaterialExpressionTextureSample_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,6 @@
+Diffuse=auto_shotgun_dif_alt_red
+Normal=auto_shotgun_nrm
+Specular=auto_shotgun_spc
+SpecPower=WEP_Shotgun_ALT_1p_spc
+Other[0]=Wep_shotgun_1p_NRM
+Other[1]=WEP_Shotgun_ALT_1p_dif_red
