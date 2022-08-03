@@ -1,0 +1,42 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Frag_Grenade_3p.Alt.T_Frag_grenade_Alt_3p_Dif'
+}
+Expressions[5] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_Frag_Grenade_3p.Alt.MAT_Frag_Grenade_Alt.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[3] = MaterialExpressionVectorParameter'WEP_Frag_Grenade_3p.Alt.MAT_Frag_Grenade_Alt.MaterialExpressionVectorParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Frag_Grenade_3p.Alt.T_Frag_grenade_Alt_3p_Dif'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=4, B=0.15, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

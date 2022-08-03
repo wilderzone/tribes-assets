@@ -1,0 +1,309 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.ScanLines.T_FX_ScanLines01'
+    ReferencedTextures[2] = Texture2D'WEP_MortarLauncher_1p.ALT_Mirv.T_MirvLauncher_Screen'
+    ReferencedTextures[3] = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen_Warning'
+    ReferencedTextures[4] = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+    ReferencedTextures[5] = Texture2D'FX_Placeholders.DisplaySamples.T_OneDigit_Sample'
+    ReferencedTextures[6] = Texture2D'FX_Placeholders.DisplaySamples.T_TwoDigit_Sample'
+    ReferencedTextures[7] = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen_Spec'
+}
+Expressions[181] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_0'
+    Expressions[12] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_1'
+    Expressions[15] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_3'
+    Expressions[17] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[20] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_4'
+    Expressions[21] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_6'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[25] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_1'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[31] = MaterialExpressionTextureSample'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSample_5'
+    Expressions[32] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[33] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_11'
+    Expressions[35] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_16'
+    Expressions[36] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_18'
+    Expressions[38] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_4'
+    Expressions[40] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_6'
+    Expressions[42] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_24'
+    Expressions[45] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_26'
+    Expressions[47] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[48] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[50] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_29'
+    Expressions[52] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_8'
+    Expressions[53] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[54] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[57] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_16'
+    Expressions[60] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_17'
+    Expressions[61] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_19'
+    Expressions[63] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_21'
+    Expressions[64] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_25'
+    Expressions[72] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_31'
+    Expressions[73] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_33'
+    Expressions[77] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_28'
+    Expressions[78] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_30'
+    Expressions[79] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_34'
+    Expressions[80] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_36'
+    Expressions[81] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_37'
+    Expressions[83] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_11'
+    Expressions[86] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_38'
+    Expressions[89] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_18'
+    Expressions[91] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_39'
+    Expressions[93] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_40'
+    Expressions[95] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_42'
+    Expressions[96] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_44'
+    Expressions[97] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_46'
+    Expressions[100] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_47'
+    Expressions[101] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_49'
+    Expressions[105] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_38'
+    Expressions[106] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_20'
+    Expressions[116] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_16'
+    Expressions[145] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[146] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[147] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_0'
+    Expressions[149] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_2'
+    Expressions[151] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_5'
+    Expressions[152] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_7'
+    Expressions[155] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[158] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_3'
+    Expressions[159] = MaterialExpressionStaticSwitchParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[161] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_9'
+    Expressions[162] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_10'
+    Expressions[163] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_12'
+    Expressions[171] = MaterialExpressionVectorParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionVectorParameter_13'
+    Expressions[176] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_7'
+    Expressions[177] = MaterialExpressionScalarParameter'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionScalarParameter_8'
+    Expressions[179] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_Display.MaterialExpressionTextureSampleParameter2D_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[11] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen_Spec'
+        Name = TEX_Specular
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+        Name = FX_Clouds
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen_Warning'
+        Name = Screen_Warning
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'WEP_MortarLauncher_1p.ALT_Mirv.T_MirvLauncher_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'FX_GeneralUse.ScanLines.T_FX_ScanLines01'
+        Name = FX_ScanLine
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'FX_Placeholders.DisplaySamples.T_OneDigit_Sample'
+        Name = PREVIEW_AMMO_CLIP
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'FX_Placeholders.DisplaySamples.T_TwoDigit_Sample'
+        Name = PREVIEW_AMMO_POOL
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'WEP_MortarLauncher_1p.ALT_Mirv.T_MirvLauncher_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=-8, Name=SCAL_Depth_Ammo_Clip, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Warning_Mode, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = SCAL_Warning_DepthOffset
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=SCAL_Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=SCAL_SpecularPower, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=SCAL_Screen_Brightness, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Warning_Mode, Group=None }
+    CollectedScalarParameters[7] = { Value=-5, Name=SCAL_Depth_Ammo_Pool, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Warning_Mode, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Warning_Mode, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Warning_Mode, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.5
+        Name = Clouds_Highs_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = -0.5
+        Name = Clouds_Lows_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 1
+        Name = ScanLine_Highs_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0
+        Name = ScanLine_Lows_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 10
+        Name = Screen_BumpOffset_Numbers_Multiplyer
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=1, Name=Contrast, Group=None }
+    CollectedScalarParameters[17] = { Value=0.05, Name=Brightness, Group=None }
+}
+CollectedVectorParameters[15] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = Scale_Clouds
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Ammo_Pool_Location
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Warning_Ammo_Clip_Location
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Warning_Ammo_Pool_Location
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = Scale_ScanLine
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Ammo_Clip_Location
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=2, G=2, B=0, A=1 }
+        Name = Ammo_Clip_Scale
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=2, G=2, B=0, A=1 }
+        Name = Warning_Ammo_Clip_Scale
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=2, G=2, B=0, A=1 }
+        Name = Warning_Ammo_Pool_Scale
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=2, G=2, B=0, A=1 }
+        Name = Ammo_Pool_Scale
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = VEC_ColorOverride
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = HighColor
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LowColor
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0.15, G=0.25, B=0.4, A=0.3 }
+        Name = ViewOffset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

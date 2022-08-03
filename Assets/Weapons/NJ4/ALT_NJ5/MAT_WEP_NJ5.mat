@@ -1,0 +1,4 @@
+Diffuse=WEP_NJ5_dif
+Normal=WEP_NJ5_nrm
+SpecPower=WEP_NJ5_spc
+Other[0]=T_tempAR_cube

@@ -1,0 +1,35 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_NJ4_1p.ALT_NJ5.WEP_NJ5_nrm'
+    ReferencedTextures[1] = Texture2D'WEP_NJ4_1p.ALT_NJ5.WEP_NJ5_dif'
+    ReferencedTextures[2] = TextureCube3'WEP_AssaultRifle_1p.Textures.T_tempAR_cube'
+    ReferencedTextures[3] = Texture2D'WEP_NJ4_1p.ALT_NJ5.WEP_NJ5_spc'
+}
+Expressions[20] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_NJ4_1p.ALT_NJ5.MAT_WEP_NJ5.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionTextureSample'WEP_NJ4_1p.ALT_NJ5.MAT_WEP_NJ5.MaterialExpressionTextureSample_2'
+    Expressions[6] = MaterialExpressionTextureSample'WEP_NJ4_1p.ALT_NJ5.MAT_WEP_NJ5.MaterialExpressionTextureSample_4'
+    Expressions[9] = MaterialExpressionTextureSample'WEP_NJ4_1p.ALT_NJ5.MAT_WEP_NJ5.MaterialExpressionTextureSample_6'
+    Expressions[16] = MaterialExpressionScalarParameter'WEP_NJ4_1p.ALT_NJ5.MAT_WEP_NJ5.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.4, Name=Cube_intensity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

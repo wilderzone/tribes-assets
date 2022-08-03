@@ -1,0 +1,33 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_ImpactGrenade_3p.ALT_Red.T_Impact_Grenade_3P_DIF'
+}
+Expressions[1] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_ImpactGrenade_3p.ALT_Red.MAT_Impact_Grenade.MaterialExpressionTextureSampleParameter2D_6'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_ImpactGrenade_3p.ALT_Red.T_Impact_Grenade_3P_DIF'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

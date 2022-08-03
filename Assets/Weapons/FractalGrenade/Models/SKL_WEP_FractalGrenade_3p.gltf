@@ -1,0 +1,204 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_WEP_FractalGrenade_3p",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "R_WEP_root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -1.66534e-16, 3.63798e-12, -3.25963e-09, -1 ]
+    },
+    {
+      "name" : "R_WEP_fractal",
+      "children" : [ 3, 5, 7 ],
+      "translation" : [ -4.52832e-22, -2.27373e-15, -4.54748e-15 ],
+      "rotation" : [ 4.84288e-07, -5.40203e-08, -2.38884e-07, -1 ]
+    },
+    {
+      "name" : "R_WEP_capTop_pt",
+      "children" : [ 4 ],
+      "translation" : [ 1.73793e-11, 0.0311647, 1.34317e-08 ],
+      "rotation" : [ -1.49002e-08, 2.04892e-07, -2.34694e-07, -1 ]
+    },
+    {
+      "name" : "R_WEP_capTop",
+      "translation" : [ 3.60665e-10, 0, 3.99134e-10 ],
+      "rotation" : [ -0, 1.35525e-20, 0, -1 ]
+    },
+    {
+      "name" : "R_WEP_capBottom_pt",
+      "children" : [ 6 ],
+      "translation" : [ -5.23063e-09, -0.0311152, 0.000125182 ],
+      "rotation" : [ -2.81023e-07, 1.14832e-06, 1, -2.71946e-07 ]
+    },
+    {
+      "name" : "R_WEP_capBottom",
+      "translation" : [ -1.19209e-08, -2.38419e-09, -0 ],
+      "rotation" : [ -8.9407e-08, 3.33073e-15, 2.84217e-14, -1 ]
+    },
+    {
+      "name" : "R_WEP_core_pt",
+      "children" : [ 8 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -7.59028e-07, 1.1875e-08, 1.52737e-07, -1 ]
+    },
+    {
+      "name" : "R_WEP_core",
+      "translation" : [ -1.19209e-08, -2.38413e-09, -8.75981e-16 ],
+      "rotation" : [ -8.94069e-08, 8.8818e-16, -3.55271e-15, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_WEP_Fractal",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_WEP_FractalGrenade_3p"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_WEP_FractalGrenade_3p.bin",
+      "byteLength" : 14240
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 512
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 512,
+      "byteLength" : 1308
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1820,
+      "byteLength" : 2484
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 4304,
+      "byteLength" : 2484
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 6788,
+      "byteLength" : 3312
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 10100,
+      "byteLength" : 1656
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 11756,
+      "byteLength" : 828
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 12584,
+      "byteLength" : 1656
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 8,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 654,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0366995, -0.0311152, -0.034928 ],
+      "max" : [ 0.0366995, 0.0311648, 0.034928 ],
+      "componentType" : 5126,
+      "count" : 207,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 207,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 207,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 207,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 207,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 207,
+      "type" : "VEC2"
+    }
+  ]
+}

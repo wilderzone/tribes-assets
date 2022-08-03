@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_MortarLauncher_1p.ALT_Mirv.T_MirvLauncher_Norm'
+    ReferencedTextures[1] = Texture2D'WEP_MortarLauncher_1p.ALT_Mirv.T_MirvLauncher_Dif'
+    ReferencedTextures[2] = Texture2D'WEP_MortarLauncher_1p.ALT_Mirv.T_MirvLauncher_Spec'
+}
+Expressions[7] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'WEP_MortarLauncher_1p.ALT_Mirv.MAT_MirvLauncher.MaterialExpressionTextureSample_1'
+    Expressions[5] = MaterialExpressionTextureSample'WEP_MortarLauncher_1p.ALT_Mirv.MAT_MirvLauncher.MaterialExpressionTextureSample_2'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'WEP_MortarLauncher_1p.ALT_Mirv.MAT_MirvLauncher.MaterialExpressionTextureSampleParameter2D_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_MortarLauncher_1p.ALT_Mirv.T_MirvLauncher_Norm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

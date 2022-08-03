@@ -1,0 +1,34 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_PlasmaCannon_3p.Textures.T_PlasmaCannon_3p_Diffuse'
+}
+Expressions[14] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_PlasmaCannon_3p.MAT_PlasmaCannon_3p.MaterialExpressionTextureSample_2'
+    Expressions[7] = MaterialExpressionVectorParameter'WEP_PlasmaCannon_3p.MAT_PlasmaCannon_3p.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=4, G=0.7, B=0.1, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

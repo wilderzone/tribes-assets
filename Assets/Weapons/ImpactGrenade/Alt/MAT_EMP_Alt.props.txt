@@ -1,0 +1,42 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_ImpactGrenade_3p.Alt.T_WEP_EMPGrenade_Alt_Dif'
+    ReferencedTextures[1] = Texture2D'WEP_ImpactGrenade_1p.Textures.T_Impact_Grenade_NRM'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_ImpactGrenade_3p.Alt.MAT_EMP_Alt.MaterialExpressionTextureSample_1'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'WEP_ImpactGrenade_3p.Alt.MAT_EMP_Alt.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'WEP_ImpactGrenade_3p.Alt.MAT_EMP_Alt.MaterialExpressionTextureSampleParameter2D_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_ImpactGrenade_3p.Textures.T_Impact_Grenade_3P_SPC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_ImpactGrenade_3p.Alt.T_WEP_EMPGrenade_Alt_Dif'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

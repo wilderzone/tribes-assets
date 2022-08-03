@@ -1,0 +1,31 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_ShockLance_1p.2048_shocklance_dDo_n'
+    ReferencedTextures[1] = Texture2D'WEP_ShockLance_1p.2048_shocklance_dDo_d'
+    ReferencedTextures[2] = Texture2D'WEP_ShockLance_1p.2048_shocklance_dDo_s'
+    ReferencedTextures[3] = Texture2D'WEP_ShockLance_1p.2048_shocklance_dDo_g'
+}
+Expressions[11] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_ShockLance_1p.2048_shocklance_dDo_d_Mat.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'WEP_ShockLance_1p.2048_shocklance_dDo_d_Mat.MaterialExpressionTextureSample_4'
+    Expressions[5] = MaterialExpressionTextureSample'WEP_ShockLance_1p.2048_shocklance_dDo_d_Mat.MaterialExpressionTextureSample_6'
+    Expressions[7] = MaterialExpressionTextureSample'WEP_ShockLance_1p.2048_shocklance_dDo_d_Mat.MaterialExpressionTextureSample_8'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

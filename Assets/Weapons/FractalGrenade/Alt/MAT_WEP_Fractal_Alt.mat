@@ -1,0 +1,5 @@
+Diffuse=fractal_dif_alt_
+Normal=nade_nrm
+SpecPower=nade_spc
+Other[0]=T_PFX_Clouds_Difference01
+Other[1]=nade_dif

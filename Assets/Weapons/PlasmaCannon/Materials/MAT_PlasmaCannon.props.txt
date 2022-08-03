@@ -1,0 +1,49 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_PlasmaCannon_1p.Textures.T_PlasmaCannon_Normal'
+    ReferencedTextures[1] = Texture2D'WEP_PlasmaCannon_1p.Textures.T_PlasmaCannon_Diffuse'
+    ReferencedTextures[2] = Texture2D'WEP_PlasmaCannon_1p.Textures.T_PlasmaCannon_Spec'
+}
+Expressions[22] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_PlasmaCannon_1p.Materials.MAT_PlasmaCannon.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'WEP_PlasmaCannon_1p.Materials.MAT_PlasmaCannon.MaterialExpressionTextureSample_1'
+    Expressions[7] = MaterialExpressionTextureSample'WEP_PlasmaCannon_1p.Materials.MAT_PlasmaCannon.MaterialExpressionTextureSample_2'
+    Expressions[11] = MaterialExpressionVectorParameter'WEP_PlasmaCannon_1p.Materials.MAT_PlasmaCannon.MaterialExpressionVectorParameter_2'
+    Expressions[13] = MaterialExpressionScalarParameter'WEP_PlasmaCannon_1p.Materials.MAT_PlasmaCannon.MaterialExpressionScalarParameter_2'
+    Expressions[21] = MaterialExpressionVectorParameter'WEP_PlasmaCannon_1p.Materials.MAT_PlasmaCannon.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Cube_intensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=4, G=1.5, B=0.5, A=1 }
+        Name = cube_color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=4, G=1.5, B=0.5, A=1 }
+        Name = cube_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

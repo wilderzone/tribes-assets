@@ -1,0 +1,36 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Smoke.T_FX_Smoke_Norm'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Beam_02_DIFF'
+}
+Expressions[25] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_ShockLance_3p.Effects.M_FX_Lightning_Ribbon.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[9] = MaterialExpressionTextureSample'WEP_ShockLance_3p.Effects.M_FX_Lightning_Ribbon.MaterialExpressionTextureSample_2'
+    Expressions[13] = MaterialExpressionTextureSample'WEP_ShockLance_3p.Effects.M_FX_Lightning_Ribbon.MaterialExpressionTextureSample_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'FX_GeneralUse.Electric.T_Lightning_Beam_02_DIFF'
+        Name = lightning
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
