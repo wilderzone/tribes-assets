@@ -1,0 +1,5 @@
+Diffuse=wep_plasma_gun_dif
+Normal=wep_plasma_gun_nrm
+SpecPower=wep_plasma_gun_spc
+Other[0]=plasma_gun_smoke
+Other[1]=T_tempAR_cube

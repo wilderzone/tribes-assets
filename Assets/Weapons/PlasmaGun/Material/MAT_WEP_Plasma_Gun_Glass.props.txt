@@ -1,0 +1,44 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = TextureCube3'WEP_AssaultRifle_1p.Textures.T_tempAR_cube'
+}
+Expressions[14] =
+{
+    Expressions[3] = MaterialExpressionScalarParameter'WEP_PlasmaGun_1p.Material.MAT_WEP_Plasma_Gun_Glass.MaterialExpressionScalarParameter_1'
+    Expressions[6] = MaterialExpressionVectorParameter'WEP_PlasmaGun_1p.Material.MAT_WEP_Plasma_Gun_Glass.MaterialExpressionVectorParameter_4'
+    Expressions[10] = MaterialExpressionVectorParameter'WEP_PlasmaGun_1p.Material.MAT_WEP_Plasma_Gun_Glass.MaterialExpressionVectorParameter_6'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Cube_intensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=3, G=1, B=0, A=1 }
+        Name = glass_color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.5, G=1, B=5, A=1 }
+        Name = cube_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

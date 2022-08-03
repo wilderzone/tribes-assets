@@ -1,0 +1,49 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_BurstGun_1p.WEP_BurstGun_Normal'
+    ReferencedTextures[1] = Texture2D'WEP_BurstGun_1p.Textures.T_WEP_BurstGun_DIF'
+    ReferencedTextures[2] = Texture2D'WEP_BurstGun_1p.Textures.T_WEP_BurstGun_SPEC'
+}
+Expressions[10] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_BurstGun_1p.Materials.WEP_BurstGun_1p_MAT.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'WEP_BurstGun_1p.Materials.WEP_BurstGun_1p_MAT.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'WEP_BurstGun_1p.Materials.WEP_BurstGun_1p_MAT.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_BurstGun_1p.Textures.T_WEP_BurstGun_DIF'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_BurstGun_1p.Textures.T_WEP_BurstGun_SPEC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_BurstGun_1p.WEP_BurstGun_Normal'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

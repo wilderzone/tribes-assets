@@ -1,0 +1,12 @@
+Diffuse=T_PFX_Clouds_Difference01
+Specular=T_WEP_AssaultRifle_Screen_Spec
+SpecPower=T_WEP_Shotgun_Screen_Spec
+Other[0]=T_WEP_BurstGun_Display
+Other[1]=T_WEP_BurstGun_Display_Warning
+Other[2]=T_TwoDigit_Sample
+Other[3]=T_ThreeDigit_Sample
+Other[4]=T_FX_ScanLines01
+Other[5]=T_WEP_Shotgun_Screen
+Other[6]=T_WEP_Shotgun_Screen_Warning
+Other[7]=T_OneDigit_Sample
+Other[8]=T_RemoteArx_ScreenWarning
