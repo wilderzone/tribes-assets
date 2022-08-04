@@ -1,0 +1,278 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_CI_GenericPod_Shell",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "shellBase",
+      "children" : [ 2, 4, 8, 10, 14, 16, 20 ],
+      "translation" : [ 0, 2.78558e-08, -1.88886e-08 ],
+      "rotation" : [ 0.5, -0.5, 0.5, 0.5 ]
+    },
+    {
+      "name" : "RB_shellPanel_pt",
+      "children" : [ 3 ],
+      "translation" : [ -0.383198, -0.0679595, 0.663718 ],
+      "rotation" : [ 2.22453e-08, 0.258819, -2.05567e-08, -0.965926 ]
+    },
+    {
+      "name" : "RB_shellPanel",
+      "translation" : [ -1.52588e-07, 0, -0 ],
+      "rotation" : [ -8.88721e-08, -1.19209e-07, 5.96046e-08, -1 ]
+    },
+    {
+      "name" : "B_shellPanel_pt",
+      "children" : [ 5 ],
+      "translation" : [ -0.656518, -0.0113548, -1.00184e-07 ],
+      "rotation" : [ 7.93761e-08, 0.707107, -3.65278e-08, -0.707107 ]
+    },
+    {
+      "name" : "B_shellPanel",
+      "children" : [ 6 ],
+      "translation" : [ 1.81899e-14, 0, 7.62939e-08 ],
+      "rotation" : [ -5.96046e-08, 2.84217e-14, 2.13163e-14, -1 ]
+    },
+    {
+      "name" : "B_shellTail_pt",
+      "children" : [ 7 ],
+      "translation" : [ 0.0144042, 2.78935, -0.245708 ],
+      "rotation" : [ -8.30797e-08, -0.976296, 3.719e-08, 0.21644 ]
+    },
+    {
+      "name" : "B_shellTail",
+      "translation" : [ 1.52588e-07, 0, -0 ],
+      "rotation" : [ -6.05377e-08, -6.70552e-08, -1.2595e-08, -1 ]
+    },
+    {
+      "name" : "LB_shellPanel_pt",
+      "children" : [ 9 ],
+      "translation" : [ -0.383198, -0.0679596, -0.663718 ],
+      "rotation" : [ -4.63818e-08, -0.965926, -2.84086e-08, 0.258819 ]
+    },
+    {
+      "name" : "LB_shellPanel",
+      "translation" : [ -3.8147e-08, 0, 7.62939e-08 ],
+      "rotation" : [ -6.67877e-08, 2.23517e-08, 4.71631e-08, -1 ]
+    },
+    {
+      "name" : "LF_shellPanel_pt",
+      "children" : [ 11 ],
+      "translation" : [ 0.328259, -0.0113548, -0.568561 ],
+      "rotation" : [ -5.52671e-08, -0.965926, -2.47916e-08, -0.258819 ]
+    },
+    {
+      "name" : "LF_shellPanel",
+      "children" : [ 12 ],
+      "translation" : [ 1.90735e-08, 0, -0 ],
+      "rotation" : [ -7.96925e-08, -2.98023e-08, 4.37053e-08, -1 ]
+    },
+    {
+      "name" : "LF_shellTail_pt",
+      "children" : [ 13 ],
+      "translation" : [ 0.0144039, 2.78935, -0.245708 ],
+      "rotation" : [ 1.09937e-07, -0.97534, 3.01297e-08, 0.220707 ]
+    },
+    {
+      "name" : "LF_shellTail",
+      "translation" : [ 1.71661e-07, 0, -0 ],
+      "rotation" : [ -7.32451e-08, -1.60187e-07, 4.69953e-08, -1 ]
+    },
+    {
+      "name" : "F_shellPanel_pt",
+      "children" : [ 15 ],
+      "translation" : [ 0.766395, -0.0679597, 5.47346e-08 ],
+      "rotation" : [ 1.54543e-08, -0.707107, 5.83027e-08, -0.707107 ]
+    },
+    {
+      "name" : "F_shellPanel",
+      "translation" : [ -2.28882e-07, 0, -0 ],
+      "rotation" : [ -5.96046e-08, 2.38419e-07, 1.42109e-14, -1 ]
+    },
+    {
+      "name" : "RF_shellPanel_pt",
+      "children" : [ 17 ],
+      "translation" : [ 0.328259, -0.0113549, 0.568562 ],
+      "rotation" : [ 1.67001e-08, -0.258819, 4.30418e-08, -0.965926 ]
+    },
+    {
+      "name" : "RF_shellPanel",
+      "children" : [ 18 ],
+      "translation" : [ -1.90735e-08, 0, -0 ],
+      "rotation" : [ -5.93372e-08, -2.23517e-08, -8.44875e-09, -1 ]
+    },
+    {
+      "name" : "RF_shellTail_pt",
+      "children" : [ 19 ],
+      "translation" : [ 0.014404, 2.78935, -0.245708 ],
+      "rotation" : [ 1.64706e-08, -0.986879, 5.92781e-08, 0.161462 ]
+    },
+    {
+      "name" : "RF_shellTail",
+      "translation" : [ 1.43051e-07, 0, 3.8147e-08 ],
+      "rotation" : [ -1.75355e-08, -7.45058e-08, 7.18668e-08, -1 ]
+    },
+    {
+      "name" : "core_pt",
+      "children" : [ 21 ],
+      "translation" : [ -0.0125311, 1.55008, -0.0012531 ],
+      "rotation" : [ 1.54543e-08, -0.707107, 5.83027e-08, -0.707107 ]
+    },
+    {
+      "name" : "Core",
+      "translation" : [ 1.39475e-07, 0, 3.69549e-08 ],
+      "rotation" : [ -5.96047e-08, 2.84217e-14, 1.42109e-14, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "M_CI_GenericPod",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_CI_GenericPod_Shell"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_CI_GenericPod_Shell.bin",
+      "byteLength" : 223380
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1344
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1344,
+      "byteLength" : 16716
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 18060,
+      "byteLength" : 41064
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 59124,
+      "byteLength" : 41064
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 100188,
+      "byteLength" : 54752
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 154940,
+      "byteLength" : 27376
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 182316,
+      "byteLength" : 13688
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 196004,
+      "byteLength" : 27376
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 21,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 8358,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -3.81343, -1.04358, -1.20502 ],
+      "max" : [ 0.0831338, 1.04358, 0.853303 ],
+      "componentType" : 5126,
+      "count" : 3422,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 3422,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 3422,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 3422,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 3422,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 3422,
+      "type" : "VEC2"
+    }
+  ]
+}

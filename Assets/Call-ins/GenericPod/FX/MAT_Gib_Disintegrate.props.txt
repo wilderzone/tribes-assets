@@ -1,0 +1,55 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'CI_GenericPod.Textures.T_CI_GenericPod_Norm'
+    ReferencedTextures[1] = Texture2D'CI_GenericPod.Textures.T_CI_GenericPod_Spec'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[3] = Texture2D'CI_GenericPod.Textures.T_CI_GenericPod_Dif'
+}
+Expressions[46] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionVectorParameter'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionVectorParameter_0'
+    Expressions[18] = MaterialExpressionTextureSample'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionTextureSample_2'
+    Expressions[24] = MaterialExpressionScalarParameter'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionScalarParameter_0'
+    Expressions[25] = MaterialExpressionVectorParameter'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionVectorParameter_6'
+    Expressions[32] = MaterialExpressionTextureSample'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionTextureSample_36'
+    Expressions[33] = MaterialExpressionTextureSample'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionTextureSample_37'
+    Expressions[36] = MaterialExpressionTextureSample'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionTextureSample_38'
+    Expressions[37] = MaterialExpressionTextureSample'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionTextureSample_39'
+    Expressions[43] = MaterialExpressionTextureSample'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionTextureSample_40'
+    Expressions[44] = MaterialExpressionTextureSample'CI_GenericPod.fX.MAT_Gib_Disintegrate.MaterialExpressionTextureSample_41'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DissolveAmount, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=20, G=0.33, B=0, A=1 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=2, B=2, A=1 }
+        Name = Paint Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

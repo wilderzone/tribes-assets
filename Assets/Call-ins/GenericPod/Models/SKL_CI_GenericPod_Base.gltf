@@ -1,0 +1,203 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_CI_GenericPod_Base",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2, 4, 6, 8 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 0.5, -0.5, 0.5, 0.5 ]
+    },
+    {
+      "name" : "R_plateRotate_pt",
+      "children" : [ 3 ],
+      "translation" : [ -0.352713, 0.334564, 0.615423 ],
+      "rotation" : [ -2.24851e-08, 0.258819, 6.00187e-08, -0.965926 ]
+    },
+    {
+      "name" : "R_plateRotate",
+      "translation" : [ 3.8147e-08, 0, -0 ],
+      "rotation" : [ -0.819152, -8.08764e-08, 3.05158e-09, -0.573577 ]
+    },
+    {
+      "name" : "L_plateRotate_pt",
+      "children" : [ 5 ],
+      "translation" : [ -0.356616, 0.334564, -0.61317 ],
+      "rotation" : [ 1.87668e-08, -0.965926, -4.22853e-08, 0.258819 ]
+    },
+    {
+      "name" : "L_plateRotate",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0.819152, -5.9816e-08, -4.27348e-09, -0.573576 ]
+    },
+    {
+      "name" : "F_plateRotate_pt",
+      "children" : [ 7 ],
+      "translation" : [ 0.709328, 0.334564, -5.31731e-09 ],
+      "rotation" : [ 1.54543e-08, -0.707107, 5.83027e-08, -0.707107 ]
+    },
+    {
+      "name" : "F_plateRotate",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0.819152, -6.37472e-08, 4.06333e-10, -0.573577 ]
+    },
+    {
+      "name" : "spawnSocket",
+      "translation" : [ 1.9746e-08, 0.43212, -2.31467e-09 ],
+      "rotation" : [ 4.47035e-08, -8.19564e-08, 4.47035e-08, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "M_CI_GenericPod",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_CI_GenericPod_Base"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_CI_GenericPod_Base.bin",
+      "byteLength" : 135896
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 512
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 512,
+      "byteLength" : 10884
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 11396,
+      "byteLength" : 24900
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 36296,
+      "byteLength" : 24900
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 61196,
+      "byteLength" : 33200
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 94396,
+      "byteLength" : 16600
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 110996,
+      "byteLength" : 8300
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 119296,
+      "byteLength" : 16600
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 8,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 5442,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.487479, -1.23564, -0.773761 ],
+      "max" : [ 0.577849, 1.23416, 1.37442 ],
+      "componentType" : 5126,
+      "count" : 2075,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2075,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2075,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 2075,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2075,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 2075,
+      "type" : "VEC2"
+    }
+  ]
+}

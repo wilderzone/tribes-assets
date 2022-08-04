@@ -1,0 +1,40 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Electric.T_EnergySpiral'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Orb_Shell_01'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Gradients.T_PFX_Gradient_Rnd_SoftPoint'
+}
+Expressions[67] =
+{
+    Expressions[6] = MaterialExpressionVectorParameter'CI_Tactical_Strike.MAT_Spiral.MaterialExpressionVectorParameter_0'
+    Expressions[8] = MaterialExpressionTextureSample'CI_Tactical_Strike.MAT_Spiral.MaterialExpressionTextureSample_0'
+    Expressions[18] = MaterialExpressionTextureSample'CI_Tactical_Strike.MAT_Spiral.MaterialExpressionTextureSample_1'
+    Expressions[32] = MaterialExpressionTextureSample'CI_Tactical_Strike.MAT_Spiral.MaterialExpressionTextureSample_3'
+    Expressions[38] = MaterialExpressionTextureSample'CI_Tactical_Strike.MAT_Spiral.MaterialExpressionTextureSample_5'
+    Expressions[44] = MaterialExpressionTextureSample'CI_Tactical_Strike.MAT_Spiral.MaterialExpressionTextureSample_6'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=2.5, B=6, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

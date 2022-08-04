@@ -1,0 +1,4 @@
+Diffuse=T_PFX_Clouds_Difference01
+Normal=T_CI_GenericPod_Norm
+SpecPower=T_CI_GenericPod_Spec
+Other[0]=T_CI_GenericPod_Dif
