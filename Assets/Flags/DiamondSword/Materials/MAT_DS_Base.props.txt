@@ -1,0 +1,29 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'CTF_Flags.DiamondSword.Textures.T_DS_Base_Norm'
+    ReferencedTextures[1] = Texture2D'CTF_Flags.DiamondSword.Textures.T_DS_Base_Dif'
+    ReferencedTextures[2] = Texture2D'CTF_Flags.DiamondSword.Textures.T_DS_Base_Spec'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'CTF_Flags.DiamondSword.Materials.MAT_DS_Base.MaterialExpressionTextureSample_1'
+    Expressions[1] = MaterialExpressionTextureSample'CTF_Flags.DiamondSword.Materials.MAT_DS_Base.MaterialExpressionTextureSample_2'
+    Expressions[7] = MaterialExpressionTextureSample'CTF_Flags.DiamondSword.Materials.MAT_DS_Base.MaterialExpressionTextureSample_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

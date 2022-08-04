@@ -1,0 +1,175 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_DS_FlagStand",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root_DS_Stand",
+      "children" : [ 2, 3 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "Left_DS_Stand",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -3.09086e-08, 0.707107, -3.09086e-08, -0.707107 ]
+    },
+    {
+      "name" : "Right_DS_Stand",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0.707107, 0, -0.707107 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_DS_Base",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_DS_FlagStand"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_DS_FlagStand.bin",
+      "byteLength" : 68568
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 192
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 192,
+      "byteLength" : 5616
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 5808,
+      "byteLength" : 12552
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 18360,
+      "byteLength" : 12552
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 30912,
+      "byteLength" : 16736
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 47648,
+      "byteLength" : 8368
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 56016,
+      "byteLength" : 4184
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 60200,
+      "byteLength" : 8368
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 3,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 2808,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.512345, -0.0303007, -0.185938 ],
+      "max" : [ 0.512345, 0.433747, 0.185938 ],
+      "componentType" : 5126,
+      "count" : 1046,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1046,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1046,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 1046,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1046,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 1046,
+      "type" : "VEC2"
+    }
+  ]
+}

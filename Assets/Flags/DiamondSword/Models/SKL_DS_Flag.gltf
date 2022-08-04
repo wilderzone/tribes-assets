@@ -1,0 +1,360 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_DS_Flag",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root_DS_Flag",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 9.93196e-08, 0.707107, 1.14221e-07, -0.707107 ]
+    },
+    {
+      "name" : "Cloth_DS_Flag",
+      "children" : [ 3, 18, 33, 34 ],
+      "translation" : [ -1.7928e-10, 1.29157, -2.86844e-09 ],
+      "rotation" : [ -8.74228e-08, 8.55208e-16, 3.97047e-23, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap00",
+      "children" : [ 4 ],
+      "translation" : [ 0.00352412, -0.0220584, 0.19059 ],
+      "rotation" : [ -0.699151, -0.714974, -0.000253918, -0.000344101 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap01",
+      "children" : [ 5 ],
+      "translation" : [ -1.52588e-07, -7.86781e-08, -1.90735e-08 ],
+      "rotation" : [ -1.1832e-08, -9.46538e-07, 2.3935e-07, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap02",
+      "children" : [ 6 ],
+      "translation" : [ -0.0403117, 2.38419e-08, 1.12534e-06 ],
+      "rotation" : [ 0.000730089, 0.0124205, -0.0104527, -0.999868 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap03",
+      "children" : [ 7 ],
+      "translation" : [ -0.0349043, 1.78814e-09, -3.8147e-08 ],
+      "rotation" : [ 1.05645e-07, -0.00317282, -2.1173e-05, -0.999995 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap04",
+      "children" : [ 8 ],
+      "translation" : [ -0.0313234, 2.98023e-09, -1.90735e-08 ],
+      "rotation" : [ 9.75924e-08, -1.63447e-07, 3.64089e-08, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap05",
+      "children" : [ 9 ],
+      "translation" : [ -0.0313239, 5.96046e-10, -1.90735e-08 ],
+      "rotation" : [ -3.98595e-08, 2.01631e-07, -2.23139e-07, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap06",
+      "children" : [ 10 ],
+      "translation" : [ -0.0313236, 1.84774e-08, -1.46866e-06 ],
+      "rotation" : [ -3.63626e-08, -2.33767e-05, -4.48492e-08, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap07",
+      "children" : [ 11 ],
+      "translation" : [ -0.0313238, -2.98023e-09, 3.8147e-08 ],
+      "rotation" : [ 1.00299e-08, 2.29301e-05, 3.50323e-07, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap08",
+      "children" : [ 12 ],
+      "translation" : [ -0.0313237, 1.19209e-09, -0 ],
+      "rotation" : [ 2.46823e-08, 2.10013e-07, -4.84608e-07, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap09",
+      "children" : [ 13 ],
+      "translation" : [ -0.0313237, 0, 1.90735e-08 ],
+      "rotation" : [ -4.93951e-08, 6.05359e-09, 3.13244e-07, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap10",
+      "children" : [ 14 ],
+      "translation" : [ -0.0313237, 1.78814e-09, 1.90735e-08 ],
+      "rotation" : [ -1.43109e-08, 2.24449e-07, 5.28235e-08, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap11",
+      "children" : [ 15 ],
+      "translation" : [ -0.0313237, -4.17233e-09, -7.62939e-07 ],
+      "rotation" : [ 5.90993e-09, -9.26386e-06, -5.70142e-08, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap12",
+      "children" : [ 16 ],
+      "translation" : [ -0.0424236, 2.86102e-08, 3.8147e-08 ],
+      "rotation" : [ 8.78774e-08, 8.3996e-06, -3.84199e-07, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap13",
+      "children" : [ 17 ],
+      "translation" : [ -0.0464286, 6.55651e-09, -3.8147e-08 ],
+      "rotation" : [ -8.21285e-08, -0.000213922, -5.66441e-06, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Flap14",
+      "translation" : [ -0.0467778, -1.72853e-08, -0 ],
+      "rotation" : [ -1.96362e-08, 0.000109888, 3.78617e-06, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap00",
+      "children" : [ 19 ],
+      "translation" : [ 0.0037032, -0.0226918, -0.1906 ],
+      "rotation" : [ -0.000407385, 0.000474322, 0.700655, -0.7135 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap01",
+      "children" : [ 20 ],
+      "translation" : [ -7.62939e-08, -7.86781e-08, -0 ],
+      "rotation" : [ 9.00757e-07, -9.02863e-07, -3.43192e-07, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap02",
+      "children" : [ 21 ],
+      "translation" : [ 0.0396764, -1.43051e-08, 5.72205e-07 ],
+      "rotation" : [ 0.000595219, -0.00320665, 0.00904251, -0.999954 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap03",
+      "children" : [ 22 ],
+      "translation" : [ 0.034893, -1.78814e-09, -1.04904e-06 ],
+      "rotation" : [ 1.0388e-07, 0.0031749, 3.85838e-05, -0.999995 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap04",
+      "children" : [ 23 ],
+      "translation" : [ 0.0313333, -2.98023e-09, -0 ],
+      "rotation" : [ 4.46417e-08, -1.45584e-05, 1.56441e-07, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap05",
+      "children" : [ 24 ],
+      "translation" : [ 0.0313237, -2.98023e-10, -1.90735e-08 ],
+      "rotation" : [ 5.29438e-12, 1.22189e-06, 1.78816e-07, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap06",
+      "children" : [ 25 ],
+      "translation" : [ 0.0313237, -2.98023e-10, 3.35693e-06 ],
+      "rotation" : [ -2.25776e-08, -5.5559e-05, -4.76918e-07, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap07",
+      "children" : [ 26 ],
+      "translation" : [ 0.0313237, -5.66244e-09, -1.90735e-08 ],
+      "rotation" : [ 2.25902e-08, 5.48139e-05, 1.78894e-07, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap08",
+      "children" : [ 27 ],
+      "translation" : [ 0.0313236, 8.9407e-10, -2.57492e-06 ],
+      "rotation" : [ -4.45275e-08, 4.03076e-05, 3.20433e-07, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap09",
+      "children" : [ 28 ],
+      "translation" : [ 0.0313238, 1.49012e-09, 1.90735e-08 ],
+      "rotation" : [ 7.27482e-09, -4.06578e-05, -2.8318e-07, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap10",
+      "children" : [ 29 ],
+      "translation" : [ 0.0313236, 2.38419e-09, -0 ],
+      "rotation" : [ -7.45083e-09, -2.23517e-08, 6.70557e-08, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap11",
+      "children" : [ 30 ],
+      "translation" : [ 0.0313237, -8.9407e-10, 1.90735e-08 ],
+      "rotation" : [ 2.23518e-08, -2.23519e-08, 1.49012e-08, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap12",
+      "children" : [ 31 ],
+      "translation" : [ 0.0424235, 1.19209e-09, -0 ],
+      "rotation" : [ -5.1337e-17, -0, 0, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap13",
+      "children" : [ 32 ],
+      "translation" : [ 0.0466424, -5.43296e-07, -2.04086e-06 ],
+      "rotation" : [ -5.1337e-17, -0, 0, -1 ]
+    },
+    {
+      "name" : "L_DS_Flag_Flap14",
+      "translation" : [ 0.0467696, 1.19209e-09, 3.66211e-06 ],
+      "rotation" : [ 2.16592e-08, -0.000164233, 7.27898e-06, -1 ]
+    },
+    {
+      "name" : "R_DS_Flag_Cloth",
+      "translation" : [ -0.000631826, -0.283867, 4.29165e-07 ],
+      "rotation" : [ -0.707107, 3.8984e-08, 0.707107, -1.00801e-07 ]
+    },
+    {
+      "name" : "L_DS_Flag_Cloth",
+      "translation" : [ -0.000631782, -0.283867, 4.85236e-07 ],
+      "rotation" : [ -0.707107, 1.07112e-07, 0.707107, -3.41838e-10 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,
+        33,34
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_DS_Flag",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_DS_Flag"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_DS_Flag.bin",
+      "byteLength" : 108436
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 2176
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 2176,
+      "byteLength" : 10260
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 12436,
+      "byteLength" : 19200
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 31636,
+      "byteLength" : 19200
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 50836,
+      "byteLength" : 25600
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 76436,
+      "byteLength" : 12800
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 89236,
+      "byteLength" : 6400
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 95636,
+      "byteLength" : 12800
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 34,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 5130,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.240141, 0.0451397, -0.0350045 ],
+      "max" : [ 0.240141, 1.52215, 0.0350046 ],
+      "componentType" : 5126,
+      "count" : 1600,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1600,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1600,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 1600,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1600,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 1600,
+      "type" : "VEC2"
+    }
+  ]
+}

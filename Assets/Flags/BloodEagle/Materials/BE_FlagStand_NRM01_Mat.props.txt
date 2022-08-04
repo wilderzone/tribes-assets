@@ -1,0 +1,58 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'CTF_Flags.BloodEagle.Textures.BE_FlagStand_NRM01'
+    ReferencedTextures[1] = Texture2D'CTF_Flags.BloodEagle.Textures.BE_FlagStand_DIF'
+    ReferencedTextures[2] = Texture2D'CTF_Flags.BloodEagle.Textures.BE_Flagstand_Spec'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'CTF_Flags.BloodEagle.Textures.BE_FlagStand_NRM01_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'CTF_Flags.BloodEagle.Textures.BE_FlagStand_NRM01_Mat.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'CTF_Flags.BloodEagle.Textures.BE_FlagStand_NRM01_Mat.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[6] = MaterialExpressionVectorParameter'CTF_Flags.BloodEagle.Textures.BE_FlagStand_NRM01_Mat.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'CTF_Flags.BloodEagle.Textures.BE_FlagStand_NRM01'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'CTF_Flags.BloodEagle.Textures.BE_FlagStand_DIF'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'CTF_Flags.BloodEagle.Textures.BE_Flagstand_Spec'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=5, G=2, B=1, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

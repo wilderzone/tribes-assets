@@ -1,0 +1,253 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_BE_FlagStand",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root_BE_FlagStand",
+      "children" : [ 2, 4, 6, 8, 10, 12, 14, 16 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "R_Cog_BE_Stand_pt",
+      "children" : [ 3 ],
+      "translation" : [ -6.7449e-09, 0.0283236, -0.06387 ],
+      "rotation" : [ -0.5, -0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "R_Cog_BE_Stand",
+      "translation" : [ 0, 0, 2.38419e-09 ],
+      "rotation" : [ 7.52316e-37, -0, -2.11758e-22, -1 ]
+    },
+    {
+      "name" : "L_Cog_BE_Stand_pt",
+      "children" : [ 5 ],
+      "translation" : [ 1.1325e-08, 0.0283236, 0.068178 ],
+      "rotation" : [ 0.5, 0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "L_Cog_BE_Stand",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 2.13163e-14, 2.38419e-07, -3.5527e-15, -1 ]
+    },
+    {
+      "name" : "L_Support_BE_Stand_pt",
+      "children" : [ 7 ],
+      "translation" : [ 6.18226e-08, 0.00175313, 0.331065 ],
+      "rotation" : [ 0.5, 0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "L_Support_BE_Stand",
+      "translation" : [ 0, 0, 1.19209e-09 ],
+      "rotation" : [ 2.13163e-14, 2.38419e-07, -3.5527e-15, -1 ]
+    },
+    {
+      "name" : "R_Support_BE_Stand_pt",
+      "children" : [ 9 ],
+      "translation" : [ -2.33115e-08, -4.6393e-05, -0.339395 ],
+      "rotation" : [ -0.5, -0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "R_Support_BE_Stand",
+      "translation" : [ 0, 0, 1.20606e-09 ],
+      "rotation" : [ 7.52316e-37, -0, -2.11758e-22, -1 ]
+    },
+    {
+      "name" : "R_CasingOuter_BE_Stand_pt",
+      "children" : [ 11 ],
+      "translation" : [ -6.50261e-09, 0, -0.0438447 ],
+      "rotation" : [ -0.5, -0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "R_CasingOuter_BE_Stand",
+      "translation" : [ 0, 2.84217e-16, 1.20733e-09 ],
+      "rotation" : [ 7.52316e-37, -0, -2.11758e-22, -1 ]
+    },
+    {
+      "name" : "R_CasingInner_BE_Stand_pt",
+      "children" : [ 13 ],
+      "translation" : [ -7.62023e-09, -1.19209e-09, -0.0438447 ],
+      "rotation" : [ -0.5, -0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "R_CasingInner_BE_Stand",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "L_CasingOuter_BE_Stand_pt",
+      "children" : [ 15 ],
+      "translation" : [ 8.42364e-09, 0, 0.04384 ],
+      "rotation" : [ 0.5, 0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "L_CasingOuter_BE_Stand",
+      "translation" : [ 0, 0, 1.17686e-09 ],
+      "rotation" : [ 2.13163e-14, 2.38419e-07, -3.5527e-15, -1 ]
+    },
+    {
+      "name" : "L_CasingInner_BE_Stand_pt",
+      "children" : [ 17 ],
+      "translation" : [ 8.42364e-09, 1.17686e-09, 0.04384 ],
+      "rotation" : [ 0.5, 0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "L_CasingInner_BE_Stand",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 1.06581e-14, 4.37114e-08, -4.37114e-08, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "BE_FlagStand_NRM01_Mat",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_BE_FlagStand"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_BE_FlagStand.bin",
+      "byteLength" : 79652
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1088
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1088,
+      "byteLength" : 6624
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 7712,
+      "byteLength" : 14388
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 22100,
+      "byteLength" : 14388
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 36488,
+      "byteLength" : 19184
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 55672,
+      "byteLength" : 9592
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 65264,
+      "byteLength" : 4796
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 70060,
+      "byteLength" : 9592
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 17,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 3312,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.383152, -0.0433671, -0.429181 ],
+      "max" : [ 0.383152, 0.270625, 0.429181 ],
+      "componentType" : 5126,
+      "count" : 1199,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1199,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1199,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 1199,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1199,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 1199,
+      "type" : "VEC2"
+    }
+  ]
+}
