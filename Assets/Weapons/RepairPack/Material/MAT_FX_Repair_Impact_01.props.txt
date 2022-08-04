@@ -1,0 +1,30 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Electric.T_Tex_Coords_Polar'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Gradients.T_PFX_Gradient_Center'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Electric.T_Lightning_Orb_Shell_01'
+}
+Expressions[25] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_RepairPack_3p.Material.MAT_FX_Repair_Impact_01.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'WEP_RepairPack_3p.Material.MAT_FX_Repair_Impact_01.MaterialExpressionTextureSample_1'
+    Expressions[10] = MaterialExpressionTextureSample'WEP_RepairPack_3p.Material.MAT_FX_Repair_Impact_01.MaterialExpressionTextureSample_2'
+    Expressions[18] = MaterialExpressionTextureSample'WEP_RepairPack_3p.Material.MAT_FX_Repair_Impact_01.MaterialExpressionTextureSample_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

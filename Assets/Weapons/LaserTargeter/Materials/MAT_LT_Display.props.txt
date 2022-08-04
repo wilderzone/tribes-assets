@@ -1,0 +1,268 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.ScanLines.T_FX_ScanLines01'
+    ReferencedTextures[2] = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+    ReferencedTextures[3] = Texture2D'FX_Placeholders.DisplaySamples.T_ThreeDigit_Sample'
+}
+Expressions[130] =
+{
+    Expressions[5] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_1'
+    Expressions[12] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_3'
+    Expressions[14] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[15] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[17] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_4'
+    Expressions[18] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_6'
+    Expressions[20] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[22] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_1'
+    Expressions[24] = MaterialExpressionTextureSample'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSample_5'
+    Expressions[26] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_9'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[28] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[30] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_11'
+    Expressions[32] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_18'
+    Expressions[34] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_4'
+    Expressions[36] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_29'
+    Expressions[38] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_8'
+    Expressions[39] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[40] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[43] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_13'
+    Expressions[44] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_19'
+    Expressions[48] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_31'
+    Expressions[49] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_33'
+    Expressions[53] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_28'
+    Expressions[54] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_30'
+    Expressions[55] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_34'
+    Expressions[56] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_36'
+    Expressions[57] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_37'
+    Expressions[59] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_11'
+    Expressions[62] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_38'
+    Expressions[65] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_18'
+    Expressions[67] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_39'
+    Expressions[69] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_40'
+    Expressions[71] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_42'
+    Expressions[72] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_44'
+    Expressions[73] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_46'
+    Expressions[76] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_49'
+    Expressions[79] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_38'
+    Expressions[80] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_20'
+    Expressions[82] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_22'
+    Expressions[83] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_40'
+    Expressions[86] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_50'
+    Expressions[106] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[107] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_5'
+    Expressions[108] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_7'
+    Expressions[111] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[114] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[116] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_9'
+    Expressions[117] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_2'
+    Expressions[119] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_2'
+    Expressions[123] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_6'
+    Expressions[124] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_10'
+    Expressions[125] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_12'
+    Expressions[126] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[128] = MaterialExpressionScalarParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionScalarParameter_5'
+    Expressions[129] = MaterialExpressionVectorParameter'WEP_LaserTargeter_1p.Materials.MAT_LT_Display.MaterialExpressionVectorParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen_Spec'
+        Name = TEX_Specular
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+        Name = FX_Clouds
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen_Warning'
+        Name = Screen_Warning
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'FX_GeneralUse.ScanLines.T_FX_ScanLines01'
+        Name = FX_ScanLine
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'FX_Placeholders.DisplaySamples.T_ThreeDigit_Sample'
+        Name = PREVIEW_COST
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'WEP_Shotgun_1p.Textures.T_WEP_Shotgun_Screen'
+        Name = Screen_Main
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=-8, Name=SCAL_Depth_Ammo_Clip, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=bAvailable, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = SCAL_Warning_DepthOffset
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=SCAL_Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=SCAL_SpecularPower, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=bAvailable, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=SCAL_Screen_Brightness, Group=None }
+    CollectedScalarParameters[7] = { Value=-5, Name=SCAL_Depth_Ammo_Pool, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Warning_Mode, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.5
+        Name = Clouds_Highs_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = -0.5
+        Name = Clouds_Lows_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 1
+        Name = ScanLine_Highs_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0
+        Name = ScanLine_Lows_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 10
+        Name = Screen_BumpOffset_Numbers_Multiplyer
+        Group = None
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.4
+        Name = Screen_BumpOffset_Multiplyer
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=0, Name=bAvailable, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=bCoolingDown, Group=None }
+}
+CollectedVectorParameters[12] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = Scale_Clouds
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Ammo_Pool_Location
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Warning_Ammo_Pool_Location
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = Scale_ScanLine
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=2, G=2, B=0, A=1 }
+        Name = Warning_Ammo_Pool_Scale
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=2, G=2, B=0, A=1 }
+        Name = Ammo_Pool_Scale
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = VEC_ColorOverride
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=3, G=1, B=1, A=1 }
+        Name = VEC_BG_NotAvailable
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=3, B=1, A=1 }
+        Name = VEC_BG_Available
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=3, B=1, A=1 }
+        Name = VEC_BG_Available
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=3, G=1, B=1, A=1 }
+        Name = VEC_BG_NotAvailable
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=3, A=1 }
+        Name = VEC_BG_CoolingDown
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

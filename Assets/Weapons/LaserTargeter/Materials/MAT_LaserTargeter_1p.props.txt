@@ -1,0 +1,49 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_LaserTargeter_1p.Textures.T_LaserTargeter_Norm'
+    ReferencedTextures[1] = Texture2D'WEP_LaserTargeter_1p.Textures.WEP_LaserTargeter_DIF'
+    ReferencedTextures[2] = Texture2D'WEP_LaserTargeter_1p.Textures.WEP_LaserTargeter_SPC'
+}
+Expressions[9] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LaserTargeter_1p.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LaserTargeter_1p.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_1p.Materials.MAT_LaserTargeter_1p.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_LaserTargeter_1p.Textures.WEP_LaserTargeter_DIF'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_LaserTargeter_1p.Textures.WEP_LaserTargeter_SPC'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_LaserTargeter_1p.Textures.T_LaserTargeter_Norm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

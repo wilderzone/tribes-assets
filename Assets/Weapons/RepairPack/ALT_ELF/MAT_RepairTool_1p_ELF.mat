@@ -1,0 +1,4 @@
+Diffuse=WEP_ELFProjector_DIF
+Normal=WEP_RepairTool_Nrm
+SpecPower=WEP_RepairTool_Spc
+Other[0]=T_RepairTool_Emi

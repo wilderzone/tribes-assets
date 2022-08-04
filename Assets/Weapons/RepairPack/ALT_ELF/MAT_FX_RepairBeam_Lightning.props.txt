@@ -1,0 +1,35 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Flare.T_FX_SliverFlare'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Gradients.T_PFX_Gradient_Frame'
+}
+Expressions[41] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'WEP_RepairPack_1p.ALT_ELF.MAT_FX_RepairBeam_Lightning.MaterialExpressionTextureSample_5'
+    Expressions[6] = MaterialExpressionTextureSample'WEP_RepairPack_1p.ALT_ELF.MAT_FX_RepairBeam_Lightning.MaterialExpressionTextureSample_4'
+    Expressions[10] = MaterialExpressionTextureSample'WEP_RepairPack_1p.ALT_ELF.MAT_FX_RepairBeam_Lightning.MaterialExpressionTextureSample_2'
+    Expressions[14] = MaterialExpressionTextureSample'WEP_RepairPack_1p.ALT_ELF.MAT_FX_RepairBeam_Lightning.MaterialExpressionTextureSample_1'
+    Expressions[20] = MaterialExpressionScalarParameter'WEP_RepairPack_1p.ALT_ELF.MAT_FX_RepairBeam_Lightning.MaterialExpressionScalarParameter_0'
+    Expressions[33] = MaterialExpressionTextureSample'WEP_RepairPack_1p.ALT_ELF.MAT_FX_RepairBeam_Lightning.MaterialExpressionTextureSample_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.4
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=PulsesSPeed, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

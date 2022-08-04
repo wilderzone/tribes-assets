@@ -1,0 +1,66 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_RepairPack_1p.Textures.T_RepairTool_BarEnd'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[2] = Texture2D'WEP_RepairPack_1p.Textures.T_RepairTool_BarBG'
+    ReferencedTextures[3] = Texture2D'WEP_RepairPack_1p.ALT_Yellow.T_RepairTool_display'
+    ReferencedTextures[5] = Texture2D'WEP_RepairPack_1p.Textures.T_RepairTool_Bar'
+}
+Expressions[57] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionScalarParameter'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionTextureSample'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionTextureSample_1'
+    Expressions[11] = MaterialExpressionTextureSample'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionTextureSample_3'
+    Expressions[26] = MaterialExpressionVectorParameter'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionVectorParameter_8'
+    Expressions[33] = MaterialExpressionVectorParameter'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionVectorParameter_9'
+    Expressions[36] = MaterialExpressionTextureSample'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionTextureSample_6'
+    Expressions[37] = MaterialExpressionTextureSampleParameter2D'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[41] = MaterialExpressionScalarParameter'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionScalarParameter_3'
+    Expressions[42] = MaterialExpressionTextureSample'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionTextureSample_2'
+    Expressions[48] = MaterialExpressionTextureSample'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionTextureSample_9'
+    Expressions[52] = MaterialExpressionTextureSample'WEP_RepairPack_1p.Alt.MAT_RepairTool_Screen_Alt.MaterialExpressionTextureSample_10'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'FX_Placeholders.DisplaySamples.T_TwoDigit_Sample'
+        Name = PREVIEW_AMMO_POOL
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=TargetHealth, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DisplayOn, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1.5, G=1.5, B=0, A=1 }
+        Name = Ammo_Pool_Scale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.1, B=0, A=1 }
+        Name = Ammo_Pool_Location
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

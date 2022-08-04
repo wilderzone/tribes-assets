@@ -1,0 +1,88 @@
+Parent = Material3'WEP_LaserTargeter_1p.Materials.MAT_LT_Display'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = bAvailable
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = SCAL_Warning_DepthOffset
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_LaserTargeter_1p.ALT_CallIn.T_SupplyDrop_Screen'
+        ParameterName = Screen_Warning
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'WEP_LaserTargeter_1p.ALT_CallIn.T_SupplyDrop_Screen'
+        ParameterName = Screen_Main
+    }
+}
+VectorParameterValues[7] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=-0.1, G=-0.35, B=0, A=1 }
+        ParameterName = Ammo_Pool_Location
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=-0.05, G=-0.35, B=0, A=1 }
+        ParameterName = Warning_Ammo_Pool_Location
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=4, G=3, B=0, A=1 }
+        ParameterName = Warning_Ammo_Pool_Scale
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=3.5, G=4, B=0, A=1 }
+        ParameterName = Ammo_Pool_Scale
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=3, G=0.02, B=0, A=1 }
+        ParameterName = VEC_BG_NotAvailable
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.5, G=4, B=0.2, A=1 }
+        ParameterName = VEC_BG_Available
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=3, G=2.5, B=0, A=1 }
+        ParameterName = VEC_BG_CoolingDown
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

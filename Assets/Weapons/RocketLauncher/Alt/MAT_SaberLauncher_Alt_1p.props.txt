@@ -1,0 +1,39 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_RocketLauncher_1p.Textures.T_RocketLauncher_Norm'
+    ReferencedTextures[1] = Texture2D'WEP_RocketLauncher_1p.Textures.T_RocketLauncher_Emi'
+    ReferencedTextures[2] = Texture2D'WEP_RocketLauncher_1p.Alt.T_WEP_SaberLauncher_Alt_Dif'
+    ReferencedTextures[3] = Texture2D'WEP_RocketLauncher_1p.Alt.T_WEP_SaberLauncher_Alt_Spec'
+}
+Expressions[11] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_RocketLauncher_1p.Alt.MAT_SaberLauncher_Alt_1p.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'WEP_RocketLauncher_1p.Alt.MAT_SaberLauncher_Alt_1p.MaterialExpressionTextureSample_1'
+    Expressions[2] = MaterialExpressionTextureSample'WEP_RocketLauncher_1p.Alt.MAT_SaberLauncher_Alt_1p.MaterialExpressionTextureSample_2'
+    Expressions[10] = MaterialExpressionTextureSampleParameter2D'WEP_RocketLauncher_1p.Alt.MAT_SaberLauncher_Alt_1p.MaterialExpressionTextureSampleParameter2D_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_RocketLauncher_1p.Textures.T_RocketLauncher_Norm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

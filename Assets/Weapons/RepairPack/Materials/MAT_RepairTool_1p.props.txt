@@ -1,0 +1,60 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_RepairPack_1p.Textures.WEP_RepairTool_Nrm'
+    ReferencedTextures[1] = Texture2D'WEP_RepairPack_1p.Textures.T_RepairTool_Emi'
+    ReferencedTextures[2] = Texture2D'WEP_RepairPack_1p.Textures.WEP_RepairTool_Dif'
+    ReferencedTextures[3] = Texture2D'WEP_RepairPack_1p.Textures.WEP_RepairTool_Spc'
+}
+Expressions[13] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'WEP_RepairPack_1p.Materials.MAT_RepairTool_1p.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'WEP_RepairPack_1p.Materials.MAT_RepairTool_1p.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'WEP_RepairPack_1p.Materials.MAT_RepairTool_1p.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionVectorParameter'WEP_RepairPack_1p.Materials.MAT_RepairTool_1p.MaterialExpressionVectorParameter_0'
+    Expressions[11] = MaterialExpressionTextureSample'WEP_RepairPack_1p.Materials.MAT_RepairTool_1p.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_RepairPack_1p.Textures.WEP_RepairTool_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_RepairPack_1p.Textures.WEP_RepairTool_Spc'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_RepairPack_1p.Textures.WEP_RepairTool_Nrm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=3, B=0.2, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

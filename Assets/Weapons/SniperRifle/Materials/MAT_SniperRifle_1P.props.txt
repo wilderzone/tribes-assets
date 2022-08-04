@@ -1,0 +1,58 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_SniperRifle_1p.Textures.T_Sniper_Rifle_Norm'
+    ReferencedTextures[1] = Texture2D'WEP_SniperRifle_1p.Textures.WEP_Sniper_Rifle_Dif'
+    ReferencedTextures[2] = Texture2D'WEP_SniperRifle_1p.Textures.WEP_Sniper_Rifle_Spc'
+}
+Expressions[9] =
+{
+    Expressions[1] = MaterialExpressionVectorParameter'WEP_SniperRifle_1p.Materials.MAT_SniperRifle_1P.MaterialExpressionVectorParameter_5'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'WEP_SniperRifle_1p.Materials.MAT_SniperRifle_1P.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'WEP_SniperRifle_1p.Materials.MAT_SniperRifle_1P.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'WEP_SniperRifle_1p.Materials.MAT_SniperRifle_1P.MaterialExpressionTextureSampleParameter2D_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_SniperRifle_1p.Textures.WEP_Sniper_Rifle_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_SniperRifle_1p.Textures.WEP_Sniper_Rifle_Spc'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_SniperRifle_1p.Textures.T_Sniper_Rifle_Norm'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.3, G=0.3, B=0.5, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

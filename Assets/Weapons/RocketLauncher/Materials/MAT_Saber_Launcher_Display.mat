@@ -1,0 +1,9 @@
+Diffuse=T_PFX_Clouds_Difference01
+SpecPower=T_WEP_Shotgun_Screen_Spec
+Other[0]=saber_launcher_display
+Other[1]=T_FX_ScanLines01
+Other[2]=T_WEP_Shotgun_Screen
+Other[3]=T_WEP_Shotgun_Screen_Warning
+Other[4]=T_OneDigit_Sample
+Other[5]=T_TwoDigit_Sample
+Other[6]=T_RemoteArx_ScreenWarning

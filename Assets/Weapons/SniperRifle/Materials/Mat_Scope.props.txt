@@ -1,0 +1,67 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.ScanLines.T_FX_ScanLines01'
+    ReferencedTextures[2] = Texture2D'WEP_SniperRifle_1p.Textures.T_SniperRifle_Scope'
+}
+Expressions[35] =
+{
+    Expressions[4] = MaterialExpressionVectorParameter'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionVectorParameter_0'
+    Expressions[13] = MaterialExpressionVectorParameter'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionVectorParameter_1'
+    Expressions[14] = MaterialExpressionVectorParameter'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionVectorParameter_3'
+    Expressions[18] = MaterialExpressionScalarParameter'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionScalarParameter_0'
+    Expressions[19] = MaterialExpressionScalarParameter'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionScalarParameter_2'
+    Expressions[20] = MaterialExpressionTextureSample'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionTextureSample_5'
+    Expressions[24] = MaterialExpressionTextureSample'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionTextureSample_6'
+    Expressions[25] = MaterialExpressionTextureSample'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionTextureSample_7'
+    Expressions[31] = MaterialExpressionScalarParameter'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionScalarParameter_6'
+    Expressions[34] = MaterialExpressionScalarParameter'WEP_SniperRifle_1p.Materials.Mat_Scope.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Contrast, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.05
+        Name = Brightness_ScanClouds
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=Multiply_ScanClouds, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.15, G=0.25, B=0.4, A=0.3 }
+        Name = ViewOffset
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.316613, G=20, B=0.499404, A=1 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0.05, B=0.1, A=1 }
+        Name = LowColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

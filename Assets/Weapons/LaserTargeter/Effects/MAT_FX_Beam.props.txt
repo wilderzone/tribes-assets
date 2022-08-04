@@ -1,0 +1,76 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'FX_GeneralUse.Smoke.T_SmokeTrail_01'
+    ReferencedTextures[1] = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+    ReferencedTextures[2] = Texture2D'FX_GeneralUse.Smoke.T_PFX_SmokePuff_01'
+    ReferencedTextures[3] = Texture2D'FX_GeneralUse.Smoke.T_SmokeTrail_01_NRM'
+}
+Expressions[62] =
+{
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[24] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[25] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[27] = MaterialExpressionScalarParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionScalarParameter_0'
+    Expressions[30] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[31] = MaterialExpressionTextureSampleParameter2D'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[34] = MaterialExpressionScalarParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionScalarParameter_1'
+    Expressions[38] = MaterialExpressionScalarParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionScalarParameter_2'
+    Expressions[39] = MaterialExpressionScalarParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionScalarParameter_4'
+    Expressions[41] = MaterialExpressionScalarParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionScalarParameter_5'
+    Expressions[43] = MaterialExpressionScalarParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionScalarParameter_7'
+    Expressions[44] = MaterialExpressionTextureSample'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionTextureSample_0'
+    Expressions[60] = MaterialExpressionScalarParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionScalarParameter_3'
+    Expressions[61] = MaterialExpressionStaticSwitchParameter'WEP_LaserTargeter_3p.Effects.MAT_FX_Beam.MaterialExpressionStaticSwitchParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'FX_GeneralUse.Smoke.T_SmokeTrail_01'
+        Name = Beam_Shape
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'FX_GeneralUse.Clouds.T_PFX_Clouds_Difference01'
+        Name = Fractal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'FX_GeneralUse.Gradients.T_PFX_Gradient_Up'
+        Name = gradient
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'FX_GeneralUse.Smoke.T_PFX_SmokePuff_01'
+        Name = Fractal_Macro
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Fractal_Tiling, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Fractal_Tiling_Macro, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Fractal_Contrast, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Fractal_Macro_Contrast, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Fractal_Contrast, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Fractal_Brightness, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=bValidLocation, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
