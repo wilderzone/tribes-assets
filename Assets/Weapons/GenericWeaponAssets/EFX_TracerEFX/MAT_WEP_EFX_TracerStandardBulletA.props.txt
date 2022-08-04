@@ -1,0 +1,39 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_EFX_TracerEFX.T_EFX_Sparkparts'
+    ReferencedTextures[1] = Texture2D'WEP_EFX_TracerEFX.T_WEP_EFX_TracerBulletD00'
+    ReferencedTextures[2] = Texture2D'WEP_EFX_TracerEFX.T_WEP_EFX_TracerBulletC00'
+    ReferencedTextures[3] = Texture2D'dev_efx_forceshielda.T_DEV_EFXForceShieldA_cloudA'
+}
+Expressions[60] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_EFX_TracerEFX.MAT_WEP_EFX_TracerStandardBulletA.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[12] = MaterialExpressionTextureSample'WEP_EFX_TracerEFX.MAT_WEP_EFX_TracerStandardBulletA.MaterialExpressionTextureSample_0'
+    Expressions[23] = MaterialExpressionTextureSample'WEP_EFX_TracerEFX.MAT_WEP_EFX_TracerStandardBulletA.MaterialExpressionTextureSample_1'
+    Expressions[48] = MaterialExpressionTextureSample'WEP_EFX_TracerEFX.MAT_WEP_EFX_TracerStandardBulletA.MaterialExpressionTextureSample_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_EFX_TracerEFX.T_WEP_EFX_TracerBulletD00'
+        Name = BulletTex
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

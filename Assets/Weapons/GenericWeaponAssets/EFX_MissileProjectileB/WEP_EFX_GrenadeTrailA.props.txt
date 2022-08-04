@@ -1,0 +1,25 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_EFX_MissileProjectileB.T_WEP_EFX_GrenadeTrailA_OPC00'
+}
+Expressions[15] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'WEP_EFX_MissileProjectileB.WEP_EFX_GrenadeTrailA.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
