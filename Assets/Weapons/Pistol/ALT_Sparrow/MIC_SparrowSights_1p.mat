@@ -1,0 +1,5 @@
+Diffuse=WEP_SparrowSights_Dif
+Normal=WEP_Sparrow_sights_nrm
+Specular=WEP_SparrowSights_Dif
+SpecPower=Wep_Sparrow_Dif
+Other[0]=Wep_Eagle_NRM

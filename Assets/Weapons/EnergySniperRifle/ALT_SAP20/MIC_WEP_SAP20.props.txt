@@ -1,0 +1,38 @@
+Parent = Material3'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = -0.3
+        ParameterName = BumpOffset
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = Bumpoffset_toggle
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=5, G=0.1, B=0.01, A=1 }
+        ParameterName = EMI_Color
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

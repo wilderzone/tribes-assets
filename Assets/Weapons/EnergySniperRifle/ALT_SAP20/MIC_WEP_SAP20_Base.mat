@@ -1,0 +1,8 @@
+Diffuse=WEP_sap20Base_dif
+Normal=T_Wep_PhaseRifle_NRM
+Specular=WEP_sap20Base_spc
+SpecPower=wep_sap20_spc01
+Emissive=Wep_SAP20_Base_NRM
+Other[0]=wep_sap20_nrm01
+Other[1]=wep_sap20_dif01
+Other[2]=T_tempAR_cube

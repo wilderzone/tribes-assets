@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_Pistol01_1p.ALT_SN7.Silencer_nrm'
+    ReferencedTextures[1] = Texture2D'WEP_Pistol01_1p.Alt.Silencer_Dif_alt'
+    ReferencedTextures[2] = Texture2D'WEP_Pistol01_1p.Alt.Silencer_spc_alt'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_Pistol01_1p.Alt.Silencer_Dif_alt_Mat.MaterialExpressionTextureSample_14'
+    Expressions[5] = MaterialExpressionTextureSample'WEP_Pistol01_1p.Alt.Silencer_Dif_alt_Mat.MaterialExpressionTextureSample_16'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'WEP_Pistol01_1p.Alt.Silencer_Dif_alt_Mat.MaterialExpressionTextureSampleParameter2D_16'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_Pistol01_1p.ALT_SN7.Silencer_nrm'
+        Name = MaterialExpressionTextureSampleParameter2D_16
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

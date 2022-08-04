@@ -1,0 +1,6 @@
+Diffuse=falcon_addons_dif
+Normal=falcon_addons_nrm
+Specular=falcon_addons_spc
+SpecPower=WEP_FalconBase_spc
+Other[0]=falcon_nrm
+Other[1]=WEP_FalconBase_dif

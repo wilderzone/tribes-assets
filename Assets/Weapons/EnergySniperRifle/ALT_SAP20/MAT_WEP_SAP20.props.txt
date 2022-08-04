@@ -1,0 +1,92 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_EnergySniperRifle_1p.ALT_SAP20.wep_sap20_nrm01'
+    ReferencedTextures[1] = Texture2D'WEP_EnergySniperRifle_1p.ALT_SAP20.wep_sap20_dif01'
+    ReferencedTextures[2] = TextureCube3'WEP_AssaultRifle_1p.Textures.T_tempAR_cube'
+    ReferencedTextures[3] = Texture2D'WEP_EnergySniperRifle_1p.ALT_SAP20.wep_sap20_spc01'
+}
+Expressions[30] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[5] = MaterialExpressionScalarParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionScalarParameter_1'
+    Expressions[6] = MaterialExpressionScalarParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionScalarParameter_2'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[9] = MaterialExpressionScalarParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionScalarParameter_4'
+    Expressions[10] = MaterialExpressionScalarParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionScalarParameter_6'
+    Expressions[20] = MaterialExpressionScalarParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionScalarParameter_8'
+    Expressions[21] = MaterialExpressionScalarParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionScalarParameter_9'
+    Expressions[22] = MaterialExpressionVectorParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionVectorParameter_0'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[25] = MaterialExpressionScalarParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionScalarParameter_10'
+    Expressions[26] = MaterialExpressionScalarParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionScalarParameter_12'
+    Expressions[27] = MaterialExpressionStaticSwitchParameter'WEP_EnergySniperRifle_1p.ALT_SAP20.MAT_WEP_SAP20.MaterialExpressionStaticSwitchParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_EnergySniperRifle_1p.ALT_SAP20.wep_sap20_nrm01'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WEP_EnergySniperRifle_1p.ALT_SAP20.wep_sap20_dif01'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'WEP_EnergySniperRifle_1p.ALT_SAP20.wep_sap20_spc01'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'WEP_EnergySniperRifle_1p.ALT_SAP20.wep_sap20_spc01'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'WEP_EnergySniperRifle_1p.ALT_SAP20.wep_sap20_nrm01'
+        Name = Emissive_mask
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Diffuse_Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=Specular_Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=24, Name=Spec_pwr_hi, Group=None }
+    CollectedScalarParameters[3] = { Value=6, Name=Spec_pwr_low, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Cube_toggle, Group=None }
+    CollectedScalarParameters[5] = { Value=0.4, Name=Cube_intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.5, Name=BumpOffset, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Bumpoffset_toggle, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = EMI_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

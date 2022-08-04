@@ -1,0 +1,25 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_EnergySniperRifle_3p.Textures.WEP_PhaseRifle_3p_dif'
+}
+Expressions[4] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_EnergySniperRifle_3p.Materials.Mat_EnergySniperRifle_3p.MaterialExpressionTextureSample_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

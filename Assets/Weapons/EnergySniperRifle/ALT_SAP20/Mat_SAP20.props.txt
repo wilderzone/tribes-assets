@@ -1,0 +1,25 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_EnergySniperRifle_3p.ALT_SAP20.wep_sap20_3p_dif01'
+}
+Expressions[4] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'WEP_EnergySniperRifle_3p.ALT_SAP20.Mat_SAP20.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

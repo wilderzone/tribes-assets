@@ -1,0 +1,4 @@
+Diffuse=wep_sap20_dif01
+Normal=wep_sap20_nrm01
+SpecPower=wep_sap20_spc01
+Other[0]=T_tempAR_cube
