@@ -1,0 +1,42 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'WEP_RepairPack_3p.Textures.WEP_RepairTool_3p_Dif'
+}
+Expressions[13] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'STN_RepairTool.Materials.MAT_WEP_RepairPack_Pickup.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[8] = MaterialExpressionVectorParameter'STN_RepairTool.Materials.MAT_WEP_RepairPack_Pickup.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WEP_RepairPack_3p.Textures.WEP_RepairTool_3p_Dif'
+        Name = MaterialExpressionTextureSampleParameter2D_0
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2.5, G=9, B=15, A=1 }
+        Name = Fresnel_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

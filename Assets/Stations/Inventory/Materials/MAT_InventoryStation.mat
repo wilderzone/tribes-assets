@@ -1,0 +1,4 @@
+Diffuse=T_InvStation_Dif
+Normal=T_InvStation_Norm
+SpecPower=T_InvStation_Spec
+Other[0]=T_InvStation_Emi

@@ -1,0 +1,47 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'STN_RepairTool.Textures.T_RepairToolDis_Norm'
+    ReferencedTextures[1] = Texture2D'STN_RepairTool.Textures.T_RepairToolDis_Emi'
+    ReferencedTextures[2] = Texture2D'STN_RepairTool.Textures.T_RepairToolDis_Dif'
+    ReferencedTextures[3] = Texture2D'STN_RepairTool.Textures.T_RepairToolDis_Spec'
+}
+Expressions[22] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'STN_RepairTool.Materials.MAT_RepairTool.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'STN_RepairTool.Materials.MAT_RepairTool.MaterialExpressionTextureSample_1'
+    Expressions[2] = MaterialExpressionTextureSample'STN_RepairTool.Materials.MAT_RepairTool.MaterialExpressionTextureSample_2'
+    Expressions[8] = MaterialExpressionTextureSample'STN_RepairTool.Materials.MAT_RepairTool.MaterialExpressionTextureSample_3'
+    Expressions[10] = MaterialExpressionVectorParameter'STN_RepairTool.Materials.MAT_RepairTool.MaterialExpressionVectorParameter_0'
+    Expressions[14] = MaterialExpressionVectorParameter'STN_RepairTool.Materials.MAT_RepairTool.MaterialExpressionVectorParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=30, G=0.1, B=0.05, A=1 }
+        Name = MainLight
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=8, G=25, B=30, A=1 }
+        Name = InsideLight
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

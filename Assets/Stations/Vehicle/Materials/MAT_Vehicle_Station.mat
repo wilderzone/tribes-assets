@@ -1,0 +1,4 @@
+Diffuse=T_VehicleStation_Dif
+Normal=T_VehicleStation_Norm
+SpecPower=T_VehicleStation_Spec
+Other[0]=T_VehicleStation_Emi

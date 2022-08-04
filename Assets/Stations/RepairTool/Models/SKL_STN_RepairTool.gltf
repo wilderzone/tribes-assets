@@ -1,0 +1,353 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_STN_RepairTool",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2, 14 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "doorPanel_00",
+      "children" : [ 3 ],
+      "translation" : [ 0.00762508, -0.176722, 0.231553 ],
+      "rotation" : [ -0.707107, -0.707107, 3.7573e-07, 1.93252e-07 ]
+    },
+    {
+      "name" : "doorPanel_01",
+      "children" : [ 4 ],
+      "translation" : [ 0.0453534, 8.9407e-09, 9.34601e-07 ],
+      "rotation" : [ 2.38418e-07, -1.4782e-05, 5.90817e-12, -1 ]
+    },
+    {
+      "name" : "doorPanel_02",
+      "children" : [ 5 ],
+      "translation" : [ 0.0306262, 1.19209e-09, -1.90735e-08 ],
+      "rotation" : [ 9.41797e-13, 1.40667e-05, -2.3057e-12, -1 ]
+    },
+    {
+      "name" : "doorPanel_03",
+      "children" : [ 6 ],
+      "translation" : [ 0.0306264, 5.36442e-09, -0 ],
+      "rotation" : [ 1.0951e-14, 9.53674e-07, -1.56319e-13, -1 ]
+    },
+    {
+      "name" : "doorPanel_04",
+      "children" : [ 7 ],
+      "translation" : [ 0.030626, 1.78814e-09, -0 ],
+      "rotation" : [ -6.01034e-14, -4.76837e-07, 7.28306e-14, -1 ]
+    },
+    {
+      "name" : "doorPanel_05",
+      "children" : [ 8 ],
+      "translation" : [ 0.0306262, -1.78814e-09, -0 ],
+      "rotation" : [ 1.1869e-14, 1.42109e-14, -2.5332e-07, -1 ]
+    },
+    {
+      "name" : "doorPanel_06",
+      "children" : [ 9 ],
+      "translation" : [ 0.0306262, -4.76837e-09, -0 ],
+      "rotation" : [ -9.38741e-14, 4.76837e-07, 2.23517e-07, -1 ]
+    },
+    {
+      "name" : "doorPanel_07",
+      "children" : [ 10 ],
+      "translation" : [ 0.0306262, 1.19209e-09, -0 ],
+      "rotation" : [ 1.74709e-14, -7.15256e-07, 1.1724e-13, -1 ]
+    },
+    {
+      "name" : "doorPanel_08",
+      "children" : [ 11 ],
+      "translation" : [ 0.0306262, 5.96046e-09, -0 ],
+      "rotation" : [ -3.84541e-15, -0, 0, -1 ]
+    },
+    {
+      "name" : "doorPanel_09",
+      "children" : [ 12 ],
+      "translation" : [ 0.0306262, 2.38419e-09, -0 ],
+      "rotation" : [ -3.84541e-15, -0, 0, -1 ]
+    },
+    {
+      "name" : "doorPanel_10",
+      "children" : [ 13 ],
+      "translation" : [ 0.0294372, 5.96046e-09, 7.82013e-07 ],
+      "rotation" : [ -2.57774e-08, 0.18688, 9.20465e-08, -0.982383 ]
+    },
+    {
+      "name" : "doorPanel_11",
+      "translation" : [ 0.0295872, 5.96046e-10, -1.90735e-08 ],
+      "rotation" : [ 3.55271e-15, 1.49012e-08, -1.42109e-14, -1 ]
+    },
+    {
+      "name" : "weaponTray_pt",
+      "children" : [ 15 ],
+      "translation" : [ 0.00762507, -0.0916278, 0.114579 ],
+      "rotation" : [ -0.260392, -0, 0, -0.965503 ]
+    },
+    {
+      "name" : "weaponTray",
+      "children" : [ 16 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Weapon",
+      "translation" : [ 2.38419e-09, 0.016812, 0.0628943 ],
+      "rotation" : [ -6.61744e-24, -1.24361e-08, 7.2341e-09, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_RepairTool",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    },
+    {
+      "name" : "MAT_WEP_RepairPack_Pickup",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.9, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        },
+        {
+          "attributes" : {
+            "POSITION" : 9,
+            "NORMAL" : 10,
+            "TANGENT" : 11,
+            "JOINTS_0" : 12,
+            "WEIGHTS_0" : 13,
+            "TEXCOORD_0" : 14
+          },
+          "indices" : 8,
+          "material" : 1
+        }
+      ],
+      "name" : "SKL_STN_RepairTool"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_STN_RepairTool.bin",
+      "byteLength" : 271952
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1024
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1024,
+      "byteLength" : 7232
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 8256,
+      "byteLength" : 14700
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 22956,
+      "byteLength" : 14700
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 37656,
+      "byteLength" : 19600
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 57256,
+      "byteLength" : 9800
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 67056,
+      "byteLength" : 4900
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 71956,
+      "byteLength" : 9800
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 81756,
+      "byteLength" : 11576
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 93332,
+      "byteLength" : 35724
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 129056,
+      "byteLength" : 35724
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 164780,
+      "byteLength" : 47632
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 212412,
+      "byteLength" : 23816
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 236228,
+      "byteLength" : 11908
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 248136,
+      "byteLength" : 23816
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 16,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 3615,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.18046, -0.220243, -0.000352602 ],
+      "max" : [ 0.195321, 0.311514, 0.255159 ],
+      "componentType" : 5126,
+      "count" : 1225,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1225,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1225,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 1225,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1225,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 1225,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5123,
+      "count" : 5787,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 9,
+      "min" : [ -0.0776085, -0.147479, 0.124309 ],
+      "max" : [ 0.102413, -0.0613611, 0.233794 ],
+      "componentType" : 5126,
+      "count" : 2977,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 10,
+      "componentType" : 5126,
+      "count" : 2977,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 11,
+      "componentType" : 5126,
+      "count" : 2977,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 12,
+      "componentType" : 5123,
+      "count" : 2977,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 13,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2977,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 14,
+      "componentType" : 5126,
+      "count" : 2977,
+      "type" : "VEC2"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Diffuse=T_PFX_Clouds_Difference01
+Other[0]=T_Smoke_DarkGrey_Tile
+Other[1]=T_PFX_FireBall_Tileable
+Other[2]=T_PFX_Gradient_Rnd_SoftPoint
+Other[3]=T_PFX_SmokePuff_01

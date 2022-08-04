@@ -1,0 +1,4 @@
+Diffuse=T_RepairToolDis_Dif
+Normal=T_RepairToolDis_Norm
+SpecPower=T_RepairToolDis_Spec
+Other[0]=T_RepairToolDis_Emi

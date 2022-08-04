@@ -1,0 +1,4 @@
+Diffuse=T_Common_VehicleStation_Base_DIF
+Normal=T_Common_VehicleStation_Base_NRM
+SpecPower=T_Common_VehicleStation_Base_SPC
+Other[0]=T_Vehicle_Pad_Emi

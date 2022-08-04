@@ -1,0 +1,4 @@
+Diffuse=T_Vehicle_Pad_Dif
+Normal=T_Vehicle_Pad_Norm
+SpecPower=T_Vehicle_Pad_Spec
+Other[0]=T_Vehicle_Pad_Emi

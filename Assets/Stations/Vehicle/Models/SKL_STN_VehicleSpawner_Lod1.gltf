@@ -1,0 +1,783 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1575",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SKL_STN_VehicleSpawner_Lod1",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2, 13, 24, 35, 46, 57, 68, 79, 90, 101, 112 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, 0.707107, 0, -0.707107 ]
+    },
+    {
+      "name" : "pistonBase01_pt",
+      "children" : [ 3, 11 ],
+      "translation" : [ 3.54906, 0.151823, -5.73122e-07 ],
+      "rotation" : [ 2.10734e-07, -0.707107, 0.707107, 2.10734e-07 ]
+    },
+    {
+      "name" : "pistonBase01",
+      "children" : [ 4, 8, 9, 10 ],
+      "translation" : [ 0, -9.5366e-09, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "pistonTop01_pt",
+      "children" : [ 5 ],
+      "translation" : [ -0.221526, 5.26481e-08, -0.98292 ],
+      "rotation" : [ -8.05601e-09, -0.321843, 4.75396e-08, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop01",
+      "children" : [ 6 ],
+      "translation" : [ 0, -9.5366e-09, -0 ],
+      "rotation" : [ 4.44089e-16, -1.49012e-08, 1.33227e-15, -1 ]
+    },
+    {
+      "name" : "piston01",
+      "children" : [ 7 ],
+      "translation" : [ 1.52588e-07, -7.62938e-08, -3.05176e-07 ],
+      "rotation" : [ -5.66049e-08, -1, -9.25848e-09, -1.2666e-07 ]
+    },
+    {
+      "name" : "pistonNub01",
+      "translation" : [ 1.74128, 9.61726e-08, -9.15527e-07 ],
+      "rotation" : [ -4.44089e-15, -1.49012e-08, -5.32907e-15, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel01",
+      "translation" : [ 0.0113217, -0.63551, -0.613373 ],
+      "rotation" : [ 2.38419e-07, -1, 5.96047e-08, 2.98023e-07 ]
+    },
+    {
+      "name" : "L_pistonPanel01",
+      "translation" : [ 0.0113211, 0.635507, -0.613373 ],
+      "rotation" : [ -0, -0, 1.19209e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport01",
+      "translation" : [ -0.248221, -5.11148e-08, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550212 ]
+    },
+    {
+      "name" : "pistonBottom01_pt",
+      "children" : [ 12 ],
+      "translation" : [ -1.60207, 1.14291e-07, 0.0782825 ],
+      "rotation" : [ -1.54543e-08, -0.707107, 1.54543e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom01",
+      "translation" : [ -1.4782e-07, -9.53674e-09, -0 ],
+      "rotation" : [ 3.45425e-21, -0, 0, -1 ]
+    },
+    {
+      "name" : "pistonBase02_pt",
+      "children" : [ 14, 22 ],
+      "translation" : [ 2.87125, 0.151823, -2.08609 ],
+      "rotation" : [ 0.218508, -0.672498, 0.672499, 0.218508 ]
+    },
+    {
+      "name" : "pistonBase02",
+      "children" : [ 15, 19, 20, 21 ],
+      "translation" : [ 0, 1.52588e-07, -0 ],
+      "rotation" : [ 3.70945e-30, -8.88178e-16, -1.36968e-15, -1 ]
+    },
+    {
+      "name" : "pistonTop02_pt",
+      "children" : [ 16 ],
+      "translation" : [ -0.221526, 2.10381e-07, -0.98292 ],
+      "rotation" : [ 1.66526e-09, -0.321843, 1.49536e-08, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop02",
+      "children" : [ 17 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 6.04056e-09, 7.45058e-09, 6.39576e-10, -1 ]
+    },
+    {
+      "name" : "piston02",
+      "children" : [ 18 ],
+      "translation" : [ 0, -1.52588e-07, -3.05176e-07 ],
+      "rotation" : [ 1.69796e-07, -1, -1.88643e-08, -4.47035e-08 ]
+    },
+    {
+      "name" : "pistonNub02",
+      "translation" : [ 1.74128, 4.27136e-08, -9.15527e-07 ],
+      "rotation" : [ -8.99409e-09, 7.45058e-09, 4.54067e-09, -1 ]
+    },
+    {
+      "name" : "L_pistonPanel02",
+      "translation" : [ 0.011322, 0.635507, -0.613373 ],
+      "rotation" : [ -3.583e-08, 3.07127e-09, 3.50177e-07, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel02",
+      "translation" : [ 0.0113214, -0.63551, -0.613373 ],
+      "rotation" : [ 2.23517e-07, -1, 7.64416e-08, 1.50992e-07 ]
+    },
+    {
+      "name" : "pistonSupport02",
+      "translation" : [ -0.248221, -4.89379e-07, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550212 ]
+    },
+    {
+      "name" : "pistonBottom02_pt",
+      "children" : [ 23 ],
+      "translation" : [ -1.60207, 1.60138e-07, 0.0782824 ],
+      "rotation" : [ 3.56318e-08, -0.707107, -1.70518e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom02",
+      "translation" : [ -1.4782e-07, 0, -0 ],
+      "rotation" : [ 1.49012e-08, -1.32349e-23, 8.88178e-16, -1 ]
+    },
+    {
+      "name" : "pistonBase03_pt",
+      "children" : [ 25, 33 ],
+      "translation" : [ 1.09672, 0.151823, -3.37535 ],
+      "rotation" : [ 0.415627, -0.572061, 0.572061, 0.415627 ]
+    },
+    {
+      "name" : "pistonBase03",
+      "children" : [ 26, 30, 31, 32 ],
+      "translation" : [ 0, -7.62939e-08, -0 ],
+      "rotation" : [ 7.80723e-31, 8.88178e-16, 2.35986e-16, -1 ]
+    },
+    {
+      "name" : "pistonTop03_pt",
+      "children" : [ 27 ],
+      "translation" : [ -0.221526, 1.89211e-07, -0.98292 ],
+      "rotation" : [ -1.00527e-07, -0.321843, -8.14265e-09, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop03",
+      "children" : [ 28 ],
+      "translation" : [ 0, -7.62939e-08, -0 ],
+      "rotation" : [ -3.5918e-09, -0, 3.54949e-09, -1 ]
+    },
+    {
+      "name" : "piston03",
+      "children" : [ 29 ],
+      "translation" : [ 3.05176e-07, -1.52588e-07, -3.05176e-07 ],
+      "rotation" : [ -1.03669e-07, -1, -2.83923e-08, 7.45058e-09 ]
+    },
+    {
+      "name" : "pistonNub03",
+      "translation" : [ 1.74128, 3.89785e-07, -9.15527e-07 ],
+      "rotation" : [ -7.7176e-10, 1.49012e-08, -1.45495e-09, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel03",
+      "translation" : [ 0.0113211, -0.635509, -0.613373 ],
+      "rotation" : [ 1.3411e-07, -1, 8.18209e-08, 1.5688e-07 ]
+    },
+    {
+      "name" : "L_pistonPanel03",
+      "translation" : [ 0.0113211, 0.635508, -0.613373 ],
+      "rotation" : [ -1.04115e-07, 2.35705e-08, 2.98023e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport03",
+      "translation" : [ -0.248221, 1.18203e-06, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550211 ]
+    },
+    {
+      "name" : "pistonBottom03_pt",
+      "children" : [ 34 ],
+      "translation" : [ -1.60207, 1.61824e-07, 0.0782824 ],
+      "rotation" : [ -3.30256e-08, -0.707107, -4.35624e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom03",
+      "translation" : [ -1.4782e-07, 0, -0 ],
+      "rotation" : [ 2.74666e-15, -3.55271e-15, 7.65305e-29, -1 ]
+    },
+    {
+      "name" : "pistonBase04_pt",
+      "children" : [ 36, 44 ],
+      "translation" : [ -1.09672, 0.151823, -3.37536 ],
+      "rotation" : [ -0.572061, 0.415627, -0.415627, -0.572061 ]
+    },
+    {
+      "name" : "pistonBase04",
+      "children" : [ 37, 41, 42, 43 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, 4.55498e-16, -1 ]
+    },
+    {
+      "name" : "pistonTop04_pt",
+      "children" : [ 38 ],
+      "translation" : [ -0.221526, 1.59585e-07, -0.98292 ],
+      "rotation" : [ -7.64248e-08, -0.321843, -7.09713e-09, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop04",
+      "children" : [ 39 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 2.18178e-09, 7.45058e-09, 4.54067e-09, -1 ]
+    },
+    {
+      "name" : "piston04",
+      "children" : [ 40 ],
+      "translation" : [ 0, -7.62939e-08, -3.05176e-07 ],
+      "rotation" : [ -7.43936e-08, -1, 9.78672e-08, -2.98023e-08 ]
+    },
+    {
+      "name" : "pistonNub04",
+      "translation" : [ 1.74128, 2.60508e-07, -0 ],
+      "rotation" : [ 1.54351e-09, -1.15e-17, -4.54067e-09, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel04",
+      "translation" : [ 0.011322, -0.635509, -0.613373 ],
+      "rotation" : [ 1.71363e-07, -1, -9.56713e-09, 2.62272e-08 ]
+    },
+    {
+      "name" : "L_pistonPanel04",
+      "translation" : [ 0.011322, 0.635508, -0.613373 ],
+      "rotation" : [ -7.49779e-08, -1.06003e-07, 4.17233e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport04",
+      "translation" : [ -0.248221, 1.1213e-06, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550211 ]
+    },
+    {
+      "name" : "pistonBottom04_pt",
+      "children" : [ 45 ],
+      "translation" : [ -1.60207, 5.51903e-09, 0.0782825 ],
+      "rotation" : [ 4.97497e-09, -0.707107, -3.71719e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom04",
+      "translation" : [ -1.4782e-07, 0, -0 ],
+      "rotation" : [ -3.12637e-15, -0, -3.55271e-15, -1 ]
+    },
+    {
+      "name" : "pistonBase05_pt",
+      "children" : [ 47, 55 ],
+      "translation" : [ -2.87125, 0.151823, -2.08608 ],
+      "rotation" : [ -0.672499, 0.218508, -0.218508, -0.672498 ]
+    },
+    {
+      "name" : "pistonBase05",
+      "children" : [ 48, 52, 53, 54 ],
+      "translation" : [ 0, -1.52588e-07, -0 ],
+      "rotation" : [ 1.57549e-29, 1.77636e-15, 2.91611e-15, -1 ]
+    },
+    {
+      "name" : "pistonTop05_pt",
+      "children" : [ 49 ],
+      "translation" : [ -0.221526, -4.77397e-08, -0.98292 ],
+      "rotation" : [ -2.97734e-08, -0.321843, 3.11229e-10, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop05",
+      "children" : [ 50 ],
+      "translation" : [ -3.05176e-07, -1.52588e-07, -0 ],
+      "rotation" : [ -3.08702e-09, -7.45058e-09, -1.32704e-08, -1 ]
+    },
+    {
+      "name" : "piston05",
+      "children" : [ 51 ],
+      "translation" : [ 1.52588e-07, -1.52588e-07, -3.05176e-07 ],
+      "rotation" : [ -1.38075e-07, -1, 1.27402e-07, -5.96046e-08 ]
+    },
+    {
+      "name" : "pistonNub05",
+      "translation" : [ 1.74128, 5.7709e-08, -6.10352e-07 ],
+      "rotation" : [ -1.33577e-08, 7.45058e-09, 2.90992e-09, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel05",
+      "translation" : [ 0.0113214, -0.635509, -0.613372 ],
+      "rotation" : [ 9.68576e-08, -1, 3.16204e-07, 1.85516e-08 ]
+    },
+    {
+      "name" : "L_pistonPanel05",
+      "translation" : [ 0.0113217, 0.635508, -0.613373 ],
+      "rotation" : [ -3.44691e-08, -1.37624e-07, 2.16067e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport05",
+      "translation" : [ -0.248221, 3.90953e-07, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550211 ]
+    },
+    {
+      "name" : "pistonBottom05_pt",
+      "children" : [ 56 ],
+      "translation" : [ -1.60207, 1.59547e-08, 0.0782825 ],
+      "rotation" : [ -3.61568e-08, -0.707107, -3.61568e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom05",
+      "translation" : [ -1.4782e-07, 0, -0 ],
+      "rotation" : [ 6.67645e-15, -0, 0, -1 ]
+    },
+    {
+      "name" : "pistonBase06_pt",
+      "children" : [ 58, 66 ],
+      "translation" : [ -3.54906, 0.151823, 2.67946e-07 ],
+      "rotation" : [ -0.707107, -8.42937e-08, 8.42937e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBase06",
+      "children" : [ 59, 63, 64, 65 ],
+      "translation" : [ 0, -9.53671e-09, -0 ],
+      "rotation" : [ -0, -0, -4.23516e-22, -1 ]
+    },
+    {
+      "name" : "pistonTop06_pt",
+      "children" : [ 60 ],
+      "translation" : [ -0.221526, 4.56064e-08, -0.98292 ],
+      "rotation" : [ 2.79209e-10, -0.321843, 3.80875e-08, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop06",
+      "children" : [ 61 ],
+      "translation" : [ 0, -9.53674e-09, 3.05176e-07 ],
+      "rotation" : [ 2.66454e-15, -1.49012e-08, -3.55271e-15, -1 ]
+    },
+    {
+      "name" : "piston06",
+      "children" : [ 62 ],
+      "translation" : [ 1.52588e-07, -7.62939e-08, -3.05176e-07 ],
+      "rotation" : [ 6.56862e-08, -1, -2.55569e-09, -1.41561e-07 ]
+    },
+    {
+      "name" : "pistonNub06",
+      "translation" : [ 1.74128, 3.04158e-07, -6.10352e-07 ],
+      "rotation" : [ 5.32907e-15, -7.45058e-09, -1.77636e-15, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel06",
+      "translation" : [ 0.0113214, -0.635509, -0.613373 ],
+      "rotation" : [ 1.3411e-07, -1, 7.45058e-08, -1.49012e-08 ]
+    },
+    {
+      "name" : "L_pistonPanel06",
+      "translation" : [ 0.0113214, 0.635508, -0.613372 ],
+      "rotation" : [ -7.45057e-09, -8.19564e-08, 4.39584e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport06",
+      "translation" : [ -0.248221, 6.65788e-07, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550211 ]
+    },
+    {
+      "name" : "pistonBottom06_pt",
+      "children" : [ 67 ],
+      "translation" : [ -1.60207, 6.33664e-08, 0.0782824 ],
+      "rotation" : [ -4.21607e-09, -0.707107, 4.21607e-09, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom06",
+      "translation" : [ -1.4782e-07, -9.53674e-09, -0 ],
+      "rotation" : [ -3.55271e-15, 1.77636e-15, 1.77636e-15, -1 ]
+    },
+    {
+      "name" : "pistonBase07_pt",
+      "children" : [ 69, 77 ],
+      "translation" : [ -2.87125, 0.151823, 2.08608 ],
+      "rotation" : [ -0.672498, -0.218508, 0.218508, -0.672498 ]
+    },
+    {
+      "name" : "pistonBase07",
+      "children" : [ 70, 74, 75, 76 ],
+      "translation" : [ 0, 1.52588e-07, -0 ],
+      "rotation" : [ -1.55431e-15, 8.88178e-16, 2.23517e-08, -1 ]
+    },
+    {
+      "name" : "pistonTop07_pt",
+      "children" : [ 71 ],
+      "translation" : [ -0.221526, 8.14916e-08, -0.98292 ],
+      "rotation" : [ -4.66458e-08, -0.321843, 3.42195e-09, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop07",
+      "children" : [ 72 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 5.90707e-09, 7.45058e-09, -2.90991e-09, -1 ]
+    },
+    {
+      "name" : "piston07",
+      "children" : [ 73 ],
+      "translation" : [ 0, -1.52588e-07, -3.05176e-07 ],
+      "rotation" : [ 1.32831e-07, -1, 4.9334e-08, 1.49012e-08 ]
+    },
+    {
+      "name" : "pistonNub07",
+      "translation" : [ 1.74128, 3.58159e-07, -9.15527e-07 ],
+      "rotation" : [ 8.86061e-09, -0, -6.39581e-10, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel07",
+      "translation" : [ 0.0113217, -0.63551, -0.613372 ],
+      "rotation" : [ 3.57628e-07, -1, 2.54452e-07, 2.64328e-07 ]
+    },
+    {
+      "name" : "L_pistonPanel07",
+      "translation" : [ 0.0113214, 0.635507, -0.613373 ],
+      "rotation" : [ -1.01798e-07, -7.53589e-08, 1.78814e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport07",
+      "translation" : [ -0.248221, 2.81465e-07, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550211 ]
+    },
+    {
+      "name" : "pistonBottom07_pt",
+      "children" : [ 78 ],
+      "translation" : [ -1.60207, 5.6623e-09, 0.0782825 ],
+      "rotation" : [ -9.53055e-09, -0.707107, -4.11407e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom07",
+      "translation" : [ -1.4782e-07, 0, -0 ],
+      "rotation" : [ -1.49012e-08, -5.29396e-23, 3.55271e-15, -1 ]
+    },
+    {
+      "name" : "pistonBase08_pt",
+      "children" : [ 80, 88 ],
+      "translation" : [ -1.09672, 0.151823, 3.37536 ],
+      "rotation" : [ -0.572061, -0.415627, 0.415627, -0.572061 ]
+    },
+    {
+      "name" : "pistonBase08",
+      "children" : [ 81, 85, 86, 87 ],
+      "translation" : [ 0, -7.62939e-08, -0 ],
+      "rotation" : [ -0, -0, 1.71539e-17, -1 ]
+    },
+    {
+      "name" : "pistonTop08_pt",
+      "children" : [ 82 ],
+      "translation" : [ -0.221526, -7.17679e-08, -0.98292 ],
+      "rotation" : [ -7.01492e-09, -0.321843, -6.22569e-09, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop08",
+      "children" : [ 83 ],
+      "translation" : [ 0, -7.62939e-08, -0 ],
+      "rotation" : [ -5.2688e-09, -7.45058e-09, 8.15379e-10, -1 ]
+    },
+    {
+      "name" : "piston08",
+      "children" : [ 84 ],
+      "translation" : [ 3.05176e-07, -1.52588e-07, -0 ],
+      "rotation" : [ -2.36309e-08, -1, -8.47764e-08, -1.86265e-07 ]
+    },
+    {
+      "name" : "pistonNub08",
+      "translation" : [ 1.74128, 3.55387e-07, -6.10352e-07 ],
+      "rotation" : [ -3.72529e-09, -7.45058e-09, 3.72529e-09, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel08",
+      "translation" : [ 0.011322, -0.63551, -0.613372 ],
+      "rotation" : [ 4.02331e-07, -1, 4.55472e-08, 2.12349e-09 ]
+    },
+    {
+      "name" : "L_pistonPanel08",
+      "translation" : [ 0.0113205, 0.635507, -0.613373 ],
+      "rotation" : [ -4.36164e-08, -8.34937e-08, 1.63913e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport08",
+      "translation" : [ -0.248221, -3.03666e-07, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550211 ]
+    },
+    {
+      "name" : "pistonBottom08_pt",
+      "children" : [ 89 ],
+      "translation" : [ -1.60207, 7.59335e-08, 0.0782824 ],
+      "rotation" : [ -2.05768e-09, -0.707107, -1.25944e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom08",
+      "translation" : [ -1.4782e-07, 1.45519e-13, -0 ],
+      "rotation" : [ -1.09785e-15, -0, 0, -1 ]
+    },
+    {
+      "name" : "pistonBase09_pt",
+      "children" : [ 91, 99 ],
+      "translation" : [ 1.09672, 0.151823, 3.37536 ],
+      "rotation" : [ -0.415627, -0.572061, 0.572062, -0.415627 ]
+    },
+    {
+      "name" : "pistonBase09",
+      "children" : [ 92, 96, 97, 98 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, -1.67862e-16, -1 ]
+    },
+    {
+      "name" : "pistonTop09_pt",
+      "children" : [ 93 ],
+      "translation" : [ -0.221526, 5.96688e-08, -0.98292 ],
+      "rotation" : [ -5.87509e-08, -0.321843, 3.93975e-09, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop09",
+      "children" : [ 94 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -6.67883e-09, 7.45058e-09, 5.18024e-09, -1 ]
+    },
+    {
+      "name" : "piston09",
+      "children" : [ 95 ],
+      "translation" : [ -1.52588e-07, -1.52588e-07, -3.05176e-07 ],
+      "rotation" : [ -1.79581e-07, -1, 2.27585e-07, -1.49012e-08 ]
+    },
+    {
+      "name" : "pistonNub09",
+      "translation" : [ 1.74128, 3.9124e-08, -6.10352e-07 ],
+      "rotation" : [ -5.00183e-09, -7.45058e-09, -3.26152e-09, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel09",
+      "translation" : [ 0.0113211, -0.63551, -0.613373 ],
+      "rotation" : [ 3.50177e-07, -1, 3.01526e-07, 1.65579e-07 ]
+    },
+    {
+      "name" : "L_pistonPanel09",
+      "translation" : [ 0.0113211, 0.635507, -0.613373 ],
+      "rotation" : [ 2.72018e-07, 9.55583e-09, 1.71363e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport09",
+      "translation" : [ -0.248221, 6.81061e-07, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550212 ]
+    },
+    {
+      "name" : "pistonBottom09_pt",
+      "children" : [ 100 ],
+      "translation" : [ -1.60207, 9.58468e-08, 0.0782825 ],
+      "rotation" : [ -3.65753e-08, -0.707107, 4.77185e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom09",
+      "translation" : [ -1.4782e-07, 0, -0 ],
+      "rotation" : [ 3.15081e-16, 3.55271e-15, 7.10543e-15, -1 ]
+    },
+    {
+      "name" : "pistonBase10_pt",
+      "children" : [ 102, 110 ],
+      "translation" : [ 2.87125, 0.151823, 2.08608 ],
+      "rotation" : [ -0.218508, -0.672499, 0.672499, -0.218508 ]
+    },
+    {
+      "name" : "pistonBase10",
+      "children" : [ 103, 107, 108, 109 ],
+      "translation" : [ -3.05176e-07, -1.52588e-07, -0 ],
+      "rotation" : [ -6.66134e-16, 9.92617e-24, -1.49012e-08, -1 ]
+    },
+    {
+      "name" : "pistonTop10_pt",
+      "children" : [ 104 ],
+      "translation" : [ -0.221526, 1.39627e-07, -0.98292 ],
+      "rotation" : [ -1.39542e-09, -0.321844, 5.85684e-09, -0.946793 ]
+    },
+    {
+      "name" : "pistonTop10",
+      "children" : [ 105 ],
+      "translation" : [ 0, -1.52588e-07, -0 ],
+      "rotation" : [ -1.49012e-08, 4.44089e-16, 7.45058e-09, -1 ]
+    },
+    {
+      "name" : "piston10",
+      "children" : [ 106 ],
+      "translation" : [ -0.0113109, 0.00102356, -0.00869476 ],
+      "rotation" : [ 0.000296693, -0.999997, 0.000229005, 0.00251272 ]
+    },
+    {
+      "name" : "pistonNub10",
+      "translation" : [ 1.74128, 9.26852e-08, -6.10352e-07 ],
+      "rotation" : [ -1.03927e-08, 7.45058e-09, -2.28514e-09, -1 ]
+    },
+    {
+      "name" : "R_pistonPanel10",
+      "translation" : [ 0.0113217, -0.635511, -0.613373 ],
+      "rotation" : [ 1.56462e-07, -1, 1.00649e-07, 3.00172e-07 ]
+    },
+    {
+      "name" : "L_pistonPanel10",
+      "translation" : [ 0.0113214, 0.635507, -0.613373 ],
+      "rotation" : [ -2.73102e-09, -2.38852e-08, 2.83122e-07, -1 ]
+    },
+    {
+      "name" : "pistonSupport10",
+      "translation" : [ -0.248221, 1.97932e-06, -0.327812 ],
+      "rotation" : [ 0.444148, 0.444148, -0.550211, -0.550211 ]
+    },
+    {
+      "name" : "pistonBottom10_pt",
+      "children" : [ 111 ],
+      "translation" : [ -1.60207, -1.51556e-07, 0.0782825 ],
+      "rotation" : [ -3.54354e-09, -0.707107, -2.4617e-08, -0.707107 ]
+    },
+    {
+      "name" : "pistonBottom10",
+      "translation" : [ -1.4782e-07, 0, -0 ],
+      "rotation" : [ -1.49012e-08, -1.32349e-23, -8.88178e-16, -1 ]
+    },
+    {
+      "name" : "BaseRotate",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,
+        33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,
+        65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,
+        97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MAT_Vehicle_Pad",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SKL_STN_VehicleSpawner_Lod1"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SKL_STN_VehicleSpawner_Lod1.bin",
+      "byteLength" : 441112
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 7168
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 7168,
+      "byteLength" : 27444
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 34612,
+      "byteLength" : 81300
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 115912,
+      "byteLength" : 81300
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 197212,
+      "byteLength" : 108400
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 305612,
+      "byteLength" : 54200
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 359812,
+      "byteLength" : 27100
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 386912,
+      "byteLength" : 54200
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 112,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 13722,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -5.97555, -0.0153956, -6.22615 ],
+      "max" : [ 5.97555, 2.69352, 6.22615 ],
+      "componentType" : 5126,
+      "count" : 6775,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 6775,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 6775,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 6775,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 6775,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 6775,
+      "type" : "VEC2"
+    }
+  ]
+}

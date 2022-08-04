@@ -1,0 +1,29 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'STN_Vehicle.Textures.T_HexagonPattern_Norm'
+    ReferencedTextures[1] = Texture2D'STN_Vehicle.Textures.T_HexagonPattern_Dif'
+    ReferencedTextures[2] = Texture2D'STN_Vehicle.Textures.T_HexagonPattern_Spec'
+}
+Expressions[10] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'STN_Vehicle.Materials.MAT_Vehicle_Pad_Hex.MaterialExpressionTextureSample_4'
+    Expressions[1] = MaterialExpressionTextureSample'STN_Vehicle.Materials.MAT_Vehicle_Pad_Hex.MaterialExpressionTextureSample_6'
+    Expressions[2] = MaterialExpressionTextureSample'STN_Vehicle.Materials.MAT_Vehicle_Pad_Hex.MaterialExpressionTextureSample_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,44 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'STN_Inventory.Textures.T_InvStation_Norm'
+    ReferencedTextures[1] = Texture2D'STN_Inventory.Textures.T_InvStation_Emi'
+    ReferencedTextures[2] = Texture2D'STN_Inventory.Textures.T_InvStation_Dif'
+    ReferencedTextures[3] = Texture2D'STN_Inventory.Textures.T_InvStation_Spec'
+}
+Expressions[25] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'STN_Inventory.Materials.MAT_InventoryStation.MaterialExpressionTextureSample_26'
+    Expressions[7] = MaterialExpressionTextureSample'STN_Inventory.Materials.MAT_InventoryStation.MaterialExpressionTextureSample_27'
+    Expressions[8] = MaterialExpressionTextureSample'STN_Inventory.Materials.MAT_InventoryStation.MaterialExpressionTextureSample_28'
+    Expressions[9] = MaterialExpressionTextureSample'STN_Inventory.Materials.MAT_InventoryStation.MaterialExpressionTextureSample_29'
+    Expressions[13] = MaterialExpressionVectorParameter'STN_Inventory.Materials.MAT_InventoryStation.MaterialExpressionVectorParameter_0'
+    Expressions[14] = MaterialExpressionScalarParameter'STN_Inventory.Materials.MAT_InventoryStation.MaterialExpressionScalarParameter_30'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Online, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=0, B=0, A=1 }
+        Name = WarningState
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
