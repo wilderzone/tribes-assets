@@ -1,0 +1,153 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Norm'
+    ReferencedTextures[1] = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Spec'
+    ReferencedTextures[2] = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Dif'
+}
+Expressions[78] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[8] = MaterialExpressionVectorParameter'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionVectorParameter_1'
+    Expressions[10] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[17] = MaterialExpressionVectorParameter'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionVectorParameter_0'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[35] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[39] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_11'
+    Expressions[48] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_12'
+    Expressions[51] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[54] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[63] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_15'
+    Expressions[66] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_16'
+    Expressions[70] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_17'
+    Expressions[74] = MaterialExpressionVectorParameter'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionVectorParameter_2'
+    Expressions[76] = MaterialExpressionScalarParameter'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionScalarParameter_1'
+    Expressions[77] = MaterialExpressionTextureSampleParameter2D'PAK_Ammo_1p.Materials.MAT_PAK_Ammo.MaterialExpressionTextureSampleParameter2D_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[14] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Heavy.Textures.T_PC_DS_Heavy_Norm'
+        Name = TEX_Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Heavy.Textures.T_PC_DS_Heavy_Spec'
+        Name = TEX_Specular
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Heavy.Textures.T_PC_DS_Heavy_Dif'
+        Name = TEX_Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'PC_DiamondSword_Heavy.Textures.T_PC_DS_Heavy_Dif'
+        Name = TEX_Diffuse2
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Dif'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Spec'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'PAK_Ammo_1p.Textures.T_PAK_Ammo_Spec'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Emissive_Brightness, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=5, G=3, B=0, A=1 }
+        Name = VEC_MaskedColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1.25, G=2, B=4, A=1 }
+        Name = VEC_SpecColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=20, B=100, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
