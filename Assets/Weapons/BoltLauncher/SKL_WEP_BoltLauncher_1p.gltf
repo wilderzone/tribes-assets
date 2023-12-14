@@ -722,7 +722,15 @@
   "materials" : [
     {
       "name" : "WEP_Light_bolt_Launcher_DIF01_Mat",
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
       "pbrMetallicRoughness" : {
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
         "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
         "metallicFactor" : 0.1,
         "roughnessFactor" : 0.5
@@ -731,6 +739,10 @@
     {
       "name" : "MIC_Light_Bolt_Launcher_Display",
       "pbrMetallicRoughness" : {
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
         "baseColorFactor" : [ 0.9, 0.3, 0.3, 1.0 ],
         "metallicFactor" : 0.1,
         "roughnessFactor" : 0.5
@@ -743,6 +755,38 @@
         "metallicFactor" : 0.1,
         "roughnessFactor" : 0.5
       }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    }
+  ],
+  "images": [
+    {
+      "name": "specular",
+      "uri": "./Textures/WEP_Light_bolt_Launcher_SPC01.png"
+    },
+    {
+      "name": "normal",
+      "uri": "./Textures/WEP_Light_bolt_Launcher_Nrm01.png"
+    },
+    {
+      "name": "diffuse",
+      "uri": "./Textures/WEP_Light_bolt_Launcher_DIF01.png"
+    },
+    {
+      "name": "display",
+      "uri": "./Textures/light_bolt_launcher_display.png"
     }
   ],
   "meshes" : [
